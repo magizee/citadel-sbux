@@ -1,0 +1,20 @@
+# Python / environment
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Half-written files from atomic writes
+*.tmp
+
+# Logs (keep the folder)
+logs/*
+!logs/.gitkeep
+
+# Raw scrape data: thousands of API responses plus large raw CSVs (raw_json
+# column). Keep locally or in object storage; the folder itself is kept.
+data/raw/*
+!data/raw/.gitkeep
+
+# Superseded pilot outputs
+data/processed/*/_superseded_v1/

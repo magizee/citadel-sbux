@@ -1,0 +1,79 @@
+==============================================================================
+VALIDATION REPORT  run=pilot_jobs  snapshot=2026-10-01
+==============================================================================
+Searches:
+  pilot_nyc_40km: location='40.71280,-74.00600' radius_km=40 status=capped reported=799->799 pages=25 unique=250 applied={'distance': ['40'], 'includeRemote': ['0'], 'includeRelocation': ['0']}
+
+Discovery rows (raw)      : 250
+Unique postings (cleaned) : 250
+Unique job IDs            : 250  (missing: 0)
+Duplicate discoveries     : 0
+Unique store numbers      : 118  (unique store_keys: 122)
+Missing store number      : 8.0% of all; 5.3% of retail
+Missing street address    : 0.8%
+Missing postal code       : 100.0% (not exposed by the site)
+Missing lat/long          : 0.0% (retail: 0.0%)
+Missing posted_ts_raw     : 0.0%
+posted_date range         : 2026-07-04 .. 2026-09-30
+work_location_option      : {'onsite': 250}
+
+Role counts: BARISTA=116, SHIFT_SUPERVISOR=115, OTHER_RETAIL=11, NON_RETAIL=7, STORE_MANAGER=1
+States (primary location): NY=233, NJ=17
+Multi-location postings (5): primary location chosen nearest the search centre
+    260080458 'construction manager - Northeast' -> New York, NY  (all states: CT;NY;OH)
+    260079610 'store manager' -> Jersey City, NJ  (all states: NJ)
+    260032463 'group manager, Influencers (New York City or Seattle - ' -> New York, NY  (all states: NY;WA)
+    250098337 'senior manager, Influencers (New York City or Seattle –' -> New York, NY  (all states: NY;WA)
+    260080456 'construction manager - North Atlantic & NY Metro' -> New York, NY  (all states: DE;MD;NJ;NY;PA;VA;WV)
+
+Retail postings without store_number (13):
+    260079610 | store manager | STORE_MANAGER | nan, Jersey City, NJ | n_locations=2 | store_key=nan
+    260055818 | baker, Kitchen - New York Roastery | OTHER_RETAIL | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260061457 | barista, Main Bar - New York Reserve Roastery | BARISTA | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260058003 | barista, Retail - New York Reserve Roastery | BARISTA | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260060494 | operations lead, Experience Bar - New York Roastery | OTHER_RETAIL | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260055823 | barista, Back of House - New York Reserve Roastery | BARISTA | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260060499 | operations lead, Retail - New York Roastery | OTHER_RETAIL | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260055831 | mixologist (bartender), New York Reserve Roastery | OTHER_RETAIL | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260055827 | barista, Experience Bar - New York Reserve Roastery | BARISTA | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260060500 | operations lead, Main Bar - New York Reserve Roastery | OTHER_RETAIL | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260060492 | operations lead, Reserve Cafe- New York Roastery | OTHER_RETAIL | 61 9th Ave, New York, NY | n_locations=1 | store_key=addr:61 9th ave|new york|NY
+    260002755 | porter (dishwasher) - Starbucks Reserve Kitchen | OTHER_RETAIL | 28 Summit Street, Brooklyn, NY | n_locations=1 | store_key=addr:28 summit street|brooklyn|NY
+    260035684 | baker lead, Starbucks Reserve Kitchen New York | OTHER_RETAIL | 28 Summit Street, Brooklyn, NY | n_locations=1 | store_key=addr:28 summit street|brooklyn|NY
+
+Store-number consistency (109 stores with 2+ postings):
+store_number  postings  names  addresses  latlongs            store_name             street_address                       latlong  consistent
+       00844         2      1          1         1       MONTAGUE STREET            134 Montague St 40.69452130000001,-73.9939935        True
+       00849         2      1          1         1           38 PARK ROW            38 Park Row, #4  40.711619,-74.00672999999999        True
+       02785         2      1          1         1         47TH & EIGHTH             770 Eighth Ave            40.76044,-73.98719        True
+       03421         2      1          1         1        WEST 23 & 8 TH              300 W 23rd St 40.7453023,-73.99894809999999        True
+       07244         2      1          1         1          BATTERY PARK         1 Battery Park Plz        40.7034206,-74.0141185        True
+       07255         2      1          1         1            8TH & 16TH          124 Eighth Avenue            40.74115,-74.00129        True
+       07277         2      1          1         1           23RD & PARK             304 Park Ave S        40.7403566,-73.9871431        True
+       07282         2      1          1         1            49TH & 7TH            750 Seventh Ave 40.7611958,-73.98378939999999        True
+       07285         2      1          1         1            22ND & 6TH 684 Avenue of the Americas            40.74184,-73.99323        True
+       07348         2      1          1         1 HOBOKEN NEWARK STREET               51 Newark St 40.73671179999999,-74.0303022        True
+
+Checks:
+  [PASS] remote jobs excluded (server applied includeRemote=0)
+  [PASS] every search complete (or intentionally capped)
+  [PASS] unique postings <= 250
+  [PASS] dedup_key unique
+  [PASS] every posting has a job_id
+  [PASS] store numbers are digit strings (leading zeros kept)
+  [PASS] every posting has backend posted_ts -> posted_date
+  [PASS] no retail title containing 'Store#' left unparsed
+  [PASS] store_number -> one name/address/latlong (109 multi-posting stores)
+
+10 random cleaned records for manual review:
+   job_id                                         job_title_raw      role_bucket store_number                    store_name     street_address     city state posted_date  days_since_posted  latitude  longitude
+260069288                    barista - Store# 56451, 34TH & 1ST          BARISTA        56451                    34TH & 1ST        591 1st Ave New York    NY  2026-09-05                 26 40.743700 -73.973800
+260073308      shift supervisor - Store# 14318, NASSAU & FULTON SHIFT_SUPERVISOR        14318               NASSAU & FULTON      130 Fulton St New York    NY  2026-09-10                 21 40.710170 -74.007930
+260076089         barista - Store# 07348, HOBOKEN NEWARK STREET          BARISTA        07348         HOBOKEN NEWARK STREET       51 Newark St  Hoboken    NJ  2026-09-15                 16 40.736712 -74.030302
+260053835 barista - Store# 88940, 11TH & 7TH - FORMERLY RESERVE          BARISTA        88940 11TH & 7TH - FORMERLY RESERVE          1 7th Ave New York    NY  2026-07-09                 84 40.736189 -74.001035
+260072664               barista - Store# 16628, 26TH & BROADWAY          BARISTA        16628               26TH & BROADWAY      1140 Broadway New York    NY  2026-09-10                 21 40.743830 -73.988880
+260068567      shift supervisor - Store# 48421, 40TH & BROADWAY SHIFT_SUPERVISOR        48421               40TH & BROADWAY      1411 Broadway New York    NY  2026-09-03                 28 40.754300 -73.987190
+260074901                barista - Store# 11737, MADISON & 44TH          BARISTA        11737                MADISON & 44TH    340 Madison Ave New York    NY  2026-09-13                 18 40.753870 -73.978710
+260074811   shift supervisor - Store# 07506, 150 E. 42ND STREET SHIFT_SUPERVISOR        07506            150 E. 42ND STREET 150 E. 42nd Street New York    NY  2026-09-13                 18 40.750860 -73.975270
+260079785             barista - Store# 07781, LAFAYETTE & WORTH          BARISTA        07781             LAFAYETTE & WORTH       111 Worth St New York    NY  2026-09-26                  5 40.715946 -74.003346
+260061864                    barista - Store# 20185, 23RD & 1ST          BARISTA        20185                    23RD & 1ST      400 E 23rd st New York    NY  2026-08-23                 39 40.736540 -73.978370

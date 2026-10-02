@@ -1,0 +1,135 @@
+# Starbucks careers scraper configuration.
+#
+# Collection geography (WHERE we search) is separate from output geography
+# (WHICH state a posting is in). Searches are "search units": a coordinate
+# point + radius, or a free-text location. Postings are deduplicated by job_id
+# after collection and assigned to states from their own addresses.
+
+api:
+  # Public JSON endpoint used by https://apply.starbucks.com/careers (Eightfold).
+  search_url: "https://apply.starbucks.com/api/pcsx/search"
+  # Optional per-job details (pay range, description). One request per job: OFF.
+  details_url: "https://apply.starbucks.com/api/pcsx/position_details"
+  domain: "starbucks.com"
+  job_url_base: "https://apply.starbucks.com"
+
+request:
+  page_size: 10             # fixed by the server; `num` is ignored
+  delay_seconds: 2.5        # pause between successful requests
+  timeout_seconds: 30
+  max_retries: 5            # transient errors only (429, 5xx, timeouts)
+  backoff_base_seconds: 4   # wait = base * 2^attempt (+ jitter), capped below
+  backoff_max_seconds: 120
+  user_agent: "Mozilla/5.0 (compatible; starbucks-hiring-research/0.1; small-sample pilot)"
+  fetch_details: false
+
+search:
+  # Sent as filter_include_remote=0. Verified to be honoured (appliedFilters).
+  include_remote: false
+  # Radius for searches that do not set their own. UNITS ARE KILOMETRES
+  # (verified: 95-100% of results fall within the radius read as km). The
+  # site's UI default "40" is 40 km (~25 miles). Any value is accepted
+  # (tested 8, 40, 160, 500, 3000).
+  default_radius_km: 40
+
+output:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  log_dir: "logs"
+
+# Pilot: one coordinate search unit, capped. `scrape_jobs.py --pilot`.
+pilot:
+  run_name: "pilot_jobs"
+  search_id: "pilot_nyc_40km"
+  latitude: 40.7128          # Manhattan (City Hall)
+  longitude: -74.0060
+  radius_km: 40
+  max_results: 250
+  store_summary_filename: "store_summary.csv"
+
+# National collection: adaptive coordinate grid (NOT YET RUN).
+# Level-0 circles cover the U.S. (CONUS + AK + HI). A circle whose first page
+# shows too many results is replaced by the next level's circles (a fixed,
+# global hex lattice), so the plan is deterministic and resumable.
+national:
+  run_name: "starbucks_jobs_US"
+  # Subdivide a circle (if a finer level exists) when its result count exceeds
+  # this, or when its address/coordinate facet is truncated (1,500 cap, which
+  # would leave postings without lat/long). Keeps each search short, which
+  # limits pagination drift.
+  split_if_count_over: 1500
+  facet_address_cap: 1500
+  # Lattice spacing = radius * sqrt(3) * spacing_factor. sqrt(3)*r is the
+  # largest spacing at which hexagonally placed circles leave no gaps; the
+  # factor < 1 adds a safety margin.
+  spacing_factor: 0.95
+  # Per region: bounding box [lat_min, lat_max, lon_min, lon_max] and the
+  # circle radius (km) at each level, coarse -> fine.
+  regions:
+    CONUS: {bbox: [24.4, 49.4, -124.8, -66.9], radii_km: [400, 100, 25]}
+    AK:    {bbox: [51.2, 71.4, -179.2, -129.9], radii_km: [1200, 100, 25]}
+    HI:    {bbox: [18.9, 22.3, -160.3, -154.8], radii_km: [400, 100, 25]}
+
+# Free-text state searches, kept ONLY as a cross-check for the grid (validation
+# phase). Note: "New York, United States" and "NY, United States" geocode to
+# New York CITY (40 km radius); "New York State, United States" works.
+# "District of Columbia, United States" is also treated as a city radius.
+states:
+  AL: "Alabama, United States"
+  AK: "Alaska, United States"
+  AZ: "Arizona, United States"
+  AR: "Arkansas, United States"
+  CA: "California, United States"
+  CO: "Colorado, United States"
+  CT: "Connecticut, United States"
+  DE: "Delaware, United States"
+  DC: "District of Columbia, United States"   # radius search, not a region
+  FL: "Florida, United States"
+  GA: "Georgia, United States"
+  HI: "Hawaii, United States"
+  ID: "Idaho, United States"
+  IL: "Illinois, United States"
+  IN: "Indiana, United States"
+  IA: "Iowa, United States"
+  KS: "Kansas, United States"
+  KY: "Kentucky, United States"
+  LA: "Louisiana, United States"
+  ME: "Maine, United States"
+  MD: "Maryland, United States"
+  MA: "Massachusetts, United States"
+  MI: "Michigan, United States"
+  MN: "Minnesota, United States"
+  MS: "Mississippi, United States"
+  MO: "Missouri, United States"
+  MT: "Montana, United States"
+  NE: "Nebraska, United States"
+  NV: "Nevada, United States"
+  NH: "New Hampshire, United States"
+  NJ: "New Jersey, United States"
+  NM: "New Mexico, United States"
+  NY: "New York State, United States"
+  NC: "North Carolina, United States"
+  ND: "North Dakota, United States"
+  OH: "Ohio, United States"
+  OK: "Oklahoma, United States"
+  OR: "Oregon, United States"
+  PA: "Pennsylvania, United States"
+  RI: "Rhode Island, United States"
+  SC: "South Carolina, United States"
+  SD: "South Dakota, United States"
+  TN: "Tennessee, United States"
+  TX: "Texas, United States"
+  UT: "Utah, United States"
+  VT: "Vermont, United States"
+  VA: "Virginia, United States"
+  WA: "Washington, United States"
+  WV: "West Virginia, United States"
+  WI: "Wisconsin, United States"
+  WY: "Wyoming, United States"
+
+merge:
+  # Server-reported total for location="United States" (2026-10-01), used as a
+  # completeness cross-check for the national grid. Update on each snapshot.
+  national_count_query: "United States"
+  # Flag a state if fewer unique postings than this were assigned to it.
+  low_count_threshold: 25
