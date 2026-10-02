@@ -1,0 +1,9 @@
+feature,std_coef,odds_ratio_per_1sd
+log_visits,-0.028,0.972
+visits_yoy_pct,0.085,1.089
+weekly_hours,-1.006,0.366
+visits_per_op_hour,-0.159,0.853
+traffic_pctile_in_metro,-0.284,0.753
+log_sb2,0.669,1.952
+log_dk2,-0.056,0.946
+weekend_share,-0.009,0.991

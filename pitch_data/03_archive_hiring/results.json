@@ -1,0 +1,229 @@
+{
+  "linking": {
+    "postings_with_store_number": 154259,
+    "linked_to_locator": 130332,
+    "linked_to_advan": 122307,
+    "distinct_store_numbers": 12005,
+    "distinct_advan_stores": 9486
+  },
+  "role_mix_by_fq": [
+    {
+      "fq": "FY24 Q3",
+      "barista_share_pct": 68.48,
+      "shift_supervisor_share_pct": 30.3,
+      "store_manager_share_pct": 1.2,
+      "district_manager_share_pct": 0.02,
+      "total": 8344
+    },
+    {
+      "fq": "FY24 Q4",
+      "barista_share_pct": 59.84,
+      "shift_supervisor_share_pct": 34.72,
+      "store_manager_share_pct": 5.32,
+      "district_manager_share_pct": 0.12,
+      "total": 5055
+    },
+    {
+      "fq": "FY25 Q1",
+      "barista_share_pct": 57.73,
+      "shift_supervisor_share_pct": 35.71,
+      "store_manager_share_pct": 6.44,
+      "district_manager_share_pct": 0.12,
+      "total": 5198
+    },
+    {
+      "fq": "FY25 Q2",
+      "barista_share_pct": 46.14,
+      "shift_supervisor_share_pct": 51.32,
+      "store_manager_share_pct": 2.46,
+      "district_manager_share_pct": 0.08,
+      "total": 19264
+    },
+    {
+      "fq": "FY25 Q3",
+      "barista_share_pct": 45.84,
+      "shift_supervisor_share_pct": 49.91,
+      "store_manager_share_pct": 4.17,
+      "district_manager_share_pct": 0.08,
+      "total": 25256
+    },
+    {
+      "fq": "FY25 Q4",
+      "barista_share_pct": 48.47,
+      "shift_supervisor_share_pct": 47.52,
+      "store_manager_share_pct": 3.93,
+      "district_manager_share_pct": 0.09,
+      "total": 19684
+    },
+    {
+      "fq": "FY26 Q1",
+      "barista_share_pct": 47.61,
+      "shift_supervisor_share_pct": 48.78,
+      "store_manager_share_pct": 3.52,
+      "district_manager_share_pct": 0.09,
+      "total": 24098
+    },
+    {
+      "fq": "FY26 Q2",
+      "barista_share_pct": 47.82,
+      "shift_supervisor_share_pct": 50.41,
+      "store_manager_share_pct": 1.68,
+      "district_manager_share_pct": 0.1,
+      "total": 22948
+    },
+    {
+      "fq": "FY26 Q3",
+      "barista_share_pct": 47.99,
+      "shift_supervisor_share_pct": 50.26,
+      "store_manager_share_pct": 1.72,
+      "district_manager_share_pct": 0.04,
+      "total": 22582
+    },
+    {
+      "fq": "FY26 Q4",
+      "barista_share_pct": 44.61,
+      "shift_supervisor_share_pct": 54.62,
+      "store_manager_share_pct": 0.69,
+      "district_manager_share_pct": 0.08,
+      "total": 1309
+    }
+  ],
+  "traffic_growth_regressions": {
+    "d_log_intensity": {
+      "b_per_1pp_growth": 0.00102,
+      "se": 0.00042,
+      "t": 2.41,
+      "n": 8248,
+      "outcome_mean": 0.0052
+    },
+    "d_log_postings_per_visit": {
+      "b_per_1pp_growth": -0.00861,
+      "se": 0.00046,
+      "t": -18.66,
+      "n": 8248,
+      "outcome_mean": 0.0433
+    },
+    "intensity_FY26": {
+      "b_per_1pp_growth": 0.00026,
+      "se": 0.00028,
+      "t": 0.95,
+      "n": 8248,
+      "outcome_mean": 1.0009
+    },
+    "quarters_with_postings": {
+      "b_per_1pp_growth": -0.00161,
+      "se": 0.00243,
+      "t": -0.66,
+      "n": 8248,
+      "outcome_mean": 7.0386
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "< 0%",
+      "stores": 2910,
+      "median_growth": -2.428,
+      "intensity_FY25": 1.004,
+      "intensity_FY26": 0.998,
+      "postings_per_1000_visits_FY25": 2.781,
+      "postings_per_1000_visits_FY26": 3.037,
+      "intensity_change": -0.006
+    },
+    {
+      "cohort": "0\u20135%",
+      "stores": 3771,
+      "median_growth": 2.14,
+      "intensity_FY25": 1.003,
+      "intensity_FY26": 1.004,
+      "postings_per_1000_visits_FY25": 3.01,
+      "postings_per_1000_visits_FY26": 3.175,
+      "intensity_change": 0.001
+    },
+    {
+      "cohort": "5\u201310%",
+      "stores": 1373,
+      "median_growth": 6.71,
+      "intensity_FY25": 0.994,
+      "intensity_FY26": 1.001,
+      "postings_per_1000_visits_FY25": 3.374,
+      "postings_per_1000_visits_FY26": 3.39,
+      "intensity_change": 0.007
+    },
+    {
+      "cohort": "> 10%",
+      "stores": 651,
+      "median_growth": 13.371,
+      "intensity_FY25": 0.989,
+      "intensity_FY26": 0.994,
+      "postings_per_1000_visits_FY25": 4.361,
+      "postings_per_1000_visits_FY26": 3.991,
+      "intensity_change": 0.005
+    }
+  ],
+  "closed_vs_survivors_pre": [
+    {
+      "closed_oct25": false,
+      "stores": 8972,
+      "intensity_FY24": 1.004,
+      "intensity_FY25": 1.0,
+      "quarters_with_postings": 7.037
+    },
+    {
+      "closed_oct25": true,
+      "stores": 383,
+      "intensity_FY24": 0.928,
+      "intensity_FY25": 0.998,
+      "quarters_with_postings": 4.961
+    }
+  ],
+  "aggregate": {
+    "same_store_postings_FY25": 49827,
+    "same_store_postings_FY26": 53189,
+    "note": "Totals depend on crawl volume; compare only relative measures."
+  },
+  "frontline_uniformity": {
+    "store_quarters": 67277,
+    "mean_postings_per_store_quarter": 1.82,
+    "pct_exactly_one_barista_and_one_supervisor": 63.2,
+    "pct_more_than_2": 7.2,
+    "store_fy_postings_sd_FY25": 1.02,
+    "store_fy_postings_mean_FY25": 5.72
+  },
+  "manager_by_city": {
+    "manager_postings_FY25_FY26": 4266,
+    "matched_to_city_pct": 81.5,
+    "cities_with_5plus_stores": 398,
+    "regression_d_rel_on_growth_stateFE": {
+      "b_per_1pp": -0.00553,
+      "se": 0.03171,
+      "t": -0.17,
+      "n": 382
+    },
+    "spearman_growth_vs_rel_FY26": -0.054,
+    "spearman_growth_vs_d_rel": -0.003,
+    "cohorts": [
+      {
+        "cohort": "< 0%",
+        "cities": 90,
+        "stores": 777,
+        "rel_FY25": 1.046,
+        "rel_FY26": 1.196
+      },
+      {
+        "cohort": "0\u20135%",
+        "cities": 265,
+        "stores": 2963,
+        "rel_FY25": 1.062,
+        "rel_FY26": 1.018
+      },
+      {
+        "cohort": "5\u201310%",
+        "cities": 43,
+        "stores": 567,
+        "rel_FY25": 0.981,
+        "rel_FY26": 1.026
+      }
+    ]
+  },
+  "spearman_growth_vs_d_intensity": 0.025
+}

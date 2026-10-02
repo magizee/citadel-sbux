@@ -1,0 +1,13 @@
+brand,daypart,share_ly_pct,share_now_pct,share_change_pp,implied_daypart_growth_pct,contribution_to_growth_pct
+Starbucks,early 4–7,8.64,8.86,0.22,4.66,19.5
+Starbucks,morning peak 7–10,20.97,21.21,0.24,3.22,32.7
+Starbucks,midday 10–14,30.86,30.5,-0.36,0.87,13.0
+Starbucks,afternoon 14–17,19.76,19.49,-0.27,0.67,6.4
+Starbucks,evening 17–22,16.91,16.98,0.07,2.47,20.2
+Starbucks,overnight 22–4,2.86,2.97,0.11,6.05,8.3
+Dunkin',early 4–7,11.58,11.79,0.21,2.98,29.4
+Dunkin',morning peak 7–10,22.63,22.52,-0.11,0.66,12.8
+Dunkin',midday 10–14,28.15,27.99,-0.16,0.59,14.3
+Dunkin',afternoon 14–17,17.16,17.2,0.04,1.41,20.6
+Dunkin',evening 17–22,15.76,15.81,0.04,1.44,19.4
+Dunkin',overnight 22–4,4.71,4.69,-0.01,0.86,3.4

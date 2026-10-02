@@ -1,0 +1,158 @@
+{
+  "sample": {
+    "stores": 8697,
+    "closed_oct25": 349,
+    "survivors": 8348
+  },
+  "closed_vs_survivors": [
+    {
+      "metric": "log_visits",
+      "closed_median": 7.239,
+      "survivor_median": 7.799,
+      "closed_mean_vs_metro": -0.361,
+      "survivor_mean_vs_metro": 0.015
+    },
+    {
+      "metric": "visits_yoy_pct",
+      "closed_median": -1.972,
+      "survivor_median": -1.652,
+      "closed_mean_vs_metro": -1.113,
+      "survivor_mean_vs_metro": 0.047
+    },
+    {
+      "metric": "weekly_hours",
+      "closed_median": 101.5,
+      "survivor_median": 112.0,
+      "closed_mean_vs_metro": -9.138,
+      "survivor_mean_vs_metro": 0.382
+    },
+    {
+      "metric": "visits_per_op_hour",
+      "closed_median": 14.082,
+      "survivor_median": 21.711,
+      "closed_mean_vs_metro": -4.431,
+      "survivor_mean_vs_metro": 0.185
+    },
+    {
+      "metric": "traffic_pctile_in_metro",
+      "closed_median": 0.266,
+      "survivor_median": 0.549,
+      "closed_mean_vs_metro": -0.18,
+      "survivor_mean_vs_metro": 0.008
+    },
+    {
+      "metric": "starbucks_within_1km",
+      "closed_median": 1.0,
+      "survivor_median": 0.0,
+      "closed_mean_vs_metro": 1.003,
+      "survivor_mean_vs_metro": -0.042
+    },
+    {
+      "metric": "starbucks_within_2km",
+      "closed_median": 3.0,
+      "survivor_median": 1.0,
+      "closed_mean_vs_metro": 2.781,
+      "survivor_mean_vs_metro": -0.116
+    },
+    {
+      "metric": "starbucks_within_5km",
+      "closed_median": 13.0,
+      "survivor_median": 5.0,
+      "closed_mean_vs_metro": 8.176,
+      "survivor_mean_vs_metro": -0.342
+    },
+    {
+      "metric": "dunkin_within_2km",
+      "closed_median": 0.0,
+      "survivor_median": 0.0,
+      "closed_mean_vs_metro": 1.07,
+      "survivor_mean_vs_metro": -0.045
+    },
+    {
+      "metric": "visits_per_week",
+      "closed_median": 1392.154,
+      "survivor_median": 2437.5,
+      "closed_mean_vs_metro": -635.877,
+      "survivor_mean_vs_metro": 26.584
+    }
+  ],
+  "urbanicity_mix": {
+    "false": {
+      "low density": 0.277,
+      "suburban": 0.462,
+      "urban core": 0.261
+    },
+    "true": {
+      "low density": 0.046,
+      "suburban": 0.327,
+      "urban core": 0.628
+    }
+  },
+  "composition_effect_aug25": {
+    "aggregate_visits_per_op_hour_all": 24.35,
+    "aggregate_visits_per_op_hour_survivors": 24.646,
+    "composition_gain_pct": 1.22,
+    "closed_share_of_stores_pct": 4.01,
+    "closed_share_of_hours_pct": 3.65,
+    "closed_share_of_visits_pct": 2.48,
+    "closed_median_visits_per_op_hour": 14.08,
+    "median_all": 21.46,
+    "median_survivors": 21.71
+  },
+  "risk_model": {
+    "cv_auc": 0.839,
+    "auc_visits_per_op_hour_alone": 0.694,
+    "coefficients": [
+      {
+        "feature": "log_visits",
+        "std_coef": -0.028,
+        "odds_ratio_per_1sd": 0.972
+      },
+      {
+        "feature": "visits_yoy_pct",
+        "std_coef": 0.085,
+        "odds_ratio_per_1sd": 1.089
+      },
+      {
+        "feature": "weekly_hours",
+        "std_coef": -1.006,
+        "odds_ratio_per_1sd": 0.366
+      },
+      {
+        "feature": "visits_per_op_hour",
+        "std_coef": -0.159,
+        "odds_ratio_per_1sd": 0.853
+      },
+      {
+        "feature": "traffic_pctile_in_metro",
+        "std_coef": -0.284,
+        "odds_ratio_per_1sd": 0.753
+      },
+      {
+        "feature": "log_sb2",
+        "std_coef": 0.669,
+        "odds_ratio_per_1sd": 1.952
+      },
+      {
+        "feature": "log_dk2",
+        "std_coef": -0.056,
+        "odds_ratio_per_1sd": 0.946
+      },
+      {
+        "feature": "weekend_share",
+        "std_coef": -0.009,
+        "odds_ratio_per_1sd": 0.991
+      }
+    ],
+    "threshold_median_closed_score": 0.736
+  },
+  "remaining_tail": {
+    "aug25_survivors_below_closed_median_vph_pct": 21.9,
+    "sep26_open_below_closed_median_vph_pct": 21.0,
+    "sep26_open_resembling_closures_n": 418,
+    "sep26_open_resembling_closures_pct": 4.9,
+    "sep26_scored_stores": 8566,
+    "sep26_resembling_median_yoy": 4.22,
+    "sep26_others_median_yoy": 2.08
+  }
+}

@@ -1,5 +1,9 @@
 # START HERE: Starbucks staffing research (overnight run, 2026-10-01 → 10-02)
 
+> **Current pitch:** [`../pitch_data/`](../pitch_data/README.md) (labor-productivity study, Oct 2 2026).
+> **First pitch (archived):** [`PITCH_v1/`](PITCH_v1/README.md). **Wayback hiring pipeline:** [`starbucks_hiring_archive/`](starbucks_hiring_archive/README.md).
+> The notes below describe the original overnight run.
+
 Everything to review is in **`REVIEW/`**: copies of the outputs, organized for reading. The working projects are untouched.
 Rebuild it after any rerun with `./build_review.sh`.
 

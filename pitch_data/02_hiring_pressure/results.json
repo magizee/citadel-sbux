@@ -1,0 +1,234 @@
+{
+  "stores": 9128,
+  "hpi_distribution": {
+    "HPI_full": {
+      "0": 3954,
+      "1": 2732,
+      "2": 2233,
+      "3": 207,
+      "4": 2
+    },
+    "HPI_persistence": {
+      "0": 6755,
+      "1": 2264,
+      "2": 108,
+      "3": 1
+    },
+    "HPI_gap": {
+      "0": 7295,
+      "1": 1723,
+      "2": 110
+    }
+  },
+  "component_rates": {
+    "mgr5": 0.089,
+    "pmgr5": 0.0427,
+    "age30": 0.5113,
+    "age60": 0.2373,
+    "reposted": 0.0005,
+    "req60": 0.2287,
+    "dup": 0.0194,
+    "gap": 0.1239
+  },
+  "regressions_growth_coefficient": {
+    "HPI_full": {
+      "b_per_1pp_growth": 0.00192,
+      "se": 0.00143,
+      "t": 1.34,
+      "b_per_10pp_growth": 0.0192,
+      "outcome_mean": 0.8585
+    },
+    "HPI_persistence": {
+      "b_per_1pp_growth": 0.00185,
+      "se": 0.00079,
+      "t": 2.33,
+      "b_per_10pp_growth": 0.0185,
+      "outcome_mean": 0.2732
+    },
+    "HPI_gap": {
+      "b_per_1pp_growth": 0.00159,
+      "se": 0.00071,
+      "t": 2.25,
+      "b_per_10pp_growth": 0.0159,
+      "outcome_mean": 0.2143
+    },
+    "active_postings": {
+      "b_per_1pp_growth": -0.0003,
+      "se": 0.00068,
+      "t": -0.44,
+      "b_per_10pp_growth": -0.003,
+      "outcome_mean": 1.8887
+    },
+    "postings_per_1000_weekly_visits": {
+      "b_per_1pp_growth": 0.00142,
+      "se": 0.00217,
+      "t": 0.65,
+      "b_per_10pp_growth": 0.0142,
+      "outcome_mean": 1.0474
+    },
+    "dup": {
+      "b_per_1pp_growth": -0.0001,
+      "se": 0.00022,
+      "t": -0.44,
+      "b_per_10pp_growth": -0.001,
+      "outcome_mean": 0.0191
+    },
+    "reposted": {
+      "b_per_1pp_growth": 6e-05,
+      "se": 9e-05,
+      "t": 0.61,
+      "b_per_10pp_growth": 0.0006,
+      "outcome_mean": 0.0006
+    },
+    "oldest_requisition_age_days": {
+      "b_per_1pp_growth": 0.0356,
+      "se": 0.04024,
+      "t": 0.88,
+      "b_per_10pp_growth": 0.356,
+      "outcome_mean": 39.9952
+    },
+    "mgr5": {
+      "b_per_1pp_growth": 0.00132,
+      "se": 0.00046,
+      "t": 2.87,
+      "b_per_10pp_growth": 0.0132,
+      "outcome_mean": 0.0908
+    },
+    "pmgr5": {
+      "b_per_1pp_growth": 0.00129,
+      "se": 0.00038,
+      "t": 3.44,
+      "b_per_10pp_growth": 0.0129,
+      "outcome_mean": 0.0439
+    },
+    "gap": {
+      "b_per_1pp_growth": 0.00027,
+      "se": 0.00054,
+      "t": 0.51,
+      "b_per_10pp_growth": 0.0027,
+      "outcome_mean": 0.1235
+    }
+  },
+  "cohorts": [
+    {
+      "growth_cohort": "< 0%",
+      "stores": 2912,
+      "median_growth": -2.7023,
+      "HPI_full_mean": 0.8513,
+      "HPI_persistence_mean": 0.2675,
+      "active_postings_mean": 1.8853,
+      "dup_mean": 0.0203,
+      "reposted_mean": 0.0007,
+      "mgr5_mean": 0.0783,
+      "pmgr5_mean": 0.033,
+      "HPI_full_vs_metro": -0.0169,
+      "HPI_persistence_vs_metro": -0.0092,
+      "active_postings_vs_metro": 0.0022,
+      "dup_vs_metro": 0.0004,
+      "pmgr5_vs_metro": -0.0094
+    },
+    {
+      "growth_cohort": "0\u20135%",
+      "stores": 3569,
+      "median_growth": 2.3616,
+      "HPI_full_mean": 0.8451,
+      "HPI_persistence_mean": 0.2631,
+      "active_postings_mean": 1.8924,
+      "dup_mean": 0.0179,
+      "reposted_mean": 0.0006,
+      "mgr5_mean": 0.0779,
+      "pmgr5_mean": 0.0373,
+      "HPI_full_vs_metro": -0.001,
+      "HPI_persistence_vs_metro": -0.003,
+      "active_postings_vs_metro": 0.0015,
+      "dup_vs_metro": -0.0013,
+      "pmgr5_vs_metro": -0.0035
+    },
+    {
+      "growth_cohort": "5\u201310%",
+      "stores": 1618,
+      "median_growth": 6.9028,
+      "HPI_full_mean": 0.8511,
+      "HPI_persistence_mean": 0.2627,
+      "active_postings_mean": 1.8863,
+      "dup_mean": 0.0216,
+      "reposted_mean": 0.0,
+      "mgr5_mean": 0.0902,
+      "pmgr5_mean": 0.0439,
+      "HPI_full_vs_metro": -0.0025,
+      "HPI_persistence_vs_metro": -0.0085,
+      "active_postings_vs_metro": -0.0083,
+      "dup_vs_metro": 0.0029,
+      "pmgr5_vs_metro": 0.0008
+    },
+    {
+      "growth_cohort": "> 10%",
+      "stores": 1029,
+      "median_growth": 14.3509,
+      "HPI_full_mean": 0.9281,
+      "HPI_persistence_mean": 0.3304,
+      "active_postings_mean": 1.8882,
+      "dup_mean": 0.0185,
+      "reposted_mean": 0.001,
+      "mgr5_mean": 0.1555,
+      "pmgr5_mean": 0.0875,
+      "HPI_full_vs_metro": 0.0551,
+      "HPI_persistence_vs_metro": 0.0499,
+      "active_postings_vs_metro": 0.0015,
+      "dup_vs_metro": -0.0011,
+      "pmgr5_vs_metro": 0.0376
+    }
+  ],
+  "by_traffic_level": [
+    {
+      "level_q": "Q1 quietest",
+      "stores": 1831,
+      "visits_per_op_hour": 10.17,
+      "HPI_full_mean": 0.8984,
+      "HPI_persistence_mean": 0.3162,
+      "dup_mean": 0.0147,
+      "pmgr5_mean": 0.0759,
+      "active_postings_mean": 1.8891
+    },
+    {
+      "level_q": "Q2",
+      "stores": 1831,
+      "visits_per_op_hour": 17.2,
+      "HPI_full_mean": 0.8635,
+      "HPI_persistence_mean": 0.2676,
+      "dup_mean": 0.0158,
+      "pmgr5_mean": 0.0453,
+      "active_postings_mean": 1.8891
+    },
+    {
+      "level_q": "Q3",
+      "stores": 1815,
+      "visits_per_op_hour": 22.39,
+      "HPI_full_mean": 0.8298,
+      "HPI_persistence_mean": 0.2457,
+      "dup_mean": 0.0165,
+      "pmgr5_mean": 0.0314,
+      "active_postings_mean": 1.8782
+    },
+    {
+      "level_q": "Q4",
+      "stores": 1835,
+      "visits_per_op_hour": 28.05,
+      "HPI_full_mean": 0.8659,
+      "HPI_persistence_mean": 0.2719,
+      "dup_mean": 0.024,
+      "pmgr5_mean": 0.0365,
+      "active_postings_mean": 1.8932
+    },
+    {
+      "level_q": "Q5 busiest",
+      "stores": 1816,
+      "visits_per_op_hour": 39.585,
+      "HPI_full_mean": 0.8293,
+      "HPI_persistence_mean": 0.2583,
+      "dup_mean": 0.0259,
+      "pmgr5_mean": 0.0242,
+      "active_postings_mean": 1.8932
+    }
+  ]
+}

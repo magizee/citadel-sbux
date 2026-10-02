@@ -1,0 +1,96 @@
+{
+  "weeks": [
+    "2024-01-01",
+    "2026-09-21"
+  ],
+  "starbucks_same_store": {
+    "stores": 8735,
+    "median_dwell_ly": 4.0,
+    "median_dwell_now": 4.0,
+    "mean_d_dwell_min": -0.943,
+    "share_ge5_ly_pct": 13.74,
+    "share_ge5_now_pct": 14.27,
+    "mean_d_share_ge5_pp": 0.53
+  },
+  "dunkin_same_store": {
+    "stores": 8433,
+    "median_dwell_ly": 4.0,
+    "median_dwell_now": 4.0,
+    "mean_d_dwell_min": -1.187,
+    "share_ge5_ly_pct": 12.19,
+    "share_ge5_now_pct": 12.52,
+    "mean_d_share_ge5_pp": 0.33
+  },
+  "regressions_metroFE": {
+    "d_dwell": {
+      "b_per_1pp_growth": -0.00692,
+      "se": 0.01662,
+      "t": -0.42,
+      "n": 8173
+    },
+    "d_share_ge5_pp": {
+      "b_per_1pp_growth": 0.05694,
+      "se": 0.01651,
+      "t": 3.45,
+      "n": 8170
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "< 0%",
+      "stores": 2783,
+      "d_dwell": -0.842,
+      "d_share_ge5_pp": 0.413,
+      "share_ge5_now": 0.139
+    },
+    {
+      "cohort": "0\u20135%",
+      "stores": 3385,
+      "d_dwell": -0.962,
+      "d_share_ge5_pp": 0.394,
+      "share_ge5_now": 0.142
+    },
+    {
+      "cohort": "5\u201310%",
+      "stores": 1541,
+      "d_dwell": -0.842,
+      "d_share_ge5_pp": 0.722,
+      "share_ge5_now": 0.147
+    },
+    {
+      "cohort": "> 10%",
+      "stores": 952,
+      "d_dwell": -1.392,
+      "d_share_ge5_pp": 1.043,
+      "share_ge5_now": 0.15
+    }
+  ],
+  "share_ge5_by_fiscal_quarter": {
+    "Dunkin'": {
+      "FY24 Q2": 13.8,
+      "FY24 Q3": 13.71,
+      "FY24 Q4": 13.47,
+      "FY25 Q1": 13.1,
+      "FY25 Q2": 12.3,
+      "FY25 Q3": 12.22,
+      "FY25 Q4": 12.39,
+      "FY26 Q1": 13.03,
+      "FY26 Q2": 13.04,
+      "FY26 Q3": 12.68,
+      "FY26 Q4": 12.72
+    },
+    "Starbucks (company-operated)": {
+      "FY24 Q2": 16.71,
+      "FY24 Q3": 16.29,
+      "FY24 Q4": 15.88,
+      "FY25 Q1": 14.77,
+      "FY25 Q2": 13.25,
+      "FY25 Q3": 13.13,
+      "FY25 Q4": 13.3,
+      "FY26 Q1": 13.7,
+      "FY26 Q2": 14.15,
+      "FY26 Q3": 13.84,
+      "FY26 Q4": 13.79
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "locations": 17856,
+  "status": {
+    "open": 16521,
+    "closed": 1323,
+    "dropped_from_panel": 12
+  },
+  "ownership_matched": {
+    "CO": 9776,
+    "LS": 4896,
+    "null": 3184
+  },
+  "company_operated_open": 9719,
+  "co_open_with_hours": 9705,
+  "co_open_with_any_posting": 9632,
+  "co_open_with_yoy": 9395,
+  "median_visits_per_operating_hour_co": 21.81,
+  "median_weekly_hours_co": 112.0,
+  "panel_last_week": "2026-09-21",
+  "careers_snapshot": "2026-10-01"
+}

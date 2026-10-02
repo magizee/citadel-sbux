@@ -1,0 +1,52 @@
+{
+  "new_company_operated_stores": 769,
+  "by_cohort": [
+    {
+      "cohort": "Mar\u2013Dec 2024",
+      "stores": 313,
+      "median_rel_visits": 0.917,
+      "median_rel_vph": 0.923,
+      "median_weekly_hours": 112.0,
+      "median_vph": 21.37
+    },
+    {
+      "cohort": "Jan\u2013Sep 2025",
+      "stores": 269,
+      "median_rel_visits": 1.003,
+      "median_rel_vph": 1.012,
+      "median_weekly_hours": 112.0,
+      "median_vph": 23.57
+    },
+    {
+      "cohort": "Oct 2025\u2013Jun 2026",
+      "stores": 187,
+      "median_rel_visits": 0.912,
+      "median_rel_vph": 0.896,
+      "median_weekly_hours": 112.0,
+      "median_vph": 21.01
+    }
+  ],
+  "all_new_median_rel_visits": 0.937,
+  "all_new_median_vph": 21.67,
+  "mature_median_vph": 21.73,
+  "closed_oct25_median_vph_pre_closure": 14.082,
+  "new_urbanicity_mix": {
+    "low density": 0.433,
+    "suburban": 0.398,
+    "urban core": 0.169
+  },
+  "mature_urbanicity_mix": {
+    "suburban": 0.452,
+    "low density": 0.282,
+    "urban core": 0.267
+  },
+  "ramp_rel_at_weeks": {
+    "4": 0.85,
+    "13": 0.873,
+    "26": 0.9,
+    "52": 0.924,
+    "78": 0.917,
+    "104": 0.963
+  },
+  "note": "Advan open dates are Advan's estimate of when the POI opened; new stores carry construction/pre-opening labor not visible here."
+}

@@ -1,0 +1,11 @@
+metric,closed_median,survivor_median,closed_mean_vs_metro,survivor_mean_vs_metro
+log_visits,7.239,7.799,-0.361,0.015
+visits_yoy_pct,-1.972,-1.652,-1.113,0.047
+weekly_hours,101.5,112.0,-9.138,0.382
+visits_per_op_hour,14.082,21.711,-4.431,0.185
+traffic_pctile_in_metro,0.266,0.549,-0.18,0.008
+starbucks_within_1km,1.0,0.0,1.003,-0.042
+starbucks_within_2km,3.0,1.0,2.781,-0.116
+starbucks_within_5km,13.0,5.0,8.176,-0.342
+dunkin_within_2km,0.0,0.0,1.07,-0.045
+visits_per_week,1392.154,2437.5,-635.877,26.584

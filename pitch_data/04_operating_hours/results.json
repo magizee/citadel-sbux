@@ -1,0 +1,138 @@
+{
+  "snapshots": {
+    "2024-07": {
+      "co_locations": 937,
+      "with_hours": 937,
+      "median_weekly_hours": 104.0,
+      "mean_weekly_hours": 103.6,
+      "pct_open_by_5am": 86.4,
+      "median_weekday_close": 20.0
+    },
+    "2025-08": {
+      "co_locations": 9628,
+      "with_hours": 9618,
+      "median_weekly_hours": 112.0,
+      "mean_weekly_hours": 111.02,
+      "pct_open_by_5am": 91.8,
+      "median_weekday_close": 21.0
+    },
+    "2026-01": {
+      "co_locations": 9086,
+      "with_hours": 9062,
+      "median_weekly_hours": 112.0,
+      "mean_weekly_hours": 112.9,
+      "pct_open_by_5am": 97.9,
+      "median_weekday_close": 21.0
+    },
+    "2026-04": {
+      "co_locations": 9054,
+      "with_hours": 9044,
+      "median_weekly_hours": 112.0,
+      "mean_weekly_hours": 112.33,
+      "pct_open_by_5am": 98.3,
+      "median_weekday_close": 21.0
+    },
+    "2026-09": {
+      "co_locations": 9979,
+      "with_hours": 9964,
+      "median_weekly_hours": 112.0,
+      "mean_weekly_hours": 112.23,
+      "pct_open_by_5am": 98.0,
+      "median_weekday_close": 21.0
+    }
+  },
+  "hours_change_aug25_to_sep26_same_store": {
+    "stores": 9295,
+    "mean_change_h": 0.56,
+    "median_change_h": 0.0,
+    "pct_increased": 44.6,
+    "pct_decreased": 32.9,
+    "pct_unchanged": 22.5,
+    "open_time_change_median_h": 0.0,
+    "close_time_change_median_h": 0.0
+  },
+  "traffic_growth_vs_hours_change": [
+    {
+      "cohort": "< 0%",
+      "stores": 2720,
+      "mean_hours_change": -0.639,
+      "pct_extended": 38.5,
+      "pct_reduced": 39.2
+    },
+    {
+      "cohort": "0\u20135%",
+      "stores": 3345,
+      "mean_hours_change": 0.773,
+      "pct_extended": 45.9,
+      "pct_reduced": 32.0
+    },
+    {
+      "cohort": "5\u201310%",
+      "stores": 1524,
+      "mean_hours_change": 1.574,
+      "pct_extended": 51.0,
+      "pct_reduced": 27.4
+    },
+    {
+      "cohort": "> 10%",
+      "stores": 922,
+      "mean_hours_change": 1.951,
+      "pct_extended": 49.8,
+      "pct_reduced": 27.4
+    }
+  ],
+  "spearman_growth_vs_hours_change": 0.128,
+  "pre_closure_hours": {
+    "closed_n": 382,
+    "closed_median_weekly_hours_aug25": 101.5,
+    "survivor_median_weekly_hours_aug25": 112.0,
+    "closed_mean": 99.99,
+    "survivor_mean": 111.58,
+    "closed_pct_below_100h": 44.0,
+    "survivor_pct_below_100h": 9.7
+  },
+  "hours_change_jul24_aug25": {
+    "closed_n": 65,
+    "survivor_n": 843,
+    "closed_mean_change": -0.36,
+    "survivor_mean_change": 1.66,
+    "note": "Jul-2024 snapshot is partial (small spider output); indicative only."
+  },
+  "hpi_vs_hours": {
+    "spearman_HPI_full_vs_weekly_hours": -0.017,
+    "spearman_HPI_full_vs_hours_change": -0.006,
+    "mean_hours_by_HPI_full": {
+      "0.0": 112.69,
+      "1.0": 112.48,
+      "2.0": 112.18,
+      "3.0": 110.0,
+      "4.0": 106.5
+    }
+  },
+  "visits_per_operating_hour_over_time": {
+    "2025-08": {
+      "stores": 8434,
+      "median_visits_per_week": 2478.5,
+      "median_weekly_hours": 112.0,
+      "median_visits_per_operating_hour": 22.14
+    },
+    "2026-01": {
+      "stores": 8437,
+      "median_visits_per_week": 2458.75,
+      "median_weekly_hours": 112.0,
+      "median_visits_per_operating_hour": 21.71
+    },
+    "2026-04": {
+      "stores": 8438,
+      "median_visits_per_week": 2659.5,
+      "median_weekly_hours": 112.0,
+      "median_visits_per_operating_hour": 23.65
+    },
+    "2026-09": {
+      "stores": 8438,
+      "median_visits_per_week": 2543.5714285714284,
+      "median_weekly_hours": 112.0,
+      "median_visits_per_operating_hour": 22.48
+    }
+  }
+}

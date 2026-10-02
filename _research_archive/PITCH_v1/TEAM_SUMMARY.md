@@ -1,6 +1,8 @@
 # SBUX: alternative-data summary
 
-*Data as of Oct 1–2, 2026. One page for the team; the full thesis and Q&A prep are in [`PITCH/`](PITCH/README.md).*
+*Archived: the first pitch (valuation / closure-leakage short). Superseded by [`pitch_data/`](../../pitch_data/README.md).*
+
+*Data as of Oct 1–2, 2026. One page for the team; the full thesis and Q&A prep are in [`README.md`](README.md).*
 
 ## Bottom line
 
@@ -15,7 +17,7 @@ being short into the Q4 print.
 
 ## 1. The foot-traffic data is trustworthy
 
-![Advan vs reported transactions](PITCH/charts/16_advan_vs_reported_transactions.png)
+![Advan vs reported transactions](charts/16_advan_vs_reported_transactions.png)
 
 - Advan same-store visits at company-operated stores track reported U.S. comparable transactions with **r = 0.98 over six quarters**
   (FY25 Q2 → FY26 Q3), including the swing from −4% to +4%. Advan understates the size of moves (~2.4×) but matches direction and turns.
@@ -24,14 +26,14 @@ being short into the Q4 print.
 
 ## 2. The turnaround is real at the store level, and widening vs Dunkin'
 
-![Starbucks vs Dunkin' by quarter](PITCH/charts/18_starbucks_vs_dunkin_by_quarter.png)
+![Starbucks vs Dunkin' by quarter](charts/18_starbucks_vs_dunkin_by_quarter.png)
 
 - Starbucks went from **trailing Dunkin' by ~2 pp** in same-store visit growth (FY25) to **leading in every FY26 quarter**
   (+0.2 → +1.2 pp). Its share of Starbucks + Dunkin' visits is flat YoY. **Expect this as the first pushback.**
 
 **…but on a two-year view it is a recovery, not growth, and Starbucks is still behind Dunkin'.**
 
-![Two-year view vs 2024 and Dunkin'](PITCH/charts/19_two_year_vs_2024_and_dunkin.png)
+![Two-year view vs 2024 and Dunkin'](charts/19_two_year_vs_2024_and_dunkin.png)
 
 - Reported U.S. transactions over two years: **+0.1% (FY26 Q2) and +0.0% (Q3)**, i.e. back to 2024 levels, not above them.
 - Advan agrees: Starbucks same-store visits vs two years earlier −0.7% / +0.4% / +1.2% (Q2/Q3/Q4) while **Dunkin' grew +0.8% / +2.3% / +1.8%**.
@@ -41,7 +43,7 @@ being short into the Q4 print.
 
 ## 3. The Oct-2025 closures shrank the store base, and the customers mostly left
 
-![Closure event study](PITCH/charts/07_closure_event_study_low_recapture.png)
+![Closure event study](charts/07_closure_event_study_low_recapture.png)
 
 - Company filings: **627 stores closed in the Sep-2025 restructuring (520 U.S.)**; North America company-operated stores fell 435 in
   FY25 Q4 and are **−2.7% YoY** (Jun 2025 → Jun 2026) even after ~130 net openings since.
@@ -51,13 +53,13 @@ being short into the Q4 print.
 
 ## 4. Where Starbucks closed stores, Dunkin' gained ground, every quarter since
 
-![Closure share loss with placebo test](PITCH/charts/17_closure_share_loss_placebo_test.png)
+![Closure share loss with placebo test](charts/17_closure_share_loss_placebo_test.png)
 
 - Across 112 metros (controlling for metro size and starting share), each closure per 100 Starbucks stores is associated with
   **≈ −0.10 pp of share vs Dunkin'** in FY26 Q1–Q3 (−0.07 pp in Q4). **Placebo:** before the closures, the same metros showed no
   meaningful share loss (≈ −0.02 pp, not significant), so this is not a pre-existing trend. It holds within small, mid and large metros.
 
-![Dunkin' growth by distance to a Starbucks closure](PITCH/charts/14_dunkin_growth_by_distance_to_closure.png)
+![Dunkin' growth by distance to a Starbucks closure](charts/14_dunkin_growth_by_distance_to_closure.png)
 
 - At the store level, **Dunkin' within 1 km of a closed Starbucks grew visits +2.0% vs ~+1.0% elsewhere** (+0.8 pp vs same-metro
   Dunkin', 95% CI +0.2 to +1.3). In volume terms Dunkin' captured only ~0.8% of the closed stores' visits, so the leakage is
@@ -65,7 +67,7 @@ being short into the Q4 print.
 
 ## 5. Store-manager vacancies sit next to the weaker stores
 
-![Hiring strain by store traffic](PITCH/charts/10_hiring_strain_by_store_traffic.png)
+![Hiring strain by store traffic](charts/10_hiring_strain_by_store_traffic.png)
 
 - 195 open store/district-manager requisitions; **42% re-posted**, 18 open > 90 days (Philadelphia and Chicago suburbs, Michigan,
   Pacific NW, Baltimore/DC). Stores in the quietest fifth for their metro are near a persistent manager vacancy **twice as often**
@@ -96,9 +98,9 @@ being short into the Q4 print.
 
 Starbucks careers API (19,831 U.S. postings) · Advan Weekly Patterns via Dewey (Starbucks + Dunkin', Jan 2024 – Sep 2026) ·
 Starbucks 8-K earnings releases (FY25 Q2 – FY26 Q3: comps, transactions, store data) · Starbucks store locator via All the Places ·
-Internet Archive · Starbucks Q1–Q3 FY26 calls · BLS. Methods: [`PITCH/3_sources_and_methods.md`](PITCH/3_sources_and_methods.md).
+Internet Archive · Starbucks Q1–Q3 FY26 calls · BLS. Methods: [`3_sources_and_methods.md`](3_sources_and_methods.md).
 
 ---
 
-**Repo layout:** [`PITCH/`](PITCH/README.md) holds the thesis, Q&A prep, all charts and data. [`_research_archive/`](_research_archive/START_HERE.md)
+**Repo layout:** [`README.md`](README.md) holds the thesis, Q&A prep, all charts and data. [`_research_archive/`](../START_HERE.md)
 holds every scraper, raw dataset and full analysis (nothing deleted).

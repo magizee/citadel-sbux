@@ -1,0 +1,248 @@
+{
+  "Starbucks": {
+    "same_stores": 7497,
+    "weeks_cur": [
+      "2026-06-29",
+      "2026-09-21"
+    ],
+    "visit_counts_growth_pct": 2.07,
+    "peak_share_ly_pct": 20.97,
+    "peak_share_now_pct": 21.21,
+    "busiest_hour_share_now_pct": 7.82,
+    "busiest_hour": 10
+  },
+  "Dunkin'": {
+    "same_stores": 6816,
+    "weeks_cur": [
+      "2026-06-29",
+      "2026-09-21"
+    ],
+    "visit_counts_growth_pct": 1.17,
+    "peak_share_ly_pct": 22.63,
+    "peak_share_now_pct": 22.52,
+    "busiest_hour_share_now_pct": 7.75,
+    "busiest_hour": 9
+  },
+  "daypart_growth": [
+    {
+      "brand": "Starbucks",
+      "daypart": "early 4\u20137",
+      "share_ly_pct": 8.64,
+      "share_now_pct": 8.86,
+      "share_change_pp": 0.22,
+      "implied_daypart_growth_pct": 4.66,
+      "contribution_to_growth_pct": 19.5
+    },
+    {
+      "brand": "Starbucks",
+      "daypart": "morning peak 7\u201310",
+      "share_ly_pct": 20.97,
+      "share_now_pct": 21.21,
+      "share_change_pp": 0.24,
+      "implied_daypart_growth_pct": 3.22,
+      "contribution_to_growth_pct": 32.7
+    },
+    {
+      "brand": "Starbucks",
+      "daypart": "midday 10\u201314",
+      "share_ly_pct": 30.86,
+      "share_now_pct": 30.5,
+      "share_change_pp": -0.36,
+      "implied_daypart_growth_pct": 0.87,
+      "contribution_to_growth_pct": 13.0
+    },
+    {
+      "brand": "Starbucks",
+      "daypart": "afternoon 14\u201317",
+      "share_ly_pct": 19.76,
+      "share_now_pct": 19.49,
+      "share_change_pp": -0.27,
+      "implied_daypart_growth_pct": 0.67,
+      "contribution_to_growth_pct": 6.4
+    },
+    {
+      "brand": "Starbucks",
+      "daypart": "evening 17\u201322",
+      "share_ly_pct": 16.91,
+      "share_now_pct": 16.98,
+      "share_change_pp": 0.07,
+      "implied_daypart_growth_pct": 2.47,
+      "contribution_to_growth_pct": 20.2
+    },
+    {
+      "brand": "Starbucks",
+      "daypart": "overnight 22\u20134",
+      "share_ly_pct": 2.86,
+      "share_now_pct": 2.97,
+      "share_change_pp": 0.11,
+      "implied_daypart_growth_pct": 6.05,
+      "contribution_to_growth_pct": 8.3
+    },
+    {
+      "brand": "Dunkin'",
+      "daypart": "early 4\u20137",
+      "share_ly_pct": 11.58,
+      "share_now_pct": 11.79,
+      "share_change_pp": 0.21,
+      "implied_daypart_growth_pct": 2.98,
+      "contribution_to_growth_pct": 29.4
+    },
+    {
+      "brand": "Dunkin'",
+      "daypart": "morning peak 7\u201310",
+      "share_ly_pct": 22.63,
+      "share_now_pct": 22.52,
+      "share_change_pp": -0.11,
+      "implied_daypart_growth_pct": 0.66,
+      "contribution_to_growth_pct": 12.8
+    },
+    {
+      "brand": "Dunkin'",
+      "daypart": "midday 10\u201314",
+      "share_ly_pct": 28.15,
+      "share_now_pct": 27.99,
+      "share_change_pp": -0.16,
+      "implied_daypart_growth_pct": 0.59,
+      "contribution_to_growth_pct": 14.3
+    },
+    {
+      "brand": "Dunkin'",
+      "daypart": "afternoon 14\u201317",
+      "share_ly_pct": 17.16,
+      "share_now_pct": 17.2,
+      "share_change_pp": 0.04,
+      "implied_daypart_growth_pct": 1.41,
+      "contribution_to_growth_pct": 20.6
+    },
+    {
+      "brand": "Dunkin'",
+      "daypart": "evening 17\u201322",
+      "share_ly_pct": 15.76,
+      "share_now_pct": 15.81,
+      "share_change_pp": 0.04,
+      "implied_daypart_growth_pct": 1.44,
+      "contribution_to_growth_pct": 19.4
+    },
+    {
+      "brand": "Dunkin'",
+      "daypart": "overnight 22\u20134",
+      "share_ly_pct": 4.71,
+      "share_now_pct": 4.69,
+      "share_change_pp": -0.01,
+      "implied_daypart_growth_pct": 0.86,
+      "contribution_to_growth_pct": 3.4
+    }
+  ],
+  "store_regression_d_peak_share_on_growth": {
+    "b_per_1pp": 0.02597,
+    "se": 0.01886,
+    "t": 1.38,
+    "n": 6769
+  },
+  "cohorts": [
+    {
+      "cohort": "< 0%",
+      "stores": 2440,
+      "growth": -2.7481,
+      "peak_share_ly": 0.2208,
+      "peak_share_now": 0.2211,
+      "d_peak_share_pp": 0.03
+    },
+    {
+      "cohort": "0\u20135%",
+      "stores": 2816,
+      "growth": 2.3517,
+      "peak_share_ly": 0.2213,
+      "peak_share_now": 0.2228,
+      "d_peak_share_pp": 0.144
+    },
+    {
+      "cohort": "5\u201310%",
+      "stores": 1277,
+      "growth": 6.9342,
+      "peak_share_ly": 0.2138,
+      "peak_share_now": 0.2188,
+      "d_peak_share_pp": 0.5022
+    },
+    {
+      "cohort": "> 10%",
+      "stores": 746,
+      "growth": 14.218,
+      "peak_share_ly": 0.2081,
+      "peak_share_now": 0.2133,
+      "d_peak_share_pp": 0.5128
+    }
+  ],
+  "peak_share_by_fq_pct": {
+    "Dunkin'": {
+      "FY24 Q2": {
+        "Dunkin'": 21.83
+      },
+      "FY24 Q3": {
+        "Dunkin'": 22.23
+      },
+      "FY24 Q4": {
+        "Dunkin'": 22.17
+      },
+      "FY25 Q1": {
+        "Dunkin'": 22.72
+      },
+      "FY25 Q2": {
+        "Dunkin'": 22.25
+      },
+      "FY25 Q3": {
+        "Dunkin'": 22.67
+      },
+      "FY25 Q4": {
+        "Dunkin'": 22.77
+      },
+      "FY26 Q1": {
+        "Dunkin'": 23.08
+      },
+      "FY26 Q2": {
+        "Dunkin'": 22.33
+      },
+      "FY26 Q3": {
+        "Dunkin'": 22.66
+      },
+      "FY26 Q4": {
+        "Dunkin'": 22.52
+      }
+    },
+    "Starbucks": {
+      "FY24 Q2": {
+        "Starbucks": 19.54
+      },
+      "FY24 Q3": {
+        "Starbucks": 20.34
+      },
+      "FY24 Q4": {
+        "Starbucks": 20.09
+      },
+      "FY25 Q1": {
+        "Starbucks": 20.92
+      },
+      "FY25 Q2": {
+        "Starbucks": 20.26
+      },
+      "FY25 Q3": {
+        "Starbucks": 21.24
+      },
+      "FY25 Q4": {
+        "Starbucks": 21.04
+      },
+      "FY26 Q1": {
+        "Starbucks": 21.58
+      },
+      "FY26 Q2": {
+        "Starbucks": 20.91
+      },
+      "FY26 Q3": {
+        "Starbucks": 21.48
+      },
+      "FY26 Q4": {
+        "Starbucks": 21.22
+      }
+    }
+  }
+}

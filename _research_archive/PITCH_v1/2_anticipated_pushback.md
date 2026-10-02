@@ -1,6 +1,6 @@
 # Anticipated pushback (and honest answers)
 
-Have these ready. Each item is backed by work in `../_research_archive/`.
+Have these ready. Each item is backed by work in `../` (`_research_archive/`).
 
 | Pushback | Honest answer |
 |---|---|

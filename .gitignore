@@ -23,3 +23,8 @@ _research_archive/starbucks_store_universe/data/processed/starbucks_store_univer
 _research_archive/starbucks_operating_data/data/raw/
 _research_archive/starbucks_operating_data/data/processed/advan_starbucks.csv.gz
 _research_archive/starbucks_operating_data/logs/
+
+# pitch_data (labor-productivity study): raw locator snapshots and large rebuildable tables
+pitch_data/data/raw/
+pitch_data/logs/
+_research_archive/starbucks_hiring_archive/data/archived_postings_linked.csv

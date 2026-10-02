@@ -1,0 +1,591 @@
+{
+  "quarters_available": [
+    "2023 Q1",
+    "2026 Q1"
+  ],
+  "starbucks_weighted": [
+    {
+      "industry_code": "722513",
+      "period": "2023 Q1",
+      "fiscal": "FY23 Q2",
+      "store_coverage_pct": 99.6,
+      "sbux_weighted_wage_yoy_pct": 7.77,
+      "sbux_weighted_avg_wkly_wage": 444.0,
+      "sbux_weighted_emp_yoy_pct": 4.04,
+      "national_wage_yoy_pct": 8.0,
+      "national_emp_yoy_pct": 3.7
+    },
+    {
+      "industry_code": "722513",
+      "period": "2023 Q2",
+      "fiscal": "FY23 Q3",
+      "store_coverage_pct": 99.6,
+      "sbux_weighted_wage_yoy_pct": 4.08,
+      "sbux_weighted_avg_wkly_wage": 456.0,
+      "sbux_weighted_emp_yoy_pct": 3.67,
+      "national_wage_yoy_pct": 4.1,
+      "national_emp_yoy_pct": 3.4
+    },
+    {
+      "industry_code": "722513",
+      "period": "2023 Q3",
+      "fiscal": "FY23 Q4",
+      "store_coverage_pct": 99.8,
+      "sbux_weighted_wage_yoy_pct": 0.97,
+      "sbux_weighted_avg_wkly_wage": 463.0,
+      "sbux_weighted_emp_yoy_pct": 3.0,
+      "national_wage_yoy_pct": 1.4,
+      "national_emp_yoy_pct": 2.8
+    },
+    {
+      "industry_code": "722513",
+      "period": "2023 Q4",
+      "fiscal": "FY24 Q1",
+      "store_coverage_pct": 99.5,
+      "sbux_weighted_wage_yoy_pct": 3.77,
+      "sbux_weighted_avg_wkly_wage": 470.0,
+      "sbux_weighted_emp_yoy_pct": 2.56,
+      "national_wage_yoy_pct": 4.0,
+      "national_emp_yoy_pct": 2.5
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q1",
+      "fiscal": "FY24 Q2",
+      "store_coverage_pct": 98.6,
+      "sbux_weighted_wage_yoy_pct": 4.77,
+      "sbux_weighted_avg_wkly_wage": 465.0,
+      "sbux_weighted_emp_yoy_pct": 0.75,
+      "national_wage_yoy_pct": 4.8,
+      "national_emp_yoy_pct": 0.8
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q2",
+      "fiscal": "FY24 Q3",
+      "store_coverage_pct": 98.6,
+      "sbux_weighted_wage_yoy_pct": 4.58,
+      "sbux_weighted_avg_wkly_wage": 477.0,
+      "sbux_weighted_emp_yoy_pct": -0.1,
+      "national_wage_yoy_pct": 4.2,
+      "national_emp_yoy_pct": 0.0
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q3",
+      "fiscal": "FY24 Q4",
+      "store_coverage_pct": 98.6,
+      "sbux_weighted_wage_yoy_pct": 5.95,
+      "sbux_weighted_avg_wkly_wage": 491.0,
+      "sbux_weighted_emp_yoy_pct": -0.41,
+      "national_wage_yoy_pct": 5.0,
+      "national_emp_yoy_pct": -0.2
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q4",
+      "fiscal": "FY25 Q1",
+      "store_coverage_pct": 98.5,
+      "sbux_weighted_wage_yoy_pct": 5.77,
+      "sbux_weighted_avg_wkly_wage": 497.0,
+      "sbux_weighted_emp_yoy_pct": 0.12,
+      "national_wage_yoy_pct": 6.3,
+      "national_emp_yoy_pct": 0.3
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q1",
+      "fiscal": "FY25 Q2",
+      "store_coverage_pct": 98.4,
+      "sbux_weighted_wage_yoy_pct": 2.33,
+      "sbux_weighted_avg_wkly_wage": 477.0,
+      "sbux_weighted_emp_yoy_pct": -1.14,
+      "national_wage_yoy_pct": 1.6,
+      "national_emp_yoy_pct": -1.2
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q2",
+      "fiscal": "FY25 Q3",
+      "store_coverage_pct": 98.3,
+      "sbux_weighted_wage_yoy_pct": 3.55,
+      "sbux_weighted_avg_wkly_wage": 494.0,
+      "sbux_weighted_emp_yoy_pct": -0.59,
+      "national_wage_yoy_pct": 3.3,
+      "national_emp_yoy_pct": -0.6
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q3",
+      "fiscal": "FY25 Q4",
+      "store_coverage_pct": 98.5,
+      "sbux_weighted_wage_yoy_pct": 2.97,
+      "sbux_weighted_avg_wkly_wage": 505.0,
+      "sbux_weighted_emp_yoy_pct": -0.3,
+      "national_wage_yoy_pct": 3.0,
+      "national_emp_yoy_pct": -0.3
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q4",
+      "fiscal": "FY26 Q1",
+      "store_coverage_pct": 98.4,
+      "sbux_weighted_wage_yoy_pct": 1.69,
+      "sbux_weighted_avg_wkly_wage": 505.0,
+      "sbux_weighted_emp_yoy_pct": -0.68,
+      "national_wage_yoy_pct": 0.6,
+      "national_emp_yoy_pct": -0.7
+    },
+    {
+      "industry_code": "722513",
+      "period": "2026 Q1",
+      "fiscal": "FY26 Q2",
+      "store_coverage_pct": 98.3,
+      "sbux_weighted_wage_yoy_pct": 3.99,
+      "sbux_weighted_avg_wkly_wage": 495.0,
+      "sbux_weighted_emp_yoy_pct": 0.16,
+      "national_wage_yoy_pct": 3.8,
+      "national_emp_yoy_pct": 0.2
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q1",
+      "fiscal": "FY23 Q2",
+      "store_coverage_pct": 76.6,
+      "sbux_weighted_wage_yoy_pct": 15.4,
+      "sbux_weighted_avg_wkly_wage": 439.0,
+      "sbux_weighted_emp_yoy_pct": 3.81,
+      "national_wage_yoy_pct": 14.0,
+      "national_emp_yoy_pct": 3.9
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q2",
+      "fiscal": "FY23 Q3",
+      "store_coverage_pct": 76.4,
+      "sbux_weighted_wage_yoy_pct": 12.37,
+      "sbux_weighted_avg_wkly_wage": 454.0,
+      "sbux_weighted_emp_yoy_pct": 2.69,
+      "national_wage_yoy_pct": 10.4,
+      "national_emp_yoy_pct": 2.9
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q3",
+      "fiscal": "FY23 Q4",
+      "store_coverage_pct": 76.4,
+      "sbux_weighted_wage_yoy_pct": 2.16,
+      "sbux_weighted_avg_wkly_wage": 454.0,
+      "sbux_weighted_emp_yoy_pct": 1.28,
+      "national_wage_yoy_pct": 1.2,
+      "national_emp_yoy_pct": 1.5
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q4",
+      "fiscal": "FY24 Q1",
+      "store_coverage_pct": 73.8,
+      "sbux_weighted_wage_yoy_pct": 7.43,
+      "sbux_weighted_avg_wkly_wage": 491.0,
+      "sbux_weighted_emp_yoy_pct": 0.84,
+      "national_wage_yoy_pct": 6.6,
+      "national_emp_yoy_pct": 1.6
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q1",
+      "fiscal": "FY24 Q2",
+      "store_coverage_pct": 75.1,
+      "sbux_weighted_wage_yoy_pct": 5.1,
+      "sbux_weighted_avg_wkly_wage": 460.0,
+      "sbux_weighted_emp_yoy_pct": -0.92,
+      "national_wage_yoy_pct": 4.5,
+      "national_emp_yoy_pct": 0.0
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q2",
+      "fiscal": "FY24 Q3",
+      "store_coverage_pct": 75.1,
+      "sbux_weighted_wage_yoy_pct": 7.79,
+      "sbux_weighted_avg_wkly_wage": 491.0,
+      "sbux_weighted_emp_yoy_pct": -1.68,
+      "national_wage_yoy_pct": 6.2,
+      "national_emp_yoy_pct": -0.7
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q3",
+      "fiscal": "FY24 Q4",
+      "store_coverage_pct": 75.1,
+      "sbux_weighted_wage_yoy_pct": 7.65,
+      "sbux_weighted_avg_wkly_wage": 487.0,
+      "sbux_weighted_emp_yoy_pct": -0.37,
+      "national_wage_yoy_pct": 6.0,
+      "national_emp_yoy_pct": 0.6
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q4",
+      "fiscal": "FY25 Q1",
+      "store_coverage_pct": 72.8,
+      "sbux_weighted_wage_yoy_pct": 6.22,
+      "sbux_weighted_avg_wkly_wage": 519.0,
+      "sbux_weighted_emp_yoy_pct": 1.34,
+      "national_wage_yoy_pct": 4.0,
+      "national_emp_yoy_pct": 2.1
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q1",
+      "fiscal": "FY25 Q2",
+      "store_coverage_pct": 74.1,
+      "sbux_weighted_wage_yoy_pct": 7.42,
+      "sbux_weighted_avg_wkly_wage": 495.0,
+      "sbux_weighted_emp_yoy_pct": 3.59,
+      "national_wage_yoy_pct": 5.9,
+      "national_emp_yoy_pct": 3.7
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q2",
+      "fiscal": "FY25 Q3",
+      "store_coverage_pct": 74.3,
+      "sbux_weighted_wage_yoy_pct": 3.64,
+      "sbux_weighted_avg_wkly_wage": 503.0,
+      "sbux_weighted_emp_yoy_pct": 4.64,
+      "national_wage_yoy_pct": 2.4,
+      "national_emp_yoy_pct": 4.7
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q3",
+      "fiscal": "FY25 Q4",
+      "store_coverage_pct": 75.2,
+      "sbux_weighted_wage_yoy_pct": 4.01,
+      "sbux_weighted_avg_wkly_wage": 505.0,
+      "sbux_weighted_emp_yoy_pct": 5.92,
+      "national_wage_yoy_pct": 3.5,
+      "national_emp_yoy_pct": 5.8
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q4",
+      "fiscal": "FY26 Q1",
+      "store_coverage_pct": 73.2,
+      "sbux_weighted_wage_yoy_pct": 4.3,
+      "sbux_weighted_avg_wkly_wage": 539.0,
+      "sbux_weighted_emp_yoy_pct": 5.51,
+      "national_wage_yoy_pct": 3.7,
+      "national_emp_yoy_pct": 5.8
+    },
+    {
+      "industry_code": "722515",
+      "period": "2026 Q1",
+      "fiscal": "FY26 Q2",
+      "store_coverage_pct": 74.3,
+      "sbux_weighted_wage_yoy_pct": 1.95,
+      "sbux_weighted_avg_wkly_wage": 502.0,
+      "sbux_weighted_emp_yoy_pct": 5.22,
+      "national_wage_yoy_pct": 1.3,
+      "national_emp_yoy_pct": 5.6
+    }
+  ],
+  "wages_vs_store_opex": [
+    {
+      "fiscal": "FY25 Q2",
+      "sbux_weighted_wage_yoy_pct": 7.42,
+      "national_wage_yoy_pct": 5.9,
+      "fastfood_wage_yoy_pct": 2.33,
+      "fiscal_quarter": "FY25 Q2",
+      "revenue_yoy_pct": 2.4,
+      "store_opex_yoy_pct": 13.0,
+      "opex_ratio_pct": 58.5,
+      "opex_ratio_change_yoy_pp": 5.4,
+      "incremental_opex_per_incremental_revenue_pct": 287.0,
+      "opex_growth_minus_wage_growth_pp": 5.58
+    },
+    {
+      "fiscal": "FY25 Q3",
+      "sbux_weighted_wage_yoy_pct": 3.64,
+      "national_wage_yoy_pct": 2.4,
+      "fastfood_wage_yoy_pct": 3.55,
+      "fiscal_quarter": "FY25 Q3",
+      "revenue_yoy_pct": 2.5,
+      "store_opex_yoy_pct": 13.5,
+      "opex_ratio_pct": 56.5,
+      "opex_ratio_change_yoy_pp": 5.5,
+      "incremental_opex_per_incremental_revenue_pct": 280.0,
+      "opex_growth_minus_wage_growth_pp": 9.86
+    },
+    {
+      "fiscal": "FY25 Q4",
+      "sbux_weighted_wage_yoy_pct": 4.01,
+      "national_wage_yoy_pct": 3.5,
+      "fastfood_wage_yoy_pct": 2.97,
+      "fiscal_quarter": "FY25 Q4",
+      "revenue_yoy_pct": 4.3,
+      "store_opex_yoy_pct": 12.1,
+      "opex_ratio_pct": 56.2,
+      "opex_ratio_change_yoy_pp": 3.8,
+      "incremental_opex_per_incremental_revenue_pct": 146.0,
+      "opex_growth_minus_wage_growth_pp": 8.09
+    },
+    {
+      "fiscal": "FY26 Q1",
+      "sbux_weighted_wage_yoy_pct": 4.3,
+      "national_wage_yoy_pct": 3.7,
+      "fastfood_wage_yoy_pct": 1.69,
+      "fiscal_quarter": "FY26 Q1",
+      "revenue_yoy_pct": 4.2,
+      "store_opex_yoy_pct": 9.4,
+      "opex_ratio_pct": 57.0,
+      "opex_ratio_change_yoy_pp": 2.7,
+      "incremental_opex_per_incremental_revenue_pct": 122.0,
+      "opex_growth_minus_wage_growth_pp": 5.1
+    },
+    {
+      "fiscal": "FY26 Q2",
+      "sbux_weighted_wage_yoy_pct": 1.95,
+      "national_wage_yoy_pct": 1.3,
+      "fastfood_wage_yoy_pct": 3.99,
+      "fiscal_quarter": "FY26 Q2",
+      "revenue_yoy_pct": 7.2,
+      "store_opex_yoy_pct": 7.6,
+      "opex_ratio_pct": 58.7,
+      "opex_ratio_change_yoy_pp": 0.2,
+      "incremental_opex_per_incremental_revenue_pct": 62.0,
+      "opex_growth_minus_wage_growth_pp": 5.65
+    }
+  ],
+  "closures_by_county_fastfood_wage_level": [
+    {
+      "wage_q": "Q1 lowest",
+      "counties": 117.0,
+      "stores": 688.0,
+      "median_weekly_wage": 376.0,
+      "closure_rate_pct": 1.74,
+      "median_store_yoy_traffic_pct": 1.39
+    },
+    {
+      "wage_q": "Q2",
+      "counties": 113.0,
+      "stores": 836.0,
+      "median_weekly_wage": 407.0,
+      "closure_rate_pct": 2.63,
+      "median_store_yoy_traffic_pct": 1.37
+    },
+    {
+      "wage_q": "Q3",
+      "counties": 107.0,
+      "stores": 1521.0,
+      "median_weekly_wage": 437.0,
+      "closure_rate_pct": 1.97,
+      "median_store_yoy_traffic_pct": 1.78
+    },
+    {
+      "wage_q": "Q4",
+      "counties": 113.0,
+      "stores": 1980.0,
+      "median_weekly_wage": 480.0,
+      "closure_rate_pct": 3.64,
+      "median_store_yoy_traffic_pct": 1.98
+    },
+    {
+      "wage_q": "Q5 highest",
+      "counties": 112.0,
+      "stores": 4293.0,
+      "median_weekly_wage": 543.5,
+      "closure_rate_pct": 5.52,
+      "median_store_yoy_traffic_pct": 3.14
+    }
+  ],
+  "california_state": [
+    {
+      "industry_code": "722513",
+      "period": "2023 Q1",
+      "avg_wkly_wage": 501,
+      "oty_avg_wkly_wage_pct_chg": 5.7,
+      "oty_month3_emplvl_pct_chg": 3.9
+    },
+    {
+      "industry_code": "722513",
+      "period": "2023 Q2",
+      "avg_wkly_wage": 513,
+      "oty_avg_wkly_wage_pct_chg": 3.4,
+      "oty_month3_emplvl_pct_chg": 2.9
+    },
+    {
+      "industry_code": "722513",
+      "period": "2023 Q3",
+      "avg_wkly_wage": 521,
+      "oty_avg_wkly_wage_pct_chg": -0.2,
+      "oty_month3_emplvl_pct_chg": 2.3
+    },
+    {
+      "industry_code": "722513",
+      "period": "2023 Q4",
+      "avg_wkly_wage": 531,
+      "oty_avg_wkly_wage_pct_chg": 3.7,
+      "oty_month3_emplvl_pct_chg": 1.4
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q1",
+      "avg_wkly_wage": 524,
+      "oty_avg_wkly_wage_pct_chg": 4.6,
+      "oty_month3_emplvl_pct_chg": -0.5
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q2",
+      "avg_wkly_wage": 562,
+      "oty_avg_wkly_wage_pct_chg": 9.6,
+      "oty_month3_emplvl_pct_chg": -1.9
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q3",
+      "avg_wkly_wage": 586,
+      "oty_avg_wkly_wage_pct_chg": 12.5,
+      "oty_month3_emplvl_pct_chg": -2.7
+    },
+    {
+      "industry_code": "722513",
+      "period": "2024 Q4",
+      "avg_wkly_wage": 587,
+      "oty_avg_wkly_wage_pct_chg": 10.5,
+      "oty_month3_emplvl_pct_chg": -1.5
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q1",
+      "avg_wkly_wage": 564,
+      "oty_avg_wkly_wage_pct_chg": 7.6,
+      "oty_month3_emplvl_pct_chg": -2.3
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q2",
+      "avg_wkly_wage": 587,
+      "oty_avg_wkly_wage_pct_chg": 4.4,
+      "oty_month3_emplvl_pct_chg": -1.1
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q3",
+      "avg_wkly_wage": 594,
+      "oty_avg_wkly_wage_pct_chg": 1.4,
+      "oty_month3_emplvl_pct_chg": -0.4
+    },
+    {
+      "industry_code": "722513",
+      "period": "2025 Q4",
+      "avg_wkly_wage": 588,
+      "oty_avg_wkly_wage_pct_chg": 0.2,
+      "oty_month3_emplvl_pct_chg": -0.8
+    },
+    {
+      "industry_code": "722513",
+      "period": "2026 Q1",
+      "avg_wkly_wage": 598,
+      "oty_avg_wkly_wage_pct_chg": 6.0,
+      "oty_month3_emplvl_pct_chg": 0.6
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q1",
+      "avg_wkly_wage": 487,
+      "oty_avg_wkly_wage_pct_chg": 13.0,
+      "oty_month3_emplvl_pct_chg": -0.4
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q2",
+      "avg_wkly_wage": 502,
+      "oty_avg_wkly_wage_pct_chg": 6.6,
+      "oty_month3_emplvl_pct_chg": -0.8
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q3",
+      "avg_wkly_wage": 508,
+      "oty_avg_wkly_wage_pct_chg": 2.4,
+      "oty_month3_emplvl_pct_chg": -2.0
+    },
+    {
+      "industry_code": "722515",
+      "period": "2023 Q4",
+      "avg_wkly_wage": 531,
+      "oty_avg_wkly_wage_pct_chg": 7.7,
+      "oty_month3_emplvl_pct_chg": -1.6
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q1",
+      "avg_wkly_wage": 514,
+      "oty_avg_wkly_wage_pct_chg": 5.5,
+      "oty_month3_emplvl_pct_chg": -3.5
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q2",
+      "avg_wkly_wage": 561,
+      "oty_avg_wkly_wage_pct_chg": 11.8,
+      "oty_month3_emplvl_pct_chg": -4.2
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q3",
+      "avg_wkly_wage": 573,
+      "oty_avg_wkly_wage_pct_chg": 12.8,
+      "oty_month3_emplvl_pct_chg": -3.8
+    },
+    {
+      "industry_code": "722515",
+      "period": "2024 Q4",
+      "avg_wkly_wage": 593,
+      "oty_avg_wkly_wage_pct_chg": 11.7,
+      "oty_month3_emplvl_pct_chg": -0.8
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q1",
+      "avg_wkly_wage": 575,
+      "oty_avg_wkly_wage_pct_chg": 11.9,
+      "oty_month3_emplvl_pct_chg": 2.3
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q2",
+      "avg_wkly_wage": 580,
+      "oty_avg_wkly_wage_pct_chg": 3.4,
+      "oty_month3_emplvl_pct_chg": 3.8
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q3",
+      "avg_wkly_wage": 598,
+      "oty_avg_wkly_wage_pct_chg": 4.4,
+      "oty_month3_emplvl_pct_chg": 5.3
+    },
+    {
+      "industry_code": "722515",
+      "period": "2025 Q4",
+      "avg_wkly_wage": 613,
+      "oty_avg_wkly_wage_pct_chg": 3.4,
+      "oty_month3_emplvl_pct_chg": 5.5
+    },
+    {
+      "industry_code": "722515",
+      "period": "2026 Q1",
+      "avg_wkly_wage": 590,
+      "oty_avg_wkly_wage_pct_chg": 2.6,
+      "oty_month3_emplvl_pct_chg": 5.1
+    }
+  ],
+  "footprint": {
+    "co_open_stores_with_county": 9950,
+    "counties": 1243
+  }
+}
