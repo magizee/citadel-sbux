@@ -7,6 +7,7 @@
 | Store universe | Starbucks store locator via All the Places (9,979 company-operated U.S. stores) | Sep 26, 2026 | Denominators; closure validation; ownership filter |
 | Archived job postings | Internet Archive CDX index (155,626 postings, 2024–26) | Oct 2, 2026 | Recurrence of manager-vacancy pockets |
 | Management statements | Q1–Q3 FY26 earnings-call transcripts (Starbucks IR), Q3 FY26 8-K | Jan–Jul 2026 | Premise; labor/margin framing |
+| Reported comps, transactions, store counts | Starbucks 8-K earnings releases FY25 Q2 – FY26 Q3 | Apr 2025 – Jul 2026 | Validating Advan; confirming closures were company-operated |
 | Labor-market controls | BLS LAUS, BLS QCEW (NAICS 722513) | Aug 2026 / Q1 2026 | Ruling out local unemployment as the driver |
 
 **Key definitions**

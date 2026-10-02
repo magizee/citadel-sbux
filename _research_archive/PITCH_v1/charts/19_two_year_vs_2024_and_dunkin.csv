@@ -1,0 +1,4 @@
+quarter,start,reported_tx_yoy_pct,reported_tx_prior_year_pct,reported_tx_two_year_pct,sbux_two_year_median_pct,dunkin_two_year_median_pct,sbux_minus_dunkin_two_year_pp,sbux_one_year_median_pct,dunkin_one_year_median_pct,sbux_stores,dunkin_stores
+FY26 Q2,2025-12-29,4.3,-4.0,0.13,-0.7,0.84,-1.54,1.3,0.99,8166,9226
+FY26 Q3,2026-03-30,4.2,-4.0,0.03,0.4,2.26,-1.86,1.97,1.38,8284,9349
+FY26 Q4,2026-06-29,,-1.0,,1.21,1.79,-0.58,2.18,1.02,8376,9351

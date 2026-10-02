@@ -6,8 +6,8 @@ locator, Internet Archive, Starbucks filings and earnings calls. Details in `3_s
 ## Thesis in one paragraph
 
 Starbucks' U.S. company-operated network is **overbuilt in dense markets**: stores there capture roughly half the weekly
-visits of stores in sparse markets. Starbucks is now **closing stores disproportionately in those markets** (481 locations in
-Oct 2025, ~300 more in Mar–Jun 2026). The closed stores were its **weakest** locations, and a before/after model shows **most of
+visits of stores in sparse markets. Starbucks is now **closing stores disproportionately in those markets**: its Sep-2025 restructuring
+closed **627 stores (520 U.S.)**, and North America company-operated stores are −2.7% YoY. The closed stores were its **weakest** locations, and a before/after model shows **most of
 their customers did not move to a nearby Starbucks** (~12% recaptured within 5 km). Closures shrink the system's traffic while
 comparable-store sales, which exclude closed stores, look healthier. Meanwhile, store-manager hiring (the role management
 itself ties most closely to store performance) shows **persistent vacancies in specific markets**.
@@ -26,9 +26,23 @@ itself ties most closely to store performance) shows **persistent vacancies in s
 ## Pillar 2: Starbucks is pruning exactly those markets
 
 - **Closures since Oct 2025: 9.2% of densest-quintile locations vs 2.6% of the least dense.** Chart: `charts/03_closures_by_density.png`.
-- Closure waves: **481 locations in Oct 2025** and **~300 in Mar–Jun 2026** (51 / 157 / 97). By year: 219 (2024), 772 (2025),
-  332 (2026 YTD). Chart: `charts/01_store_closures_by_month.png`.
-- **92%** of locations Advan marks closed are absent from Starbucks' own store locator (Sep 26, 2026), so these are real closures.
+- **Company filings:** 627 stores closed in the Sep-2025 restructuring (520 U.S.); North America company-operated stores fell 435
+  in FY25 Q4 (licensed +12), then rose +131 net in FY26 Q1–Q3. NA company-operated: **−2.7% YoY** (Jun 2025 → Jun 2026).
+- Advan records the same wave as **481 U.S. locations closed in Oct 2025** (`charts/01_store_closures_by_month.png`); 92% are absent
+  from Starbucks' store locator.
+- **Correction:** Advan's later bars (Mar / May / Jun 2026, ~300) are **not** confirmed by company filings (company-operated counts
+  rose; restructuring closures were 3 in Q1 and 62 in Q2). Treat them as licensed closures and/or Advan data clean-up. All closure
+  analysis in this pitch uses the confirmed Oct-2025 wave.
+
+## Pillar 2b: Advan is a valid read on Starbucks traffic, and says near-term momentum is strong
+
+- Advan same-store visits (company-operated stores) track reported U.S. comparable transactions with **r = 0.98** over six quarters
+  (FY25 Q2 → FY26 Q3). Chart: `charts/16_advan_vs_reported_transactions.png`.
+- **Early read for FY26 Q4 (not yet reported): implied U.S. transactions ≈ +5–6%**, still accelerating. Starbucks' same-store edge
+  over Dunkin' widened every FY26 quarter (+0.2 → +1.2 pp; `charts/18`). **Implication: no near-term miss signal; the bear case is structural.**
+- **But it is a recovery, not growth:** reported U.S. transactions over two years are ≈ flat (+0.1% FY26 Q2, +0.0% Q3), and on Advan
+  Starbucks still **trails Dunkin' by 0.6–1.9 pp vs 2024** (Starbucks −0.7% / +0.4% / +1.2% vs Dunkin' +0.8% / +2.3% / +1.8%, Q2–Q4).
+  *Inference (no FY27 data yet):* from FY27 Q1 Starbucks is compared with its own +3–4% transaction quarters, a tougher bar than FY26. Chart: `charts/19_two_year_vs_2024_and_dunkin.png`.
 
 ## Pillar 3: Closures shed demand. Most of a closed store's customers do not move to a nearby Starbucks
 
@@ -49,7 +63,10 @@ itself ties most closely to store performance) shows **persistent vacancies in s
 - **Where closures were heaviest, Dunkin' gained ground.** Across 112 metros with ≥ 20 Starbucks, more closures per 100
   stores goes with a weaker change in Starbucks' share of Starbucks + Dunkin' visits (Spearman −0.42): metros with no
   closures +0.70 pp, 6+ per 100 −0.03 pp (Jun–Sep 2026 vs 2025). Chart: `charts/11_share_vs_dunkin_by_closure_intensity.png`.
-  Caveat: no-closure metros are smaller (22 metros, 703 stores).
+  **Robustness (`charts/17_closure_share_loss_placebo_test.png`):** using only the confirmed Oct-2025 closures and controlling for
+  metro size and starting share, each closure per 100 stores ≈ **−0.10 pp share vs Dunkin'** in FY26 Q1–Q3 (−0.07 in Q4), significant
+  in every quarter, and holds within small/mid/large metros. **Placebo:** the same metros showed no significant share loss in the
+  three quarters *before* the closures (≈ −0.02 pp), so the effect starts with the closures.
 - **Dunkin' stores right next to a closure gained:** within 1 km, +2.0% visits vs ~+1.0% for Dunkin' elsewhere (+0.8 pp vs
   same-metro Dunkin', 95% CI +0.2 to +1.3; nothing beyond 1 km). Chart: `charts/14_dunkin_growth_by_distance_to_closure.png`.
   A before/after version (`charts/15`) also shows +1.5–2.2%, but Dunkin' near closures was already trending up beforehand,

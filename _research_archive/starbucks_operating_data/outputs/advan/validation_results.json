@@ -1,0 +1,141 @@
+{
+  "quarters": [
+    {
+      "quarter": "FY25 Q2",
+      "start": "2024-12-30",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": -4.0,
+      "reported_us_comp_sales_pct": -2.0,
+      "sbux_co_same_store_median_pct": -1.82,
+      "sbux_co_same_store_aggregate_pct": -2.39,
+      "sbux_co_stores": 8166,
+      "sbux_all_same_store_median_pct": -1.86,
+      "dunkin_same_store_median_pct": 0.0,
+      "dunkin_stores": 9224,
+      "sbux_minus_dunkin_pp": -1.82,
+      "sbux_share_pct": 79.05,
+      "sbux_share_yoy_pp": 0.07
+    },
+    {
+      "quarter": "FY25 Q3",
+      "start": "2025-03-31",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": -4.0,
+      "reported_us_comp_sales_pct": -2.0,
+      "sbux_co_same_store_median_pct": -1.51,
+      "sbux_co_same_store_aggregate_pct": -2.32,
+      "sbux_co_stores": 8284,
+      "sbux_all_same_store_median_pct": -1.32,
+      "dunkin_same_store_median_pct": 0.97,
+      "dunkin_stores": 9348,
+      "sbux_minus_dunkin_pp": -2.48,
+      "sbux_share_pct": 78.03,
+      "sbux_share_yoy_pp": -0.09
+    },
+    {
+      "quarter": "FY25 Q4",
+      "start": "2025-06-30",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": -1.0,
+      "reported_us_comp_sales_pct": 0.0,
+      "sbux_co_same_store_median_pct": -0.97,
+      "sbux_co_same_store_aggregate_pct": -1.66,
+      "sbux_co_stores": 8376,
+      "sbux_all_same_store_median_pct": -0.63,
+      "dunkin_same_store_median_pct": 0.79,
+      "dunkin_stores": 9351,
+      "sbux_minus_dunkin_pp": -1.76,
+      "sbux_share_pct": 78.12,
+      "sbux_share_yoy_pp": 0.03
+    },
+    {
+      "quarter": "FY26 Q1",
+      "start": "2025-09-29",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": 3.0,
+      "reported_us_comp_sales_pct": 4.0,
+      "sbux_co_same_store_median_pct": 1.01,
+      "sbux_co_same_store_aggregate_pct": 0.49,
+      "sbux_co_stores": 8467,
+      "sbux_all_same_store_median_pct": 1.38,
+      "dunkin_same_store_median_pct": 0.79,
+      "dunkin_stores": 9330,
+      "sbux_minus_dunkin_pp": 0.21,
+      "sbux_share_pct": 79.09,
+      "sbux_share_yoy_pp": 0.11
+    },
+    {
+      "quarter": "FY26 Q2",
+      "start": "2025-12-29",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": 4.3,
+      "reported_us_comp_sales_pct": 7.1,
+      "sbux_co_same_store_median_pct": 1.3,
+      "sbux_co_same_store_aggregate_pct": 1.17,
+      "sbux_co_stores": 8537,
+      "sbux_all_same_store_median_pct": 2.03,
+      "dunkin_same_store_median_pct": 0.99,
+      "dunkin_stores": 9341,
+      "sbux_minus_dunkin_pp": 0.31,
+      "sbux_share_pct": 79.16,
+      "sbux_share_yoy_pp": 0.11
+    },
+    {
+      "quarter": "FY26 Q3",
+      "start": "2026-03-30",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": 4.2,
+      "reported_us_comp_sales_pct": 7.9,
+      "sbux_co_same_store_median_pct": 1.97,
+      "sbux_co_same_store_aggregate_pct": 2.05,
+      "sbux_co_stores": 8624,
+      "sbux_all_same_store_median_pct": 2.4,
+      "dunkin_same_store_median_pct": 1.38,
+      "dunkin_stores": 9350,
+      "sbux_minus_dunkin_pp": 0.59,
+      "sbux_share_pct": 78.06,
+      "sbux_share_yoy_pp": 0.03
+    },
+    {
+      "quarter": "FY26 Q4",
+      "start": "2026-06-29",
+      "weeks_of_data": 13,
+      "reported_us_comp_transactions_pct": NaN,
+      "reported_us_comp_sales_pct": NaN,
+      "sbux_co_same_store_median_pct": 2.18,
+      "sbux_co_same_store_aggregate_pct": 2.16,
+      "sbux_co_stores": 8708,
+      "sbux_all_same_store_median_pct": 2.65,
+      "dunkin_same_store_median_pct": 1.02,
+      "dunkin_stores": 9350,
+      "sbux_minus_dunkin_pp": 1.16,
+      "sbux_share_pct": 78.14,
+      "sbux_share_yoy_pp": 0.02
+    }
+  ],
+  "fit_sbux_co_same_store_median_pct": {
+    "pearson_r": 0.981,
+    "slope": 2.377,
+    "intercept": 0.425,
+    "mean_gap_reported_minus_advan_pp": 0.42
+  },
+  "fit_sbux_co_same_store_aggregate_pct": {
+    "pearson_r": 0.973,
+    "slope": 1.987,
+    "intercept": 1.297,
+    "mean_gap_reported_minus_advan_pp": 0.86
+  },
+  "fit_sbux_minus_dunkin_pp": {
+    "pearson_r": 0.969,
+    "slope": 2.84,
+    "intercept": 2.76,
+    "mean_gap_reported_minus_advan_pp": 1.24
+  },
+  "fy26_q4_early_read": {
+    "series": "sbux_co_same_store_median_pct",
+    "advan_value": 2.18,
+    "weeks_of_data": 13,
+    "implied_us_comp_transactions_pct": 5.6,
+    "note": "Linear fit on 6 reported quarters; indicative only."
+  }
+}

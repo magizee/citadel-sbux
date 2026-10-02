@@ -1,0 +1,132 @@
+{
+  "metros": 133,
+  "closure_window": "oct2025_wave",
+  "quarters": {
+    "FY25 Q2": {
+      "quarter": "FY25 Q2",
+      "placebo_pre_closure": true,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.0263,
+      "se": 0.0345,
+      "ci95": [
+        -0.0938,
+        0.0412
+      ],
+      "coef_log_size": -0.1682,
+      "spearman_raw": -0.149,
+      "spearman_by_size_tercile": {
+        "small": -0.225,
+        "mid": 0.041,
+        "large": 0.021
+      }
+    },
+    "FY25 Q3": {
+      "quarter": "FY25 Q3",
+      "placebo_pre_closure": true,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.0201,
+      "se": 0.027,
+      "ci95": [
+        -0.073,
+        0.0329
+      ],
+      "coef_log_size": -0.135,
+      "spearman_raw": -0.218,
+      "spearman_by_size_tercile": {
+        "small": -0.233,
+        "mid": -0.179,
+        "large": 0.138
+      }
+    },
+    "FY25 Q4": {
+      "quarter": "FY25 Q4",
+      "placebo_pre_closure": true,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.0218,
+      "se": 0.0241,
+      "ci95": [
+        -0.069,
+        0.0254
+      ],
+      "coef_log_size": -0.1188,
+      "spearman_raw": -0.22,
+      "spearman_by_size_tercile": {
+        "small": -0.303,
+        "mid": -0.197,
+        "large": 0.092
+      }
+    },
+    "FY26 Q1": {
+      "quarter": "FY26 Q1",
+      "placebo_pre_closure": false,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.1017,
+      "se": 0.03,
+      "ci95": [
+        -0.1604,
+        -0.0429
+      ],
+      "coef_log_size": -0.1805,
+      "spearman_raw": -0.426,
+      "spearman_by_size_tercile": {
+        "small": -0.323,
+        "mid": -0.475,
+        "large": -0.229
+      }
+    },
+    "FY26 Q2": {
+      "quarter": "FY26 Q2",
+      "placebo_pre_closure": false,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.1012,
+      "se": 0.0242,
+      "ci95": [
+        -0.1487,
+        -0.0538
+      ],
+      "coef_log_size": -0.1332,
+      "spearman_raw": -0.427,
+      "spearman_by_size_tercile": {
+        "small": -0.224,
+        "mid": -0.449,
+        "large": -0.502
+      }
+    },
+    "FY26 Q3": {
+      "quarter": "FY26 Q3",
+      "placebo_pre_closure": false,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.105,
+      "se": 0.0236,
+      "ci95": [
+        -0.1513,
+        -0.0587
+      ],
+      "coef_log_size": -0.1308,
+      "spearman_raw": -0.51,
+      "spearman_by_size_tercile": {
+        "small": -0.303,
+        "mid": -0.488,
+        "large": -0.485
+      }
+    },
+    "FY26 Q4": {
+      "quarter": "FY26 Q4",
+      "placebo_pre_closure": false,
+      "metros": 112,
+      "coef_pp_per_closure_per_100": -0.0658,
+      "se": 0.0255,
+      "ci95": [
+        -0.1159,
+        -0.0158
+      ],
+      "coef_log_size": -0.1511,
+      "spearman_raw": -0.388,
+      "spearman_by_size_tercile": {
+        "small": -0.151,
+        "mid": -0.35,
+        "large": -0.429
+      }
+    }
+  }
+}
