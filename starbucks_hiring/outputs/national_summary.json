@@ -1,0 +1,83 @@
+{
+  "snapshot_date": "2026-10-01",
+  "total_unique_postings": 19831,
+  "retail_postings": 19687,
+  "non_retail_postings": 144,
+  "unique_stores_represented_all_postings": 10236,
+  "unique_stores_with_retail_posting": 10224,
+  "unique_store_numbers_with_retail_posting": 10212,
+  "retail_postings_per_hiring_store": 1.926,
+  "retail_postings_without_store_key": 187,
+  "median_retail_posting_age_days": 27.0,
+  "mean_retail_posting_age_days": 32.5,
+  "pct_retail_over_30_days": 35.0,
+  "pct_retail_over_60_days": 14.3,
+  "pct_retail_over_90_days": 0.0,
+  "role_mix": {
+    "BARISTA": {
+      "postings": 9484,
+      "share_pct": 48.2
+    },
+    "SHIFT_SUPERVISOR": {
+      "postings": 9995,
+      "share_pct": 50.8
+    },
+    "STORE_MANAGER": {
+      "postings": 190,
+      "share_pct": 1.0
+    },
+    "DISTRICT_MANAGER": {
+      "postings": 5,
+      "share_pct": 0.0
+    },
+    "OTHER_RETAIL": {
+      "postings": 13,
+      "share_pct": 0.1
+    }
+  },
+  "stores_with_barista_opening": {
+    "stores": 9346,
+    "pct_of_hiring_stores": 91.4
+  },
+  "stores_with_shift_supervisor_opening": {
+    "stores": 9931,
+    "pct_of_hiring_stores": 97.1
+  },
+  "stores_with_store_manager_opening": {
+    "stores": 8,
+    "pct_of_hiring_stores": 0.1
+  },
+  "stores_with_multiple_role_types": {
+    "stores": 9066,
+    "pct_of_hiring_stores": 88.7
+  },
+  "stores_with_barista_supervisor_and_manager": {
+    "stores": 0,
+    "pct_of_hiring_stores": 0.0
+  },
+  "leadership_postings": 195,
+  "leadership_vacancy_intensity_national": 0.0191,
+  "states_with_postings": 51,
+  "ranking_thresholds": {
+    "min_hiring_stores_state": 30,
+    "min_hiring_stores_city": 15
+  },
+  "store_patterns": {
+    "stores": 10224,
+    "flag_counts": {
+      "flag_same_role_duplicate": 185,
+      "flag_3plus_role_types": 0,
+      "flag_barista_supervisor_manager": 0,
+      "flag_manager_plus_multiple_frontline": 0,
+      "flag_old_for_role": 1688,
+      "flag_high_postings": 19,
+      "flag_unusual_role_set": 13,
+      "flag_nonstandard_location": 12
+    },
+    "markets_meeting_threshold": 121,
+    "thresholds": {
+      "min_stores_state": 30,
+      "min_stores_city": 15
+    }
+  }
+}

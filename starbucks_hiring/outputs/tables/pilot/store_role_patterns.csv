@@ -1,0 +1,121 @@
+store_key,store_number,store_name,city,state,active_postings,max_days_open,n_locations_max,BARISTA,SHIFT_SUPERVISOR,STORE_MANAGER,DISTRICT_MANAGER,OTHER_RETAIL,n_role_types,role_set,max_same_role_postings,duplicate_roles,postings_older_than_role_p90,flag_same_role_duplicate,flag_3plus_role_types,flag_barista_supervisor_manager,flag_manager_plus_multiple_frontline,flag_old_for_role,flag_high_postings,flag_unusual_role_set,flag_nonstandard_location,n_flags
+addr:61 9th ave|new york|NY,,,New York,NY,10,80.0,1,4,0,0,0,6,2,BARISTA + OTHER_RETAIL,6,"Bx4,OTHERx6",2,True,False,False,False,True,True,False,True,4
+addr:28 summit street|brooklyn|NY,,,Brooklyn,NY,2,20.0,1,0,0,0,0,2,1,OTHER_RETAIL,2,OTHERx2,0,True,False,False,False,False,False,True,True,3
+store:57845,57845,Empire State Building,New York,NY,4,64.0,1,1,0,0,0,3,2,BARISTA + OTHER_RETAIL,3,OTHERx3,0,True,False,False,False,False,True,False,False,2
+store:20161,20161,Macys Herald Square Mezzanine,New York,NY,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:07244,07244,BATTERY PARK,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:07282,07282,49TH & 7TH,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:07704,07704,ATLANTIC CENTER PLAZA,Brooklyn,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:07878,07878,WATER & MAIDEN,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:08812,08812,39TH & PARK,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,2,False,False,False,False,True,False,False,False,1
+store:09368,09368,MAIN STREET,Brooklyn,NY,2,75.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:16255,16255,3RD & FIRST,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:20185,20185,23RD & 1ST,New York,NY,2,39.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:50622,50622,774 BROADWAY,Brooklyn,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,2,False,False,False,False,True,False,False,False,1
+store:58455,58455,43RD ST & 11TH AVE,New York,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:62547,62547,MANHATTAN WEST,New York,NY,2,54.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:62869,62869,MOYNIHAN TRAIN STATION- 8TH AVE,New York,NY,2,81.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:82525,82525,BOND & FULTON,Brooklyn,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:88940,88940,11TH & 7TH - FORMERLY RESERVE,New York,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,2,False,False,False,False,True,False,False,False,1
+store:70726,70726,PENN STATION,New York,NY,1,60.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:00844,00844,MONTAGUE STREET,Brooklyn,NY,2,21.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:00849,00849,38 PARK ROW,New York,NY,2,49.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:02785,02785,47TH & EIGHTH,New York,NY,2,38.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:03421,03421,WEST 23 & 8 TH,New York,NY,2,72.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07255,07255,8TH & 16TH,New York,NY,2,21.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07277,07277,23RD & PARK,New York,NY,2,21.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07285,07285,22ND & 6TH,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07348,07348,HOBOKEN NEWARK STREET,Hoboken,NJ,2,21.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07358,07358,COURT STREET,Brooklyn,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07370,07370,3RD & 48TH,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07378,07378,UNION SQUARE,New York,NY,2,60.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07383,07383,JERSEY CITY- WATERFRONT,Jersey City,NJ,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07393,07393,49TH & 8TH-WORLD WIDE PLAZA,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07403,07403,35TH & 7TH,New York,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07416,07416,55 BROAD STREET,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07426,07426,575 FIFTH AVENUE,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07427,07427,29TH & PARK,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07444,07444,SUBWAY @ ROCKERFELLER CTR,New York,NY,2,74.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07462,07462,45TH & 5TH,New York,NY,2,68.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07466,07466,CHAMBERS & WEST BROADWAY,New York,NY,2,79.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07470,07470,35TH AND 8TH,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07489,07489,HOBOKEN 2,Hoboken,NJ,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07493,07493,100 WILLIAM STREET,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07497,07497,BROADWAY & BOND,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07506,07506,150 E. 42ND STREET,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07511,07511,525 SEVENTH AVENUE,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07626,07626,SPRING AND VARICK,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07781,07781,LAFAYETTE & WORTH,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07792,07792,27TH & SIXTH,New York,NY,2,71.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07800,07800,GRAND CENTRAL TERMINAL,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07802,07802,50TH & LEXINGTON,New York,NY,2,75.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07858,07858,STUYVESANT TOWN,New York,NY,2,19.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07920,07920,2 BROADWAY CAFE,New York,NY,2,14.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:08769,08769,WEST 43RD & BROADWAY,New York,NY,2,14.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:08992,08992,54TH & BROADWAY,New York,NY,2,35.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:09239,09239,1290 AVENUE OF THE AMERICAS,New York,NY,2,35.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:09467,09467,43RD & NINTH,New York,NY,2,54.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:09722,09722,31ST AND SIXTH AVENUE,New York,NY,2,35.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:10044,10044,ALLEN & DELANCEY,New York,NY,2,35.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:10282,10282,PEARL & HANOVER,New York,NY,2,35.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:10784,10784,35TH & 5TH,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:11736,11736,50TH & MADISON,New York,NY,2,40.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:11737,11737,MADISON & 44TH,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:11807,11807,"164 SMITH ST, BKLYN",Brooklyn,NY,2,32.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:11809,11809,"POLYTECHNIC UNIVERSITY, METRO TECH",Brooklyn,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:13350,13350,GROVE POINT,Jersey City,NJ,2,32.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:13538,13538,SEVENTH & 27TH,New York,NY,2,47.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:14318,14318,NASSAU & FULTON,New York,NY,2,79.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:14479,14479,"HOBOKEN, WASHINGTON ST.",Hoboken,NJ,2,32.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:14841,14841,CHURCH STREET & MURRAY,New York,NY,2,72.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:15440,15440,43rd & 6th AVENUE OF THE AMERICAS,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:15461,15461,JACKSON SQUARE,New York,NY,2,32.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:15751,15751,WEST BROADWAY & LEONARD STREET,New York,NY,2,75.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:16576,16576,36TH & 6TH AVE,New York,NY,2,32.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:16628,16628,26TH & BROADWAY,New York,NY,2,21.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:17452,17452,LEX BTWN 24-25 STS,New York,NY,2,32.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:17738,17738,53RD & SIXTH,New York,NY,2,73.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:17862,17862,JERSEY CITY,Jersey City,NJ,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:19024,19024,53RD & MAD,New York,NY,2,56.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:19500,19500,NEWPORT CENTRE-L1 CENTER CT,Jersey City,NJ,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:22420,22420,425 LEXINGTON,New York,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:22596,22596,154 N SEVENTH ST,Brooklyn,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:23044,23044,11 PENN PLAZA,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:24485,24485,53RD AND THIRD,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:25273,25273,WORLD TRADE CENTER OCULUS,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:26528,26528,6TH AVE BETWEEN 39TH AND 40TH,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:27446,27446,Journal Square,Jersey City,NJ,2,31.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:27849,27849,CARLISLE AND WASHINGTON,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:29719,29719,4th Ave. & Union St.,Brooklyn,NY,2,45.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:29856,29856,7TH AVE. & 9TH ST.,Brooklyn,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:29896,29896,31ST AND PARK,New York,NY,2,49.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:29897,29897,40TH & THIRD AVENUE,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:47020,47020,BROOKFIELD PLACE 2,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:48170,48170,4TH AVE. & 11TH ST.-PARK SLOPE,Brooklyn,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:48421,48421,40TH & BROADWAY,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:48990,48990,Avenue A & St. Marks,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:49234,49234,48TH BTWN 5TH & 6TH,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:49550,49550,Broadway & 45th,New York,NY,2,29.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:49952,49952,33RD AND 10TH,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:53473,53473,BROADWAY & EXCHANGE PL.,New York,NY,2,66.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:54446,54446,LAFAYETTE AVE & GRAND AVE,Brooklyn,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:55085,55085,PENN STATION - AMTRAK,New York,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:56451,56451,34TH & 1ST,New York,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:59524,59524,678 HUDSON STREET,New York,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:62223,62223,BROOKFIELD PLACE 1 - LOBBY,New York,NY,2,26.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:63280,63280,VERNON BLVD & 50TH AVE,Long Island City,NY,2,25.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:65313,65313,PICKUP- 13TH & UNIVERSITY,New York,NY,2,25.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:65421,65421,35 HUDSON YARDS,New York,NY,2,25.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:70231,70231,46TH & PARK,New York,NY,2,23.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:71892,71892,50 HUDSON YARDS - CONCOURSE,New York,NY,2,23.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:78760,78760,ONE LIBERTY PLAZA,New York,NY,2,23.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:85278,85278,104 JAY ST,Brooklyn,NY,2,42.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:85552,85552,ROCKEFELLER CENTER RINK LEVEL,New York,NY,2,28.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:07608,07608,48TH AND LEXINGTON,New York,NY,1,21.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:10841,10841,55TH & LEXINGTON,New York,NY,1,3.0,1,1,0,0,0,0,1,BARISTA,1,,0,False,False,False,False,False,False,False,False,0
+store:16676,16676,PORT AUTHORITY - CONCOURSE LVL,New York,NY,1,29.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:18858,18858,UNION AVE - BKLYN,Brooklyn,NY,1,29.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:20154,20154,99 WALL ST,New York,NY,1,29.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:53880,53880,NASSAU AVE & LORIMER ST,Brooklyn,NY,1,11.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0
+store:63901,63901,PICKUP - 5THÂ AVE BTWN 41STÂ & 42ND,New York,NY,1,25.0,1,1,0,0,0,0,1,BARISTA,1,,0,False,False,False,False,False,False,False,False,0
+store:66212,66212,40TH & 8TH,New York,NY,1,23.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,0,False,False,False,False,False,False,False,False,0

@@ -1,0 +1,79 @@
+{
+  "snapshot_date": "2026-10-01",
+  "total_unique_postings": 250,
+  "retail_postings": 243,
+  "non_retail_postings": 7,
+  "unique_stores_represented_all_postings": 122,
+  "unique_stores_with_retail_posting": 120,
+  "unique_store_numbers_with_retail_posting": 118,
+  "retail_postings_per_hiring_store": 2.025,
+  "retail_postings_without_store_key": 1,
+  "median_retail_posting_age_days": 28.0,
+  "mean_retail_posting_age_days": 32.7,
+  "pct_retail_over_30_days": 31.3,
+  "pct_retail_over_60_days": 12.3,
+  "pct_retail_over_90_days": 0.0,
+  "role_mix": {
+    "BARISTA": {
+      "postings": 116,
+      "share_pct": 47.7
+    },
+    "SHIFT_SUPERVISOR": {
+      "postings": 115,
+      "share_pct": 47.3
+    },
+    "STORE_MANAGER": {
+      "postings": 1,
+      "share_pct": 0.4
+    },
+    "DISTRICT_MANAGER": {
+      "postings": 0,
+      "share_pct": 0.0
+    },
+    "OTHER_RETAIL": {
+      "postings": 11,
+      "share_pct": 4.5
+    }
+  },
+  "stores_with_barista_opening": {
+    "stores": 112,
+    "pct_of_hiring_stores": 93.3
+  },
+  "stores_with_shift_supervisor_opening": {
+    "stores": 115,
+    "pct_of_hiring_stores": 95.8
+  },
+  "stores_with_store_manager_opening": {
+    "stores": 0,
+    "pct_of_hiring_stores": 0.0
+  },
+  "stores_with_multiple_role_types": {
+    "stores": 110,
+    "pct_of_hiring_stores": 91.7
+  },
+  "stores_with_barista_supervisor_and_manager": {
+    "stores": 0,
+    "pct_of_hiring_stores": 0.0
+  },
+  "leadership_postings": 1,
+  "leadership_vacancy_intensity_national": 0.0083,
+  "states_with_postings": 2,
+  "ranking_thresholds": {
+    "min_hiring_stores_state": 30,
+    "min_hiring_stores_city": 15
+  },
+  "label": "NYC PILOT \u2014 NOT NATIONALLY REPRESENTATIVE",
+  "stores_with_same_role_duplicate": 4,
+  "stores_with_manager_posting": 0,
+  "stores_standard_1B_1SS_only": 107,
+  "pattern_flags": {
+    "flag_same_role_duplicate": 4,
+    "flag_3plus_role_types": 0,
+    "flag_barista_supervisor_manager": 0,
+    "flag_manager_plus_multiple_frontline": 0,
+    "flag_old_for_role": 16,
+    "flag_high_postings": 2,
+    "flag_unusual_role_set": 1,
+    "flag_nonstandard_location": 2
+  }
+}

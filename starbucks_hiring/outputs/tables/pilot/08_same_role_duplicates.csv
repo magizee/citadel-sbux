@@ -1,0 +1,5 @@
+store_key,store_name,city,state,role_set,duplicate_roles,active_postings
+addr:61 9th ave|new york|NY,,New York,NY,BARISTA + OTHER_RETAIL,"Bx4,OTHERx6",10
+addr:28 summit street|brooklyn|NY,,Brooklyn,NY,OTHER_RETAIL,OTHERx2,2
+store:57845,Empire State Building,New York,NY,BARISTA + OTHER_RETAIL,OTHERx3,4
+store:20161,Macys Herald Square Mezzanine,New York,NY,BARISTA + SHIFT_SUPERVISOR,Bx2,3

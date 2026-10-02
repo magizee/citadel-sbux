@@ -1,0 +1,41 @@
+position_id,job_id,title,role,store_number,state,location,posted_ts,days_open,reason
+481079197504,260052636,"store manager - Fairbanks, AK",STORE_MANAGER,,AK,"Fairbanks, Alaska, United States",1785971784,57,leadership
+481079409199,260054912,"store manager - Clearwater, FL",STORE_MANAGER,,FL,"Clearwater, Florida, United States",1787581147,38,leadership
+481079562832,260057140,"store manager, Tulsa",STORE_MANAGER,,OK,"Tulsa, Oklahoma, United States",1787785517,36,leadership
+481079350012,260053526,store manager- Baltimore & Surrounding Areas,STORE_MANAGER,,MD,"Baltimore, Maryland, United States",1788358168,29,leadership
+481079483463,260056127,"store manager, Downtown Miami",STORE_MANAGER,,FL,"Miami, Florida, United States",1788374752,29,leadership
+481080057795,260059785,"store manager - Mount Vernon/Burlington, WA",STORE_MANAGER,,WA,"Mount Vernon, Washington, United States",1788902543,23,leadership
+481080752621,260071471,"store manager, Odessa, Pecos, Monahans",STORE_MANAGER,,TX,"Odessa, Texas, United States",1788876341,23,leadership
+481080755538,260071502,"store manager - Issaquah/Sammamish, WA",STORE_MANAGER,,WA,"Issaquah, Washington, United States",1788898009,23,leadership
+481080677795,260065394,"barista - Store# 03364, SOUTHCENTER MALL CENTER",BARISTA,03364,WA,"506 Southcenter Mall, Southcenter Mall, Seattle, Washington, United States",1788321600,29,same-role duplicate at a store
+481080698469,260066916,"barista - Store# 03364, SOUTHCENTER MALL CENTER",BARISTA,03364,WA,"506 Southcenter Mall, Southcenter Mall, Seattle, Washington, United States",1788321600,29,same-role duplicate at a store
+481080698537,260066947,"barista - Store# 08732, MLK Jr Blvd & E23rd St",BARISTA,08732,FL,"2269 Martin Luther King Jr Blvd, Panama City, Florida, United States",1788321600,29,same-role duplicate at a store
+481080677637,260065425,"barista - Store# 08732, MLK Jr Blvd & E23rd St",BARISTA,08732,FL,"2269 Martin Luther King Jr Blvd, Panama City, Florida, United States",1788321600,29,same-role duplicate at a store
+481080699523,260067736,"barista - Store# 09516, SR 436 & US 17-92",BARISTA,09516,FL,"168 Semoran Blvd, Casselberry Exchange Shopping Center, Casselberry, Florida, United States",1788321600,29,same-role duplicate at a store
+481080679004,260066214,"barista - Store# 09516, SR 436 & US 17-92",BARISTA,09516,FL,"168 Semoran Blvd, Casselberry Exchange Shopping Center, Casselberry, Florida, United States",1788321600,29,same-role duplicate at a store
+481079230095,260052994,"shift supervisor - Store# 09649, 119TH & BLACKBOB",SHIFT_SUPERVISOR,09649,KS,"14605 W 119th St, Olathe Pointe, Olathe, Kansas, United States",1783137600,89,oldest posting
+481079230233,260053121,"barista - Store# 03388, GIG HARBOR DT",BARISTA,03388,WA,"5001 Olympic Dr, Ste 103, Gig Harbor, Washington, United States",1783137600,89,oldest posting
+481079230105,260053016,"barista - Store# 09623, SCOTTSDALE & MCKELLIPS",BARISTA,09623,AZ,"1926 N. Scottsdale Rd., Tempe, Arizona, United States",1783137600,89,oldest posting
+481079230139,260053043,"barista - Store# 05791, RIO GRANDE BLVD & I-40",BARISTA,05791,NM,"1000 Rio Grande Blvd., Rio Grande Plaza Suite A-190, Albuquerque, New Mexico, United States",1783137600,89,oldest posting
+481079230187,260053084,"shift supervisor - Store# 22479, HWY 423 & 720",SHIFT_SUPERVISOR,22479,TX,"2170 FM 423, 100, Little Elm, Texas, United States",1783137600,89,oldest posting
+481079230131,260053028,"barista - Store# 08812, 39TH & PARK",BARISTA,08812,NY,"90 Park Ave, New York, New York, United States",1783137600,89,oldest posting
+481080964888,260078898,"barista - Store# 68422, HUFFMAN & OLD SEWARD",BARISTA,68422,AK,"1160 Huffman Park Drive, A, Anchorage, Alaska, United States",1790049600,9,geographic spread (AK)
+481081029595,260080008,"shift supervisor - Store# 24936, 100TH & C ST - ANCHORAGE",SHIFT_SUPERVISOR,24936,AK,"320 W. 100th Ave, 100, Anchorage, Alaska, United States",1790481600,4,geographic spread (AK)
+481081091600,260080496,"barista - Store# 65857, HWY 231 & JOHN WITHERINGTON DR.",BARISTA,65857,AL,"1301 US Hwy 231 S, Suite 33, Troy, Alabama, United States",1790740800,1,geographic spread (AL)
+481081098031,260080782,"shift supervisor - Store# 03478, GREYSTONE/HWY 280 & 119",SHIFT_SUPERVISOR,03478,AL,"5405 Highway 280, Birmingham, Alabama, United States",1790740800,1,geographic spread (AL)
+481081029817,260080106,"barista - Store# 10483, COLLEGE & JOYCE",BARISTA,10483,AR,"3901 Shiloh Drive, Fayetteville, Arkansas, United States",1790481600,4,geographic spread (AR)
+481081029824,260080105,"shift supervisor - Store# 85461, US 71 & PARK RD",SHIFT_SUPERVISOR,85461,AR,"3850 Park South Road, Fort Smith, Arkansas, United States",1790481600,4,geographic spread (AR)
+481081091833,260080689,"barista - Store# 68718, ARIZONA & WARNER",BARISTA,68718,AZ,"2130 N Arizona Ave, Chandler, Arizona, United States",1790740800,1,geographic spread (AZ)
+481081091627,260080512,"shift supervisor - Store# 66264, YUMA AND COTTON",SHIFT_SUPERVISOR,66264,AZ,"895 S Cotton Ln, Goodyear, Arizona, United States",1790740800,1,geographic spread (AZ)
+481081091736,260080603,"barista - Store# 26248, Main & The 15",BARISTA,26248,CA,"12693 Main St, Hesperia, California, United States",1790740800,1,geographic spread (CA)
+481081091750,260080621,"shift supervisor - Store# 09627, JURUPA & I-15",SHIFT_SUPERVISOR,09627,CA,"4880 E. Motor Lane, B, Ontario, California, United States",1790740800,1,geographic spread (CA)
+481081059111,260080268,"barista - Store# 26930, SILVERTHORNE - RAINBOW AND I-70",BARISTA,26930,CO,"246 Rainbow Dr, O-1, Silverthorne, Colorado, United States",1790568000,3,geographic spread (CO)
+481081059248,260080358,"shift supervisor - Store# 78301, DUBLIN AND AUSTIN BLUFFS",SHIFT_SUPERVISOR,78301,CO,"6905 Austin Bluffs Pkwy, Colorado Springs, Colorado, United States",1790568000,3,geographic spread (CO)
+481081091688,260080567,"barista - Store# 57877, OKEECHOBEE ROAD & JENKINS RD",BARISTA,57877,FL,"5550 Okeechobee Rd, Fort Pierce, Florida, United States",1790740800,1,geographic spread (FL)
+481081091708,260080582,"shift supervisor - Store# 08399, ATLANTIC & HODGES",SHIFT_SUPERVISOR,08399,FL,"13315 Atlantic Blvd, Jacksonville, Florida, United States",1790740800,1,geographic spread (FL)
+481081091733,260080608,"barista - Store# 71753, GRAYSON HWY & ROSEBUD",BARISTA,71753,GA,"1890 Grayson Hwy, Grayson, Georgia, United States",1790740800,1,geographic spread (GA)
+481081091799,260080661,"shift supervisor - Store# 08512, ABERNATHY SQUARE",SHIFT_SUPERVISOR,08512,GA,"6681 Roswell Rd, Abernathy Square, Ste K, Atlanta, Georgia, United States",1790740800,1,geographic spread (GA)
+481080699170,260067500,"barista - Store# 11259, PONDERAY PLAZA- PONDERAY",BARISTA,11259,ID,"477100 N Hwy 95, Suite E, Ponderay, Idaho, United States",1788321600,29,geographic spread (ID)
+481080891007,260077390,"shift supervisor - Store# 11259, PONDERAY PLAZA- PONDERAY",SHIFT_SUPERVISOR,11259,ID,"477100 N Hwy 95, Suite E, Ponderay, Idaho, United States",1789617600,14,geographic spread (ID)
+481081029472,260079960,"barista - Store# 85492, S PARK AVE & RAILROAD AVE",BARISTA,85492,IL,"1712 S Park Ave, Herrin, Illinois, United States",1790481600,4,geographic spread (IL)
+481081029358,260079906,"shift supervisor - Store# 85492, S PARK AVE & RAILROAD AVE",SHIFT_SUPERVISOR,85492,IL,"1712 S Park Ave, Herrin, Illinois, United States",1790481600,4,geographic spread (IL)

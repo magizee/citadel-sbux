@@ -1,0 +1,17 @@
+job_id,position_id,job_url,job_title_raw,role_bucket,store_number,store_key,city,state,posted_date,days_since_posted,reason
+260053048,481079230147,https://apply.starbucks.com/careers/job/481079230147,"barista - Store# 07878, WATER & MAIDEN",BARISTA,07878,store:07878,New York,NY,2026-07-04,89,oldest active retail posting
+260053028,481079230131,https://apply.starbucks.com/careers/job/481079230131,"barista - Store# 08812, 39TH & PARK",BARISTA,08812,store:08812,New York,NY,2026-07-04,89,oldest active retail posting
+260053008,481079230106,https://apply.starbucks.com/careers/job/481079230106,"barista - Store# 07244, BATTERY PARK",BARISTA,07244,store:07244,New York,NY,2026-07-04,89,oldest active retail posting
+260052976,481079230065,https://apply.starbucks.com/careers/job/481079230065,"barista - Store# 07282, 49TH & 7TH",BARISTA,07282,store:07282,New York,NY,2026-07-04,89,oldest active retail posting
+260053180,481079230288,https://apply.starbucks.com/careers/job/481079230288,"barista - Store# 16255, 3RD & FIRST",BARISTA,16255,store:16255,New York,NY,2026-07-04,89,oldest active retail posting
+260053041,481079230144,https://apply.starbucks.com/careers/job/481079230144,"barista - Store# 50622, 774 BROADWAY",BARISTA,50622,store:50622,Brooklyn,NY,2026-07-04,89,oldest active retail posting
+260079610,481081007145,https://apply.starbucks.com/careers/job/481081007145,store manager,STORE_MANAGER,,,Jersey City,NJ,2026-09-25,6,leadership posting
+260055818,481079464084,https://apply.starbucks.com/careers/job/481079464084,"baker, Kitchen - New York Roastery",OTHER_RETAIL,,addr:61 9th ave|new york|NY,New York,NY,2026-07-13,80,store with unusual role set / same-role duplicates
+260055823,481079464479,https://apply.starbucks.com/careers/job/481079464479,"barista, Back of House - New York Reserve Roastery",BARISTA,,addr:61 9th ave|new york|NY,New York,NY,2026-07-13,80,store with unusual role set / same-role duplicates
+260055831,481079464675,https://apply.starbucks.com/careers/job/481079464675,"mixologist (bartender), New York Reserve Roastery",OTHER_RETAIL,,addr:61 9th ave|new york|NY,New York,NY,2026-07-13,80,store with unusual role set / same-role duplicates
+260055827,481079464670,https://apply.starbucks.com/careers/job/481079464670,"barista, Experience Bar - New York Reserve Roastery",BARISTA,,addr:61 9th ave|new york|NY,New York,NY,2026-07-13,80,store with unusual role set / same-role duplicates
+260058003,481079724272,https://apply.starbucks.com/careers/job/481079724272,"barista, Retail - New York Reserve Roastery",BARISTA,,addr:61 9th ave|new york|NY,New York,NY,2026-07-24,69,store with unusual role set / same-role duplicates
+260074062,481080813722,https://apply.starbucks.com/careers/job/481080813722,"shift supervisor - Store# 07244, BATTERY PARK",SHIFT_SUPERVISOR,07244,store:07244,New York,NY,2026-09-12,19,standard multi-posting store (control)
+260074479,481080820095,https://apply.starbucks.com/careers/job/481080820095,"shift supervisor - Store# 07282, 49TH & 7TH",SHIFT_SUPERVISOR,07282,store:07282,New York,NY,2026-09-13,18,standard multi-posting store (control)
+260080458,481081085130,https://apply.starbucks.com/careers/job/481081085130,construction manager - Northeast,NON_RETAIL,,,New York,NY,2026-09-30,1,non-retail control
+260032463,481078119968,https://apply.starbucks.com/careers/job/481078119968,"group manager, Influencers (New York City or Seattle - U.S.)",NON_RETAIL,,"addr:350 fifth avenue - empire state building, 105|new york|NY",New York,NY,2026-09-11,20,non-retail control

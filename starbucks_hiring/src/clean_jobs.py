@@ -23,6 +23,7 @@ import json
 import re
 
 import pandas as pd
+from zoneinfo import ZoneInfo
 
 from common import haversine_km, load_config, processed_dir, raw_dir, today_str
 
@@ -30,7 +31,8 @@ CLEAN_COLUMNS = [
     "snapshot_date", "job_id", "job_url", "job_title_raw", "role_bucket",
     "store_number", "store_name", "street_address", "city", "state",
     "postal_code", "country", "posted_text", "posted_ts_raw", "posted_date",
-    "days_since_posted", "latitude", "longitude",
+    "days_since_posted", "fetched_date", "creation_ts_raw", "req_created_date", "req_age_days",
+    "reposted_requisition", "latitude", "longitude",
     # Provenance / helper columns
     "position_id", "dedup_key", "store_key", "department", "work_location_option",
     "location_raw", "n_locations", "all_states", "search_ids", "n_searches",
@@ -72,13 +74,15 @@ def parse_title(title: str) -> tuple[str, str | None, str | None]:
 # Order matters: more specific titles are tested first.
 ROLE_RULES = [
     ("DISTRICT_MANAGER", ["district manager", "district leader"]),
-    ("STORE_MANAGER", ["assistant store manager", "store manager", "coffeehouse leader", "store leader"]),
+    # "Coffeehouse coach" is Starbucks' assistant-store-manager title (Niccol, Q1 FY26 call, 2026-01-28).
+    ("STORE_MANAGER", ["assistant store manager", "store manager", "coffeehouse leader", "store leader",
+                       "coffeehouse coach"]),
     ("SHIFT_SUPERVISOR", ["shift supervisor", "shift manager"]),
     ("BARISTA", ["barista"]),
 ]
 
 # Other in-store hourly roles, mostly at Reserve Roasteries / Reserve stores.
-OTHER_RETAIL_TITLES = ["mixologist", "operations lead", "baker", "porter", "coffeehouse coach"]
+OTHER_RETAIL_TITLES = ["mixologist", "operations lead", "baker", "porter"]
 
 # Job functions (the API's `department`) that indicate store/field retail work
 # even when the title has no store number.
@@ -100,6 +104,12 @@ def role_bucket(title: str, department: str | None, store_number: str | None) ->
         if any(n in t for n in needles):
             return bucket
     dept = department.strip().lower() if isinstance(department, str) else ""
+    # Fallback on the job function when the title is non-standard (e.g. "mgr district- Fresno").
+    dept_bucket = {"district manager": "DISTRICT_MANAGER", "coffeehouse leader": "STORE_MANAGER",
+                   "coffeehouse coach": "STORE_MANAGER", "store manager": "STORE_MANAGER",
+                   "assistant store manager": "STORE_MANAGER"}.get(dept)
+    if dept_bucket:
+        return dept_bucket
     title_is_store_role = any(t.startswith(n) for n in OTHER_RETAIL_TITLES)
     if store_number or title_is_store_role or dept in RETAIL_DEPARTMENTS:
         return "OTHER_RETAIL"
@@ -193,7 +203,7 @@ def choose_location(locs: list, stds: list, latlong: dict, centres: list[tuple])
     for i, loc in enumerate(locs):
         ll = latlong.get(_norm_addr(loc))
         d = min(haversine_km(c[0], c[1], ll[0], ll[1]) for c in centres) if ll else float("inf")
-        key = (round(d), i)
+        key = (round(d) if d != float("inf") else 10**9, i)   # locations without coordinates rank last
         if best_key is None or key < best_key:
             best, best_key = i, key
     return best
@@ -203,12 +213,32 @@ def choose_location(locs: list, stds: list, latlong: dict, centres: list[tuple])
 # Posting dates
 # --------------------------------------------------------------------------- #
 
-def posting_dates(posted_ts, snapshot: dt.date):
-    """Canonical posting date = backend postedTs (Unix seconds, UTC date)."""
-    if pd.isna(posted_ts) or not str(posted_ts).strip():
+ET = ZoneInfo("America/New_York")
+
+
+def et_date(iso_or_ts) -> dt.date | None:
+    """Calendar date in U.S. Eastern time from a Unix timestamp or an ISO-8601 string."""
+    if iso_or_ts is None or (isinstance(iso_or_ts, float) and pd.isna(iso_or_ts)) or str(iso_or_ts).strip() == "":
+        return None
+    s = str(iso_or_ts)
+    if re.fullmatch(r"\d+(\.\d+)?", s):
+        t = dt.datetime.fromtimestamp(int(float(s)), dt.timezone.utc)
+    else:
+        t = dt.datetime.fromisoformat(s)
+    return t.astimezone(ET).date()
+
+
+def posting_dates(posted_ts, as_of: dt.date):
+    """Canonical posting date = backend postedTs as an Eastern-time date.
+
+    Eastern, not UTC: frontline batches post at 00:00 ET (04:00 UTC), but store-manager
+    postings carry individual timestamps, and evening-ET postings fall on the next UTC day.
+    as_of is the date the posting was fetched (the scrape can cross midnight).
+    """
+    d = et_date(posted_ts)
+    if d is None:
         return None, None
-    d = dt.datetime.fromtimestamp(int(float(posted_ts)), dt.timezone.utc).date()
-    return d, (snapshot - d).days
+    return d, (as_of - d).days
 
 
 REL_RE = re.compile(
@@ -270,7 +300,15 @@ def clean_raw(raw: pd.DataFrame, latlong: dict, job_url_base: str) -> pd.DataFra
         loc = parse_location(loc_raw, stds[i] if stds else None)
         all_states = sorted({s for s in (parse_location(l, sd)["state"] for l, sd in zip(locs, stds)) if s})
         role_text, store_no, store_name = parse_title(r["name"])
-        posted_date, days_since = posting_dates(r.posted_ts, snapshot)
+        # Age is measured from the date this posting was first fetched (Eastern time).
+        fetched = min((et_date(x) for x in grp.fetched_at if isinstance(x, str)), default=None) or snapshot
+        posted_date, days_since = posting_dates(r.posted_ts, fetched)
+        # Requisition age: creationTs is the requisition's original creation time and is
+        # NOT reset when an old requisition is re-posted (postedTs is). A posting whose
+        # postedTs is > 7 days after creationTs is a re-posted older requisition.
+        req_created = et_date(r.creation_ts)
+        req_age = (fetched - req_created).days if req_created else None
+        reposted = bool(req_created and posted_date and (posted_date - req_created).days > 7)
         lat, lon = latlong.get(_norm_addr(loc_raw), (None, None)) if loc_raw else (None, None)
         job_id = str(r._job_id) if r._job_id else None
         # Store-level join key: store number when present; otherwise the
@@ -296,6 +334,11 @@ def clean_raw(raw: pd.DataFrame, latlong: dict, job_url_base: str) -> pd.DataFra
             "posted_ts_raw": r.posted_ts,
             "posted_date": posted_date.isoformat() if posted_date else None,
             "days_since_posted": days_since,
+            "fetched_date": fetched.isoformat(),
+            "creation_ts_raw": r.creation_ts,
+            "req_created_date": req_created.isoformat() if req_created else None,
+            "req_age_days": req_age,
+            "reposted_requisition": reposted,
             "latitude": lat,
             "longitude": lon,
             "position_id": r.position_id,
@@ -311,6 +354,7 @@ def clean_raw(raw: pd.DataFrame, latlong: dict, job_url_base: str) -> pd.DataFra
         })
     df = pd.DataFrame(rows, columns=CLEAN_COLUMNS)
     df["days_since_posted"] = df["days_since_posted"].astype("Int64")
+    df["req_age_days"] = df["req_age_days"].astype("Int64")
     # Different position_ids can share a job_id (re-posted requisitions):
     # keep one row per dedup_key.
     return df.drop_duplicates(subset="dedup_key", keep="first").reset_index(drop=True)

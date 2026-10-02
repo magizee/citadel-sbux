@@ -1,0 +1,74 @@
+========================================================================
+NATIONAL MERGE REPORT  run=starbucks_jobs_US  snapshot=2026-10-01
+========================================================================
+Searches                  : 395  {'complete': 249, 'empty': 117, 'no_us_results': 20, 'split': 9}
+Incomplete/capped searches: 0 []
+Leaf searches with truncated coordinate facet: 0 []
+Discovery rows            : 42142
+Unique postings (all)     : 21557
+Unique postings (US)      : 19831
+Raw duplicate rate        : 48.8% (mean searches per posting 1.95)
+Unique stores (store_number): 10212  | store_keys: 10236
+Missing lat/long (US)     : 0.0%
+Server national count     : 19674  -> collected 100.8%
+
+Postings by state (assigned from each posting's own address):
+       postings  stores  retail
+state                          
+CA         4083    2148    4083
+TX         1824     959    1824
+FL         1228     636    1227
+NY         1019     516    1014
+IL          887     457     884
+WA          739     349     678
+VA          575     299     574
+PA          558     283     553
+AZ          551     282     551
+NC          521     272     521
+OH          503     262     503
+CO          455     238     455
+GA          454     234     453
+NJ          443     224     443
+MA          409     207     409
+IN          358     188     358
+MI          358     179     358
+TN          357     154     300
+OR          329     168     329
+MD          328     172     328
+WI          309     155     309
+SC          298     158     295
+NV          295     151     291
+MO          253     131     253
+MN          228     116     228
+CT          207     108     206
+AL          178      97     178
+OK          175      94     175
+KY          166      88     166
+LA          150      79     150
+UT          150      76     150
+NM          145      74     145
+HI          134      67     134
+KS          131      68     131
+IA          122      62     122
+AR          105      56     105
+ID           99      50      99
+NE           93      47      93
+DC           71      37      71
+NH           70      33      70
+MS           68      34      68
+WV           61      32      61
+ME           54      26      54
+DE           48      25      48
+RI           47      25      47
+MT           46      22      46
+SD           45      23      45
+ND           35      18      35
+AK           24      12      24
+VT           22      10      22
+WY           21      11      21
+
+States with no postings   : none
+States below 25 postings: ['AK', 'VT', 'WY']
+Postings listing several states (assigned to primary location): 21
+
+Wrote /Users/maggiezhu/Code/citadel-sbux/starbucks_hiring/data/processed/2026-10-01/starbucks_jobs_US.csv and by_state/*.csv (store/market summaries: analyze.py)

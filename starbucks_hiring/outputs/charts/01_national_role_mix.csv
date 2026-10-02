@@ -1,0 +1,6 @@
+role_bucket,postings,share_pct,role
+SHIFT_SUPERVISOR,9995,50.8,Shift supervisor
+BARISTA,9484,48.2,Barista
+STORE_MANAGER,190,1.0,Store manager
+OTHER_RETAIL,13,0.1,Other in-store
+DISTRICT_MANAGER,5,0.0,District manager

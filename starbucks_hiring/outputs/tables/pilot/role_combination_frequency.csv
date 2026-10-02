@@ -1,0 +1,15 @@
+table,pattern,stores,pct_of_hiring_stores
+exact_role_set,BARISTA + SHIFT_SUPERVISOR,108,90.0
+exact_role_set,SHIFT_SUPERVISOR,7,5.8
+exact_role_set,BARISTA + OTHER_RETAIL,2,1.7
+exact_role_set,BARISTA,2,1.7
+exact_role_set,OTHER_RETAIL,1,0.8
+requested_pattern,BARISTA only,2,1.7
+requested_pattern,SHIFT_SUPERVISOR only,7,5.8
+requested_pattern,BARISTA + SHIFT_SUPERVISOR (exactly),108,90.0
+requested_pattern,BARISTA + SHIFT_SUPERVISOR + STORE_MANAGER (any extras),0,0.0
+requested_pattern,STORE_MANAGER only,0,0.0
+requested_pattern,multiple BARISTA postings,2,1.7
+requested_pattern,multiple SHIFT_SUPERVISOR postings,0,0.0
+requested_pattern,multiple STORE_MANAGER postings,0,0.0
+requested_pattern,"standard pattern: exactly 1 BARISTA + 1 SHIFT_SUPERVISOR, nothing else",107,89.2

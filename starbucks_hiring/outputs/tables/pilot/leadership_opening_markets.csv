@@ -1,0 +1,5 @@
+state,active_retail_postings,unique_stores_hiring,leadership_postings,pct_over_30_days,pct_over_60_days,pct_old_for_role,median_days_open,pct_stores_same_role_duplicate,pct_stores_3plus_roles,postings_per_hiring_store,leadership_vacancy_intensity,market_level,city
+NJ,11,5,1,18.2,0.0,0.0,29.0,0.0,0.0,2.2,0.2,city,Jersey City
+NY,226,112,0,32.3,13.3,8.8,28.0,3.6,0.0,2.018,0.0,state,
+NY,32,17,0,31.2,12.5,15.6,28.0,5.9,0.0,1.882,0.0,city,Brooklyn
+NY,192,94,0,32.8,13.5,7.8,28.0,3.2,0.0,2.043,0.0,city,New York

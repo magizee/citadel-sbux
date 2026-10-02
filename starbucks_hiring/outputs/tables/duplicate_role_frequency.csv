@@ -1,0 +1,186 @@
+store_key,store_number,store_name,city,state,active_postings,max_days_open,n_locations_max,BARISTA,SHIFT_SUPERVISOR,STORE_MANAGER,DISTRICT_MANAGER,OTHER_RETAIL,n_role_types,role_set,max_same_role_postings,duplicate_roles,postings_older_than_role_p90,flag_same_role_duplicate,flag_3plus_role_types,flag_barista_supervisor_manager,flag_manager_plus_multiple_frontline,flag_old_for_role,flag_high_postings,flag_unusual_role_set,flag_nonstandard_location,n_flags
+addr:61 9th ave|new york|NY,,,New York,NY,10,81.0,1,4,0,0,0,6,2,BARISTA + OTHER_RETAIL,6,"Bx4,OTHERx6",4,True,False,False,False,True,True,True,True,5
+addr:646 n michigan ave|chicago|IL,,,Chicago,IL,4,80.0,2,3,0,0,0,1,2,BARISTA + OTHER_RETAIL,3,Bx3,0,True,False,False,False,False,True,True,True,4
+store:57845,57845,Empire State Building,New York,NY,4,65.0,1,1,0,0,0,3,2,BARISTA + OTHER_RETAIL,3,OTHERx3,0,True,False,False,False,False,True,True,False,3
+addr:28 summit street|brooklyn|NY,,,Brooklyn,NY,2,21.0,1,0,0,0,0,2,1,OTHER_RETAIL,2,OTHERx2,0,True,False,False,False,False,False,True,True,3
+store:10742,10742,BECKLEY & I-94,Battle Creek,MI,4,30.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:10748,10748,SEVEN HILLS & ST ROSE,Henderson,NV,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:10832,10832,41ST & MAIN,Kansas City,MO,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:10914,10914,NEWTOWN SQUARE II,Newtown Square,PA,4,30.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:13260,13260,"CHEYENNE & SHADY TIMBER, LAS VEGAS",Las Vegas,NV,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:13652,13652,HWY 58 & TOWN CENTER,Belton,MO,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:13654,13654,DOUGLAS & TUDOR,Lees Summit,MO,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:13779,13779,MONTCLAIR & ELDER,Birmingham,AL,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:14236,14236,PORTAGE-STATE ROUTE 249 & I-94,Portage,IN,4,30.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:20588,20588,1ST & OLTORF,Austin,TX,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:22437,22437,"HWY 246 & MCMURRAY, BUELLTON",Buellton,CA,4,30.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:23310,23310,VILLAGE AT BEARDSLEE CROSSING,Bothell,WA,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:23733,23733,GLOUCESTER PREMIUM OUTLETS,Blackwood,NJ,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:24472,24472,LOMAS & WASHINGTON,Albuquerque,NM,4,29.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:24933,24933,"WESTERN & FOUNTAIN, LOS ANGELES",Los Angeles,CA,4,30.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:25717,25717,Foothill & San Gabriel - Pasadena,Pasadena,CA,4,30.0,1,2,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,"Bx2,SSx2",0,True,False,False,False,False,True,False,False,2
+store:08732,08732,MLK Jr Blvd & E23rd St,Panama City,FL,3,54.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:09357,09357,GRAND HAVEN,Grand Haven,MI,3,52.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:10538,10538,I 65 & SPRING HILL,Mobile,AL,3,68.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:10560,10560,I-94 AND M50,Jackson,MI,3,80.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:10901,10901,BIRD RD & 144TH AVE,Miami,FL,3,70.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:13214,13214,"RURAL & LOOP 202, TEMPE",Tempe,AZ,3,84.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,1,True,False,False,False,True,False,False,False,2
+store:19845,19845,NORTH READING,North Reading,MA,3,81.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:22767,22767,SOUTH CUMBERLAND STREET,Lebanon,TN,3,82.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,1,True,False,False,False,True,False,False,False,2
+store:23465,23465,KING OF PRUSSIA VALLEY FORGE,King Of Prussia,PA,3,82.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,1,True,False,False,False,True,False,False,False,2
+store:25577,25577,7TH & WESTLAKE - SEATTLE,Seattle,WA,3,86.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:66999,66999,TWIN CITY HWY & 39TH ST,Groves,TX,3,84.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:85009,85009,HWY 14 AND VICTORY,Mankato,MN,3,68.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,1,True,False,False,False,True,False,False,False,2
+store:03364,03364,SOUTHCENTER MALL CENTER,Seattle,WA,3,37.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:07271,07271,RAMSEY,Ramsey,NJ,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:07776,07776,NORTHTOWNE SQUARE,Gibsonia,PA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:08774,08774,BATTLEFIELD & VOLVO,Chesapeake,VA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:08884,08884,HWY 1431 & PALMER,Cedar Park,TX,3,79.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:09291,09291,PALM & HERNDON,Fresno,CA,3,36.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:09349,09349,OLD GROVE & MISSION,Oceanside,CA,3,35.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:09363,09363,STATESVILLE,Statesville,NC,3,34.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:09516,09516,SR 436 & US 17-92,Casselberry,FL,3,35.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:09520,09520,LIMA & DUPONT,Fort Wayne,IN,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:09570,09570,"CONCORD, HWY 29",Concord,NC,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:09703,09703,CHAPEL HILL RD @ I-20,Douglasville,GA,3,35.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10027,10027,COLLEGE HILLS-VETERANS & VON MAUR,Normal,IL,3,36.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10173,10173,CUMBERLAND AVE & 21ST ST.,Knoxville,TN,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10453,10453,WILMETTE-GREEN BAY & WASHINGTON,Wilmette,IL,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10468,10468,FLORENCE MALL OUTPARCEL,Florence,SC,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10577,10577,THE SHOPS AT LA CANTERA,San Antonio,TX,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10613,10613,EDGMONT,Newtown Square,PA,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10634,10634,BRONZEVILLE-35TH & STATE,Chicago,IL,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10722,10722,"HIGHWAY 93 & WASHINGTON, GOLDEN",Golden,CO,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10728,10728,Palm Coast & I-95,Palm Coast,FL,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10730,10730,WATSON BLVD & CARL VINSON PKWY,Warner Robins,GA,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10734,10734,NAPERVILLE-RTE 59 & 95TH,Naperville,IL,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10740,10740,135TH & BRIAR,Leawood,KS,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10810,10810,"KATELLA & LOS ALAMITOS, LOS ALAMITOS",Los Alamitos,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10825,10825,AURORA-KIRK & BUTTERFIELD,Aurora,IL,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10830,10830,N. CAUSEWAY & FLORIDA,Mandeville,LA,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10837,10837,"NORTHVALE, NJ",Northvale,NJ,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10843,10843,"MARYSVILLE, OH",Marysville,OH,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10892,10892,BAY & TAYLOR,San Francisco,CA,3,33.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:10899,10899,"MIDDLETOWN CROSSING, DE",Middletown,DE,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:10993,10993,HWY 16 & PRALLE CENTER,Onalaska,WI,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:11027,11027,MORENO BEACH & CACTUS,Moreno Valley,CA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11046,11046,I-285 & ATLANTA RD,Smyrna,GA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11057,11057,"SOUTH ELM & I-85, EXIT 124",Greensboro,NC,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11076,11076,BERMUDA SQUARE,Chester,VA,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:11109,11109,WILDCAT RESERVE & FAIRVIEW - CO,Littleton,CO,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11194,11194,1244 WESTERN AVE,Albany,NY,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11272,11272,GLOUCESTER TOWNSHIP,Clementon,NJ,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11383,11383,LANSDOWNE,Leesburg,VA,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:11487,11487,TURNER MCCALL & RIVERSIDE,Rome,GA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11492,11492,GRAYSLAKE-RTE 120 & RTE 83,Grayslake,IL,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:11497,11497,SKOKIE-DEMPSTER & KARLOV,Skokie,IL,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11549,11549,"WILLIAMSPORT, PA",Williamsport,PA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11776,11776,FLORIN TOWN CENTRE,Sacramento,CA,3,37.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:11831,11831,"MARGUERITE & AVERY, MISSION VIEJO",Mission Viejo,CA,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13205,13205,WESTGATE MALL DRIVE THRU,Rocky River,OH,3,33.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13235,13235,VAN NESS,Washington,DC,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13265,13265,STOW-KENT PLAZA,Stow,OH,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13343,13343,DUPONT & AUBURN,Fort Wayne,IN,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13411,13411,"MANCHESTER, S. WILLOW ST.",Manchester,NH,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13454,13454,ORANGE PLAZA,Middletown,NY,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13475,13475,SUN VALLEY,Indian Trail,NC,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13563,13563,GATEWAY BLVD & CONGRESS AVE-BOYTON BCH,Boynton Beach,FL,3,32.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13625,13625,RALEIGH RD & HERITAGE DR,Wilson,NC,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13640,13640,"ADAMS & FELTON, SAN DIEGO",San Diego,CA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13657,13657,"NM 528 & ROCKAWAY, RIO RANCHO",Rio Rancho,NM,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13680,13680,"PRINCETON, WV",Princeton,WV,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13780,13780,GREEN VALLEY & CAMBRIDGE - CAMERON PARK,Shingle Springs,CA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13940,13940,NW 7th St,Miami,FL,3,44.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:14144,14144,COIT & 635,Dallas,TX,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:14156,14156,NEWPORT COAST & SAN JOAQUIN HILLS,Newport Coast,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:14213,14213,AMBASSADOR CAFFERY & SETTLERS TRACE,Lafayette,LA,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:14440,14440,COOK RD & I-5,Burlington,WA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:14518,14518,PROVIDENCE TOWN CENTER,Collegeville,PA,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:14593,14593,"19TH AVE. & BASELINE, PHOENIX",Phoenix,AZ,3,40.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:14860,14860,WOLF RANCH TOWN CENTER,Georgetown,TX,3,54.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:15510,15510,11TH  AND COUCH,Portland,OR,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:15729,15729,17TH & BRISTOL - SANTA ANA,Santa Ana,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:16299,16299,32ND & LINCOLN - PHOENIX,Phoenix,AZ,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:16345,16345,SOUTHSIDE MARKETPLACE,Baltimore,MD,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:16388,16388,"INDIAN TRUCK & I-15, CORONA",Corona,CA,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:16952,16952,SHAW & WEST - FRESNO,Fresno,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:16954,16954,CORAL WAY & 87TH,Miami,FL,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:16973,16973,4854 N. FEDERAL HIGHWAY,Fort Lauderdale,FL,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:17224,17224,KINGS HWY - MIDWOOD,Brooklyn,NY,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:17525,17525,"COUNCIL BLUFFS, I-29 & HWY 275",Council Bluffs,IA,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:17765,17765,SUNNYSIDE & MISTY DR - HAPPY VALLEY,Clackamas,OR,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:17861,17861,DOUGLAS BLVD & CAVITT STALLMAN - GRANITE,Granite Bay,CA,3,72.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:18034,18034,HORN LAKE,Horn Lake,MS,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:18208,18208,PROMENADE & NEW HOPE,Rogers,AR,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:18566,18566,HUNTLEY - RT. 47 & KREUTZER,Huntley,IL,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:18835,18835,"VOORHEES, CEDAR HILL",Voorhees,NJ,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:18889,18889,SAN ANTONIO & EL CAMINO - MT VIEW,Mountain View,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:19091,19091,OLIO ROAD AND OLIVIA WAY,Fishers,IN,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:19574,19574,SICKLERVILLE,Sicklerville,NJ,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:19967,19967,UNIVERSITY & MCCOLL,Edinburg,TX,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:20161,20161,Macys Herald Square Mezzanine,New York,NY,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:20179,20179,ARCHIBALD & SCHLEISMAN,Corona,CA,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:20250,20250,N FAIRFIELD RD & REX DR-DRIVE THRU,Dayton,OH,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:20263,20263,WARD'S CORNER - NORFOLK,Norfolk,VA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:20398,20398,12 MILE & CABOT,Novi,MI,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:20689,20689,ELK RIVER,Elk River,MN,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21013,21013,KUAKINI HWY,Kailua Kona,HI,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21049,21049,KAUAI VILLAGE KAPAA,Kapaa,HI,3,32.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21055,21055,OAHU-ENCHANTED LAKES,Kailua,HI,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21314,21314,TOLEDO - WEST CENTRAL AVE,Toledo,OH,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21769,21769,GARDEN STATE PLAZA II INLINE,Paramus,NJ,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21894,21894,WOODWARD AND 8 MILE,Highland Park,MI,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:21922,21922,SAN JOSE BLVD & RICKY DR - JACKSONVILLE,Jacksonville,FL,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:22273,22273,WYNNEWOOD,Wynnewood,PA,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:22275,22275,THE WOODLANDS MALL,Spring,TX,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:22278,22278,WO EZELL & BLACKSTOCK RD,Spartanburg,SC,3,69.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:22417,22417,"LANKERSHIM & LAMAIDA, NORTH HOLLYWOOD",North Hollywood,CA,3,74.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:22428,22428,BROOKS AND CENTRAL,Missoula,MT,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:22430,22430,HWY 99 E WOODBURN,Woodburn,OR,3,73.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:22553,22553,1815 PALM BEACH LAKES BLVD,West Palm Beach,FL,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:22555,22555,US 41 & W TERRY,Bonita Springs,FL,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:22722,22722,GREAT FALLS - 10TH AND 32ND,Great Falls,MT,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:22829,22829,DW HIGHWAY & SPIT BROOK,Nashua,NH,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:22861,22861,HARLEM AND LAWRENCE,Harwood Heights,IL,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23263,23263,I-575 & GA-92 AT NOONDAY CREEK,Woodstock,GA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23311,23311,N SCOTTSDALE RD & N GOLDWATER BLVD,Scottsdale,AZ,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23351,23351,MANCHESTER DEPOT ST,Manchester Center,VT,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:23426,23426,LIGHTHOUSE & DAVID,Monterey,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23558,23558,SHOPS AT PARK LANE,Dallas,TX,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23602,23602,WESTCHESTER'S RIDGE HILL,Yonkers,NY,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:23870,23870,"MASON CITY, IA",Mason City,IA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23872,23872,16 & DEQUINDRE,Sterling Heights,MI,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23874,23874,CENTRAL AND TYLER,Wichita,KS,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:23875,23875,LENOIR CITY - HWY 321 AND KELSEY LN,Lenoir City,TN,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:23895,23895,410 & VANCE JACKSON,San Antonio,TX,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:24005,24005,"FIGUEROA & 28TH, LOS ANGELES",Los Angeles,CA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:24133,24133,ARGYLE FOREST & MERCHANTS WAY - JACKSONV,Jacksonville,FL,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:24212,24212,8TH NORTH AND STATE - OREM,Orem,UT,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:24255,24255,Lincoln Hwy,Merrillville,IN,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:24306,24306,1604 & HAUSMAN,San Antonio,TX,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:24498,24498,PENROSE,Arlington,VA,3,31.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:24716,24716,CARMEL VALLEY & DEL MAR HEIGHTS RD,San Diego,CA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:25045,25045,6TH & DREXEL,Oak Creek,WI,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:25578,25578,"MARIPOSA RD & I-19, NOGALES",Nogales,AZ,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:25682,25682,1501 East Lincoln Highway,Levittown,PA,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:25760,25760,EAST JOHNSON & AIRPORT,Jonesboro,AR,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:25833,25833,1690 S PLEASANT VALLEY ROAD,Winchester,VA,3,29.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:25941,25941,"HAWTHORNE & IMPERIAL, HAWTHORNE",Hawthorne,CA,3,30.0,1,1,2,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:26160,26160,Freeport,Freeport,IL,3,40.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:27851,27851,LINCOLN AND YOSEMITE,Lone Tree,CO,3,39.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:28760,28760,"N. GLOSTER ST. & MEL DR. - TUPELO, MS",Tupelo,MS,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:29089,29089,23RD & OSUDAHL- LAWRENCE,Lawrence,KS,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:54605,54605,JIMMY CARTER AND LIVE OAK,Norcross,GA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:59231,59231,DIXIE HWY & ECKEL JUNCTION RD,Perrysburg,OH,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:61395,61395,86TH AND DODGE,Omaha,NE,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:66377,66377,42ND AND L,Omaha,NE,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:68572,68572,KINGS PARK 286 INDIAN HEAD RD,Kings Park,NY,3,30.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:69763,69763,27425 YNEZ ROAD,Temecula,CA,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:70749,70749,NORTH EAST STATION,North East,MD,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:72499,72499,WALDORF STATION_CRAIN HWY AND RTE 5,Waldorf,MD,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:84453,84453,"KILLINGLY, HARTFORD PIKE",Dayville,CT,3,33.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:84514,84514,HILLCREST CENTER & STRATFORD,Winston Salem,NC,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
+store:13326,13326,N ALBANY & HICKORY- ALBANY,Albany,OR,2,29.0,1,0,2,0,0,0,1,SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:13987,13987,SPRING HILL - HWY 31,Spring Hill,TN,2,29.0,1,0,2,0,0,0,1,SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:18834,18834,RITTIMAN & HARRY WURZBACH,San Antonio,TX,2,29.0,1,0,2,0,0,0,1,SHIFT_SUPERVISOR,2,SSx2,0,True,False,False,False,False,False,False,False,1
+store:23831,23831,FM 518 & HOBBS,League City,TX,2,29.0,1,2,0,0,0,0,1,BARISTA,2,Bx2,0,True,False,False,False,False,False,False,False,1

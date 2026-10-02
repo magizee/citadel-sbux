@@ -1,0 +1,6 @@
+role_bucket,postings,p10,p25,median,p75,p90,pct_over_30_days,pct_over_60_days,role
+BARISTA,9484,10.0,18.0,28.0,54.0,80.0,41.5,21.1,Barista
+DISTRICT_MANAGER,5,9.4,10.0,14.0,23.0,34.4,20.0,0.0,District manager
+OTHER_RETAIL,13,24.6,45.0,50.0,59.0,77.80000000000001,84.6,23.1,Other in-store
+SHIFT_SUPERVISOR,9995,14.0,19.0,26.0,33.0,51.0,29.2,8.1,Shift supervisor
+STORE_MANAGER,190,1.0,4.0,10.0,17.0,28.0,6.3,1.1,Store manager

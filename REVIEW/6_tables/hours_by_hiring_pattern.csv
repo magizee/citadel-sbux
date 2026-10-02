@@ -1,0 +1,6 @@
+group,count,median,mean
+"company-operated, no active posting",82,112.0,109.9
+ordinary store: duplicates or 3+ roles,176,112.0,112.5
+ordinary store: only one frontline role,1083,112.0,112.6
+"special format (Reserve, campus, airport…)",37,112.0,110.1
+standard pair,8597,112.0,112.2

@@ -1,0 +1,6 @@
+pattern_class,stores,pct_of_hiring_stores,label,text
+standard pair,8886,86.9,Standard pair (1 barista + 1 supervisor),"8,886  (86.9%)"
+ordinary store: only one frontline role,1086,10.6,Only one frontline role,"1,086  (10.6%)"
+ordinary store: duplicates or 3+ roles,176,1.7,Same-role duplicates,176  (1.7%)
+not in store locator (new/closed/temporarily closed?),39,0.4,Not in store locator,39  (0.4%)
+"special format (Reserve, campus, airport…)",37,0.4,"Special format (Reserve, campus…)",37  (0.4%)

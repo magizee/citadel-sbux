@@ -1,0 +1,51 @@
+job_id,job_title_raw,role_bucket,store_number,city,state,req_created_date,posted_date,req_age_days,days_since_posted,reposted_requisition,job_url
+260002755,porter (dishwasher) - Starbucks Reserve Kitchen,OTHER_RETAIL,,Brooklyn,NY,2026-01-14,2026-09-11,261,21,True,https://apply.starbucks.com/careers/job/481075955395
+260015317,"shift supervisor - Store# 55615, HWY 434 & TUSKAWILLA",SHIFT_SUPERVISOR,55615,Winter Springs,FL,2026-03-11,2026-08-25,204,37,True,https://apply.starbucks.com/careers/job/481077127380
+260018844,"barista - Store# 82052, DELMONT, HOLLYWOOD SQUARE",BARISTA,82052,Delmont,PA,2026-03-16,2026-09-08,200,24,True,https://apply.starbucks.com/careers/job/481077210420
+260029000,"store manager - Olympia/Tumwater/Lacey, WA",STORE_MANAGER,,Lacey,WA,2026-04-14,2026-09-09,170,22,True,https://apply.starbucks.com/careers/job/481077793978
+260029947,"store manager - Cambridge, MA",STORE_MANAGER,,Cambridge,MA,2026-04-15,2026-09-25,169,6,True,https://apply.starbucks.com/careers/job/481077826268
+260031642,"store manager-Annapolis/ Glen Burnie, MD",STORE_MANAGER,,Annapolis,MD,2026-04-24,2026-09-11,160,20,True,https://apply.starbucks.com/careers/job/481078027246
+260035569,"store manager- Fishtown, Philadelphia, PA",STORE_MANAGER,,Philadelphia,PA,2026-05-27,2026-09-03,128,29,True,https://apply.starbucks.com/careers/job/481078424584
+260035684,"baker lead, Starbucks Reserve Kitchen New York",OTHER_RETAIL,,Brooklyn,NY,2026-05-29,2026-09-17,126,15,True,https://apply.starbucks.com/careers/job/481078452228
+260043797,"store manager - Aurora/Oswego, IL",STORE_MANAGER,,Oswego,IL,2026-06-11,2026-09-30,113,2,True,https://apply.starbucks.com/careers/job/481078684629
+260043783,"store manager - Joliet, IL",STORE_MANAGER,,Joliet,IL,2026-06-11,2026-09-14,113,18,True,https://apply.starbucks.com/careers/job/481078684154
+260043820,store manager,STORE_MANAGER,,Beaverton,OR,2026-06-12,2026-06-12,111,111,False,https://apply.starbucks.com/careers/job/481078734709
+260044539,"store manager, Washington, DC",STORE_MANAGER,,Washington,DC,2026-06-12,2026-09-08,111,23,True,https://apply.starbucks.com/careers/job/481078737287
+260043823,"store manager, Greater Portland, OR",STORE_MANAGER,,Gresham,OR,2026-06-12,2026-08-30,111,32,True,https://apply.starbucks.com/careers/job/481078734754
+260046559,"store manager, Danbury, CT",STORE_MANAGER,,Danbury,CT,2026-06-15,2026-09-24,109,8,True,https://apply.starbucks.com/careers/job/481078780671
+260046765,"store manager- Willow Grove/Fort Washington, PA",STORE_MANAGER,,Fort Washington,PA,2026-06-16,2026-09-04,108,28,True,https://apply.starbucks.com/careers/job/481078807697
+260046763,store manager- Haverford/ Ardmore,STORE_MANAGER,,Ardmore,PA,2026-06-16,2026-09-11,108,21,True,https://apply.starbucks.com/careers/job/481078807412
+260046768,"store manager- King Of Prussia, PA",STORE_MANAGER,,King Of Prussia,PA,2026-06-16,2026-09-04,108,28,True,https://apply.starbucks.com/careers/job/481078807691
+260046986,"store manager-Rochester/Clarkston, MI.",STORE_MANAGER,,Rochester,MI,2026-06-16,2026-09-24,107,7,True,https://apply.starbucks.com/careers/job/481078813789
+260048362,"store manager, Oroville/Chico, CA",STORE_MANAGER,,Chico,CA,2026-06-18,2026-09-15,105,16,True,https://apply.starbucks.com/careers/job/481078845510
+260051927,"store manager, Bend/Redmond, OR",STORE_MANAGER,,Redmond,OR,2026-06-29,2026-08-26,94,36,True,https://apply.starbucks.com/careers/job/481079149121
+260052449,"store manager-Plymouth, MI.",STORE_MANAGER,,Plymouth,MI,2026-07-01,2026-09-28,92,3,True,https://apply.starbucks.com/careers/job/481079177111
+260052636,"store manager - Fairbanks, AK",STORE_MANAGER,,Fairbanks,AK,2026-07-02,2026-08-05,91,57,True,https://apply.starbucks.com/careers/job/481079197504
+260053013,"barista - Store# 08759, GELMAN LIBRARY",BARISTA,08759,Washington,DC,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230116
+260053086,"shift manager - Store# 00833, PEABODY",SHIFT_SUPERVISOR,00833,Peabody,MA,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230183
+260053015,"shift supervisor - Store# 14133, AVALON PARK & GOLDEN ISLE",SHIFT_SUPERVISOR,14133,Orlando,FL,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230102
+260053001,"barista - Store# 00743, 7140 WISCONSIN AVENUE",BARISTA,00743,Bethesda,MD,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230099
+260053099,"barista - Store# 08666, 20TH & E",BARISTA,08666,Washington,DC,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230202
+260053014,"barista - Store# 59378, WESTERN & MEMORIAL",BARISTA,59378,Oklahoma City,OK,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230108
+260053127,"barista - Store# 14133, AVALON PARK & GOLDEN ISLE",BARISTA,14133,Orlando,FL,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230228
+260053122,"barista - Store# 80662, CONSTELLATION & CLINTON AVE",BARISTA,80662,Huntsville,AL,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230235
+260053035,"barista - Store# 00722, GEORGETOWN",BARISTA,00722,Washington,DC,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230128
+260052979,"shift supervisor - Store# 00722, GEORGETOWN",SHIFT_SUPERVISOR,00722,Washington,DC,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230073
+260052959,"shift supervisor - Store# 19127, RURAL & VISTA DEL CERRO",SHIFT_SUPERVISOR,19127,Tempe,AZ,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230057
+260053024,"shift supervisor - Store# 05764, HIGHWAY 50 & ZINFANDEL",SHIFT_SUPERVISOR,05764,Rancho Cordova,CA,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230120
+260053186,"barista - Store# 07615, SUMNER PLACE",BARISTA,07615,Bethesda,MD,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230291
+260053004,"shift supervisor - Store# 08586, ALOMA AVE & LAKEMONT RD",SHIFT_SUPERVISOR,08586,Winter Park,FL,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230103
+260052985,"barista - Store# 05764, HIGHWAY 50 & ZINFANDEL",BARISTA,05764,Rancho Cordova,CA,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230085
+260053059,"barista - Store# 50830, RANCHO CALIFORNIA & MARGARITA",BARISTA,50830,Temecula,CA,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230164
+260053123,"barista - Store# 08349, THOROUGHBRED VILLAGE",BARISTA,08349,Franklin,TN,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230219
+260053098,"shift supervisor - Store# 53816, CAROTHERS AND LIBERTY",SHIFT_SUPERVISOR,53816,Franklin,TN,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230200
+260053150,"shift supervisor - Store# 05560, BASELINE AND KYRENE",SHIFT_SUPERVISOR,05560,Tempe,AZ,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230259
+260053201,"shift supervisor - Store# 07732, FRANKLIN PARK, 105 VIP DRIVE",SHIFT_SUPERVISOR,07732,Wexford,PA,2026-07-06,2026-07-05,88,89,False,https://apply.starbucks.com/careers/job/481079247454
+260053019,"shift supervisor - Store# 84764, CRAYCROFT & GRANT",SHIFT_SUPERVISOR,84764,Tucson,AZ,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230122
+260053155,"shift supervisor - Store# 08343, 400 PARK AVENUE",SHIFT_SUPERVISOR,08343,Winter Park,FL,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230257
+260052969,"barista - Store# 02883, OSHKOSH-HWY 41 & 9TH",BARISTA,02883,Oshkosh,WI,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230063
+260053172,"barista - Store# 02911, STARKEY RD & EAST BAY DR",BARISTA,02911,Largo,FL,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230264
+260052978,"barista - Store# 66067, PICKUP - SIERRA & MARYGOLD",BARISTA,66067,Fontana,CA,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230079
+260053093,"barista - Store# 08677, LONGMONT-I-25 & HWY 119",BARISTA,08677,Longmont,CO,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230190
+260053111,"barista - Store# 49954, APPLE VALLEY - CEDAR AND 147TH",BARISTA,49954,Saint Paul,MN,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230212
+260053181,"barista - Store# 83481, GRAND PARKWAY & VALLEY RANCH",BARISTA,83481,New Caney,TX,2026-07-05,2026-07-04,88,89,False,https://apply.starbucks.com/careers/job/481079230285

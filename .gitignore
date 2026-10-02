@@ -1,0 +1,19 @@
+# Large / raw data stays local (rebuildable from the scripts)
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+.venv/
+starbucks_hiring/data/raw/*
+!starbucks_hiring/data/raw/.gitkeep
+starbucks_hiring/logs/*
+!starbucks_hiring/logs/.gitkeep
+starbucks_archive/data/raw/
+starbucks_archive/logs/
+starbucks_store_universe/data/raw/
+starbucks_pay_analysis/data/raw/
+starbucks_labor_market/data/raw/
+starbucks_management_research/data/raw/*.pdf
+# Large processed tables (>10 MB) - keep out of git
+starbucks_archive/data/processed/archived_postings.csv
+starbucks_store_universe/data/processed/starbucks_store_universe.csv

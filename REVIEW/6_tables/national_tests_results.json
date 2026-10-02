@@ -1,0 +1,162 @@
+{
+  "snapshot_date": "2026-10-01",
+  "penetration": {
+    "co_stores": 9979,
+    "hiring_co_stores_matched": 9913,
+    "pct_co_stores_hiring": 99.3,
+    "pct_co_stores_supervisor_posting": 96.6,
+    "pct_co_stores_barista_posting": 91.0,
+    "leadership_postings_per_100_co_stores": 1.95,
+    "hiring_stores_not_in_locator": 300,
+    "join_match_rate_pct": 97.1
+  },
+  "leadership": {
+    "store_manager_postings": 190,
+    "district_manager_postings": 5,
+    "states_min_co_stores": 50,
+    "spearman_leadership_intensity_vs_unemployment": -0.017,
+    "spearman_leadership_intensity_vs_lsr_employment_growth": 0.12,
+    "spearman_leadership_intensity_vs_min_wage": -0.01,
+    "spearman_penetration_vs_unemployment": 0.135
+  },
+  "persistence_by_role": {
+    "BARISTA": {
+      "postings": 9484,
+      "median_posting_age_days": 28.0,
+      "median_requisition_age_days": 27.0,
+      "pct_requisitions_over_60d": 20.4,
+      "pct_requisitions_over_90d": 0.0,
+      "pct_requisitions_over_180d": 0.0,
+      "pct_reposted": 0.0,
+      "pct_in_expired_jul4_batch": 1.0
+    },
+    "DISTRICT_MANAGER": {
+      "postings": 5,
+      "median_posting_age_days": 14.0,
+      "median_requisition_age_days": 27.0,
+      "pct_requisitions_over_60d": 20.0,
+      "pct_requisitions_over_90d": 0.0,
+      "pct_requisitions_over_180d": 0.0,
+      "pct_reposted": 40.0,
+      "pct_in_expired_jul4_batch": 0.0
+    },
+    "OTHER_RETAIL": {
+      "postings": 13,
+      "median_posting_age_days": 50.0,
+      "median_requisition_age_days": 50.0,
+      "pct_requisitions_over_60d": 38.5,
+      "pct_requisitions_over_90d": 15.4,
+      "pct_requisitions_over_180d": 7.7,
+      "pct_reposted": 15.4,
+      "pct_in_expired_jul4_batch": 0.0
+    },
+    "SHIFT_SUPERVISOR": {
+      "postings": 9995,
+      "median_posting_age_days": 26.0,
+      "median_requisition_age_days": 25.0,
+      "pct_requisitions_over_60d": 7.9,
+      "pct_requisitions_over_90d": 0.0,
+      "pct_requisitions_over_180d": 0.0,
+      "pct_reposted": 0.0,
+      "pct_in_expired_jul4_batch": 0.5
+    },
+    "STORE_MANAGER": {
+      "postings": 190,
+      "median_posting_age_days": 10.0,
+      "median_requisition_age_days": 17.0,
+      "pct_requisitions_over_60d": 20.0,
+      "pct_requisitions_over_90d": 9.5,
+      "pct_requisitions_over_180d": 0.0,
+      "pct_reposted": 42.1,
+      "pct_in_expired_jul4_batch": 0.0
+    }
+  },
+  "store_manager_requisition_age": {
+    "median": 17.0,
+    "pct_over_90d": 9.5,
+    "pct_reposted": 42.1
+  },
+  "pattern_classes": {
+    "standard pair": 86.9,
+    "ordinary store: only one frontline role": 10.6,
+    "ordinary store: duplicates or 3+ roles": 1.7,
+    "not in store locator (new/closed/temporarily closed?)": 0.4,
+    "special format (Reserve, campus, airport\u2026)": 0.4
+  },
+  "nonstandard": {
+    "ordinary_store_deviation_pct": 1.72,
+    "spearman_state_deviation_vs_unemployment": -0.393
+  },
+  "hours_by_pattern": {
+    "company-operated, no active posting": {
+      "count": 82,
+      "median": 112.0,
+      "mean": 109.9
+    },
+    "ordinary store: duplicates or 3+ roles": {
+      "count": 176,
+      "median": 112.0,
+      "mean": 112.5
+    },
+    "ordinary store: only one frontline role": {
+      "count": 1083,
+      "median": 112.0,
+      "mean": 112.6
+    },
+    "special format (Reserve, campus, airport\u2026)": {
+      "count": 37,
+      "median": 112.0,
+      "mean": 110.1
+    },
+    "standard pair": {
+      "count": 8597,
+      "median": 112.0,
+      "mean": 112.2
+    }
+  },
+  "requisition_volume": {
+    "note": "2026 exact from day 187 (Jul 6); 2024/2025 archive-sample envelopes are lower bounds",
+    "dense_from_doy_2026": 187,
+    "Jul 19": {
+      "doy": 200,
+      "ytd_2024": 63302,
+      "ytd_2025": 69388,
+      "ytd_2026": 57417,
+      "pct_2026_vs_2025": -17.3,
+      "pct_2026_vs_2024": -9.3
+    },
+    "Jul 30": {
+      "doy": 211,
+      "ytd_2024": 70604,
+      "ytd_2025": 70875,
+      "ytd_2026": 58992,
+      "pct_2026_vs_2025": -16.8,
+      "pct_2026_vs_2024": -16.4
+    },
+    "Sep 30": {
+      "doy": 273,
+      "ytd_2024": 83527,
+      "ytd_2025": null,
+      "ytd_2026": 80479,
+      "pct_2026_vs_2025": null,
+      "pct_2026_vs_2024": -3.6
+    },
+    "created_jul6_to_sep30": {
+      "2026": 27227,
+      "2024": 25816,
+      "pct_2026_vs_2024": 5.5
+    }
+  },
+  "archive_store_manager_share": {
+    "Mar 2025": 1.45,
+    "Apr 2025": 5.67,
+    "May 2025": 2.73,
+    "Jun 2025": 5.52,
+    "Jul 2025": 1.68,
+    "Oct 2025": 2.56,
+    "Jan 2026": 0.83,
+    "Apr 2026": 1.1,
+    "May 2026": 2.18,
+    "Snapshot\nOct 1 2026": 0.97
+  }
+}

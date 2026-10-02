@@ -187,6 +187,7 @@ def oldest(retail: pd.DataFrame, mask, n=20) -> pd.DataFrame:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--snapshot-date", default=today_str())
+    ap.add_argument("--national-count", type=int, help="server count for 'United States' (QA completeness check)")
     ap.add_argument("--config")
     args = ap.parse_args()
     cfg = load_config(args.config)
@@ -207,6 +208,17 @@ def main() -> None:
 
     import charts  # local module; imported late so the data step runs without matplotlib
     charts.make_all(retail, stores, market, summary, CHARTS)
+
+    # Store-level role patterns + neutral review lists, and automated QA.
+    import qa
+    import store_patterns
+    national_csv = pdir / "starbucks_jobs_US.csv"
+    summary["store_patterns"] = store_patterns.write_all(store_patterns.load_retail(national_csv), OUT / "tables",
+                                                         MIN_STORES_STATE, MIN_STORES_CITY)
+    (OUT / "national_summary.json").write_text(json.dumps(summary, indent=2))
+    res = qa.run_checks(df, args.national_count)
+    lines = ["# QA report: national postings", "", f"{len(df)} postings", "", "| Status | Check | Detail |", "|---|---|---|"]
+    (OUT / "qa_report.md").write_text("\n".join(lines + [f"| {s_} | {n_} | {d_.replace('|', '/')} |" for s_, n_, d_ in res]) + "\n")
 
     print(json.dumps(summary, indent=2))
     print(f"\nWrote {pdir / 'store_summary.csv'} ({len(stores)} stores), {pdir / 'market_summary.csv'} "

@@ -1,0 +1,121 @@
+store_key,store_number,store_name,street_address,city,state,latitude,longitude,active_postings,barista_postings,shift_supervisor_postings,store_manager_postings,district_manager_postings,other_retail_postings,median_days_open,max_days_open,pct_postings_over_30_days,pct_postings_over_60_days,has_barista_opening,has_shift_supervisor_opening,has_store_manager_opening,has_multiple_roles_open,has_barista_supervisor_manager,store_key_type
+store:07348,07348,HOBOKEN NEWARK STREET,51 Newark St,Hoboken,NJ,40.73671179999999,-74.0303022,2,1,1,0,0,0,18.5,21.0,0.0,0.0,True,True,False,True,False,store
+store:07489,07489,HOBOKEN 2,"1205 N Hudson St, The Shipyards at 12th & Hudson",Hoboken,NJ,40.751095,-74.025284,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:14479,14479,"HOBOKEN, WASHINGTON ST.",314 Washington St,Hoboken,NJ,40.74072,-74.03012,2,1,1,0,0,0,30.5,32.0,50.0,0.0,True,True,False,True,False,store
+store:07383,07383,JERSEY CITY- WATERFRONT,111 Town Square Place,Jersey City,NJ,40.72631,-74.03315,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:13350,13350,GROVE POINT,98 Christopher Columbus Dr,Jersey City,NJ,40.71947,-74.04161,2,1,1,0,0,0,30.5,32.0,50.0,0.0,True,True,False,True,False,store
+store:17862,17862,JERSEY CITY,"15 Exchange Pl, Ste 110",Jersey City,NJ,40.7158983,-74.033382,2,1,1,0,0,0,16.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:19500,19500,NEWPORT CENTRE-L1 CENTER CT,"30 Mall Drive West, Newport Centre, A-36",Jersey City,NJ,40.7271731,-74.0362091,2,1,1,0,0,0,29.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:27446,27446,Journal Square,3 Path Plz,Jersey City,NJ,40.73245,-74.06305,2,1,1,0,0,0,30.0,31.0,50.0,0.0,True,True,False,True,False,store
+addr:28 summit street|brooklyn|NY,,,28 Summit Street,Brooklyn,NY,40.683412,-74.0065609,2,0,0,0,0,2,17.0,20.0,0.0,0.0,False,False,False,False,False,addr
+store:00844,00844,MONTAGUE STREET,134 Montague St,Brooklyn,NY,40.69452130000001,-73.9939935,2,1,1,0,0,0,21.0,21.0,0.0,0.0,True,True,False,True,False,store
+store:07358,07358,COURT STREET,50 Court St,Brooklyn,NY,40.6924542,-73.9913925,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07704,07704,ATLANTIC CENTER PLAZA,"139 Flatbush Ave, Atlantic Terminal",Brooklyn,NY,40.68467,-73.97763,2,1,1,0,0,0,57.5,84.0,100.0,50.0,True,True,False,True,False,store
+store:09368,09368,MAIN STREET,67 Front Street,Brooklyn,NY,40.7027034,-73.990963,2,1,1,0,0,0,56.0,75.0,100.0,50.0,True,True,False,True,False,store
+store:11807,11807,"164 SMITH ST, BKLYN",164 Smith St,Brooklyn,NY,40.6862579,-73.9909703,2,1,1,0,0,0,26.5,32.0,50.0,0.0,True,True,False,True,False,store
+store:11809,11809,"POLYTECHNIC UNIVERSITY, METRO TECH","6 Metrotech Ctr, Poly Tech Institute",Brooklyn,NY,40.6942089,-73.9867001,2,1,1,0,0,0,29.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:18858,18858,UNION AVE - BKLYN,405-409 Union Ave,Brooklyn,NY,40.71259,-73.95156,1,0,1,0,0,0,29.0,29.0,0.0,0.0,False,True,False,False,False,store
+store:22596,22596,154 N SEVENTH ST,154 N Seventh St,Brooklyn,NY,40.71794,-73.95817,2,1,1,0,0,0,29.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:29719,29719,4th Ave. & Union St.,225 4th Ave,Brooklyn,NY,40.67721,-73.98294,2,1,1,0,0,0,36.5,45.0,50.0,0.0,True,True,False,True,False,store
+store:29856,29856,7TH AVE. & 9TH ST.,444 9th St,Brooklyn,NY,40.6667108,-73.98192399999999,2,1,1,0,0,0,28.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:48170,48170,4TH AVE. & 11TH ST.-PARK SLOPE,476 4th Ave,Brooklyn,NY,40.66941,-73.98988,2,1,1,0,0,0,23.5,28.0,0.0,0.0,True,True,False,True,False,store
+store:50622,50622,774 BROADWAY,774 Broadway,Brooklyn,NY,40.70001,-73.94111,2,1,1,0,0,0,64.0,89.0,100.0,50.0,True,True,False,True,False,store
+store:53880,53880,NASSAU AVE & LORIMER ST,66 Nassau Ave,Brooklyn,NY,40.72341,-73.95144,1,0,1,0,0,0,11.0,11.0,0.0,0.0,False,True,False,False,False,store
+store:54446,54446,LAFAYETTE AVE & GRAND AVE,325 Lafayette,Brooklyn,NY,40.68879,-73.96287,2,1,1,0,0,0,20.0,26.0,0.0,0.0,True,True,False,True,False,store
+store:82525,82525,BOND & FULTON,498 Fulton St,Brooklyn,NY,40.6892309,-73.9826398,2,1,1,0,0,0,52.5,84.0,50.0,50.0,True,True,False,True,False,store
+store:85278,85278,104 JAY ST,104 Jay St,Brooklyn,NY,40.70207569999999,-73.9868407,2,1,1,0,0,0,31.5,42.0,50.0,0.0,True,True,False,True,False,store
+store:63280,63280,VERNON BLVD & 50TH AVE,49-19 Vernon Blvd,Long Island City,NY,40.7428,-73.95393,2,1,1,0,0,0,25.0,25.0,0.0,0.0,True,True,False,True,False,store
+addr:61 9th ave|new york|NY,,,61 9th Ave,New York,NY,40.7416944,-74.0056597,10,4,0,0,0,6,59.0,80.0,100.0,50.0,True,False,False,True,False,addr
+store:00849,00849,38 PARK ROW,"38 Park Row, #4",New York,NY,40.711619,-74.00672999999999,2,1,1,0,0,0,35.0,49.0,50.0,0.0,True,True,False,True,False,store
+store:02785,02785,47TH & EIGHTH,770 Eighth Ave,New York,NY,40.76044,-73.98719,2,1,1,0,0,0,28.0,38.0,50.0,0.0,True,True,False,True,False,store
+store:03421,03421,WEST 23 & 8 TH,300 W 23rd St,New York,NY,40.7453023,-73.99894809999999,2,1,1,0,0,0,45.0,72.0,50.0,50.0,True,True,False,True,False,store
+store:07244,07244,BATTERY PARK,1 Battery Park Plz,New York,NY,40.7034206,-74.0141185,2,1,1,0,0,0,54.0,89.0,50.0,50.0,True,True,False,True,False,store
+store:07255,07255,8TH & 16TH,124 Eighth Avenue,New York,NY,40.74115,-74.00129,2,1,1,0,0,0,21.0,21.0,0.0,0.0,True,True,False,True,False,store
+store:07277,07277,23RD & PARK,304 Park Ave S,New York,NY,40.7403566,-73.9871431,2,1,1,0,0,0,20.0,21.0,0.0,0.0,True,True,False,True,False,store
+store:07282,07282,49TH & 7TH,750 Seventh Ave,New York,NY,40.7611958,-73.98378939999999,2,1,1,0,0,0,53.5,89.0,50.0,50.0,True,True,False,True,False,store
+store:07285,07285,22ND & 6TH,684 Avenue of the Americas,New York,NY,40.74184,-73.99323,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07370,07370,3RD & 48TH,757 Third Avenue,New York,NY,40.7539115,-73.971662,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07378,07378,UNION SQUARE,10 UNION SQUARE EAST,New York,NY,40.73502,-73.98984,2,1,1,0,0,0,38.0,60.0,50.0,0.0,True,True,False,True,False,store
+store:07393,07393,49TH & 8TH-WORLD WIDE PLAZA,325 W 49th St,New York,NY,40.76217,-73.98746,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07403,07403,35TH & 7TH,462 7th Ave,New York,NY,40.752023,-73.99039909999999,2,1,1,0,0,0,23.5,26.0,0.0,0.0,True,True,False,True,False,store
+store:07416,07416,55 BROAD STREET,55 Broad St,New York,NY,40.7052928,-74.0111441,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07426,07426,575 FIFTH AVENUE,575 Fifth Avenue,New York,NY,40.7563205,-73.9782735,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07427,07427,29TH & PARK,424 Park Ave S,New York,NY,40.7442055,-73.9837293,2,1,1,0,0,0,18.5,19.0,0.0,0.0,True,True,False,True,False,store
+store:07444,07444,SUBWAY @ ROCKERFELLER CTR,30 Rockefeller Plz,New York,NY,40.7593755,-73.9799726,2,1,1,0,0,0,46.5,74.0,50.0,50.0,True,True,False,True,False,store
+store:07462,07462,45TH & 5TH,2 West 45th,New York,NY,40.75546,-73.98015,2,1,1,0,0,0,44.5,68.0,50.0,50.0,True,True,False,True,False,store
+store:07466,07466,CHAMBERS & WEST BROADWAY,125 Chambers St,New York,NY,40.7154772,-74.008889,2,1,1,0,0,0,50.0,79.0,50.0,50.0,True,True,False,True,False,store
+store:07470,07470,35TH AND 8TH,494 Eighth Ave.,New York,NY,40.75263,-73.9929,2,1,1,0,0,0,14.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07493,07493,100 WILLIAM STREET,100 William St,New York,NY,40.70838270000001,-74.0072011,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07497,07497,BROADWAY & BOND,665 Broadway,New York,NY,40.72719,-73.99546,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07506,07506,150 E. 42ND STREET,150 E. 42nd Street,New York,NY,40.75086,-73.97527,2,1,1,0,0,0,18.5,19.0,0.0,0.0,True,True,False,True,False,store
+store:07511,07511,525 SEVENTH AVENUE,525 7th Avenue,New York,NY,40.7536463,-73.98844629999999,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07608,07608,48TH AND LEXINGTON,511 Lexington Ave,New York,NY,40.754881,-73.9733134,1,0,1,0,0,0,21.0,21.0,0.0,0.0,False,True,False,False,False,store
+store:07626,07626,SPRING AND VARICK,150 Varick St,New York,NY,40.7260463,-74.0055247,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07781,07781,LAFAYETTE & WORTH,111 Worth St,New York,NY,40.7159459,-74.0033459,2,1,1,0,0,0,12.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07792,07792,27TH & SIXTH,"776 Avenue of the Americas, The Capitol At Chelsea",New York,NY,40.74521,-73.99087,2,1,1,0,0,0,46.0,71.0,50.0,50.0,True,True,False,True,False,store
+store:07800,07800,GRAND CENTRAL TERMINAL,"86 Grand Central at Track 35, Grand Central Station, Track 35",New York,NY,40.752714,-73.97722689999999,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07802,07802,50TH & LEXINGTON,560 Lexington Ave,New York,NY,40.7568337,-73.97267219999999,2,1,1,0,0,0,48.0,75.0,50.0,50.0,True,True,False,True,False,store
+store:07858,07858,STUYVESANT TOWN,"286 First Avenue, A",New York,NY,40.7329877,-73.98084949999999,2,1,1,0,0,0,19.0,19.0,0.0,0.0,True,True,False,True,False,store
+store:07878,07878,WATER & MAIDEN,155 Water St,New York,NY,40.7061803,-74.0056887,2,1,1,0,0,0,62.0,89.0,100.0,50.0,True,True,False,True,False,store
+store:07920,07920,2 BROADWAY CAFE,"2 Broadway, Unit 2",New York,NY,40.70455159999999,-74.01300599999999,2,1,1,0,0,0,14.0,14.0,0.0,0.0,True,True,False,True,False,store
+store:08769,08769,WEST 43RD & BROADWAY,1500 Broadway,New York,NY,40.7567926,-73.98567129999999,2,1,1,0,0,0,9.5,14.0,0.0,0.0,True,True,False,True,False,store
+store:08812,08812,39TH & PARK,90 Park Ave,New York,NY,40.7507673,-73.9793811,2,1,1,0,0,0,64.0,89.0,100.0,50.0,True,True,False,True,False,store
+store:08992,08992,54TH & BROADWAY,1700 Broadway,New York,NY,40.7635183,-73.9823457,2,1,1,0,0,0,35.0,35.0,100.0,0.0,True,True,False,True,False,store
+store:09239,09239,1290 AVENUE OF THE AMERICAS,1290 Sixth Avenue,New York,NY,40.7604692,-73.97887949999999,2,1,1,0,0,0,35.0,35.0,100.0,0.0,True,True,False,True,False,store
+store:09467,09467,43RD & NINTH,593 Ninth Ave,New York,NY,40.75900800000001,-73.9925445,2,1,1,0,0,0,44.5,54.0,100.0,0.0,True,True,False,True,False,store
+store:09722,09722,31ST AND SIXTH AVENUE,875 Sixth Ave,New York,NY,40.7482021,-73.9891899,2,1,1,0,0,0,22.0,35.0,50.0,0.0,True,True,False,True,False,store
+store:10044,10044,ALLEN & DELANCEY,80 Delancey St,New York,NY,40.71932,-73.98994,2,1,1,0,0,0,32.0,35.0,50.0,0.0,True,True,False,True,False,store
+store:10282,10282,PEARL & HANOVER,110 Pearl Street,New York,NY,40.7046,-74.00912,2,1,1,0,0,0,32.0,35.0,50.0,0.0,True,True,False,True,False,store
+store:10784,10784,35TH & 5TH,373 5th Ave,New York,NY,40.74913,-73.98382,2,1,1,0,0,0,28.5,29.0,0.0,0.0,True,True,False,True,False,store
+store:10841,10841,55TH & LEXINGTON,655 Lexington Ave,New York,NY,40.75944,-73.96997,1,1,0,0,0,0,3.0,3.0,0.0,0.0,True,False,False,False,False,store
+store:11736,11736,50TH & MADISON,444 Madison,New York,NY,40.75782,-73.97588,2,1,1,0,0,0,34.5,40.0,50.0,0.0,True,True,False,True,False,store
+store:11737,11737,MADISON & 44TH,340 Madison Ave,New York,NY,40.75387,-73.97871,2,1,1,0,0,0,23.5,29.0,0.0,0.0,True,True,False,True,False,store
+store:13538,13538,SEVENTH & 27TH,315 Seventh Avenue,New York,NY,40.74697,-73.99332,2,1,1,0,0,0,38.0,47.0,50.0,0.0,True,True,False,True,False,store
+store:14318,14318,NASSAU & FULTON,130 Fulton St,New York,NY,40.71017,-74.00793,2,1,1,0,0,0,50.0,79.0,50.0,50.0,True,True,False,True,False,store
+store:14841,14841,CHURCH STREET & MURRAY,120 Church St,New York,NY,40.71378,-74.00912,2,1,1,0,0,0,50.5,72.0,50.0,50.0,True,True,False,True,False,store
+store:15440,15440,43rd & 6th AVENUE OF THE AMERICAS,1101 - 1109 Avenue of the Americas,New York,NY,40.75552,-73.98408,2,1,1,0,0,0,25.5,29.0,0.0,0.0,True,True,False,True,False,store
+store:15461,15461,JACKSON SQUARE,"122 Greenwich Avenue, space A",New York,NY,40.73937,-74.0026,2,1,1,0,0,0,25.5,32.0,50.0,0.0,True,True,False,True,False,store
+store:15751,15751,WEST BROADWAY & LEONARD STREET,180 W Broadway,New York,NY,40.7182107,-74.00738129999999,2,1,1,0,0,0,53.5,75.0,100.0,50.0,True,True,False,True,False,store
+store:16255,16255,3RD & FIRST,49 -1/2 First Avenue,New York,NY,40.72453,-73.98769,2,1,1,0,0,0,60.5,89.0,100.0,50.0,True,True,False,True,False,store
+store:16576,16576,36TH & 6TH AVE,977 Avenue of the Americas,New York,NY,40.751,-73.98701,2,1,1,0,0,0,32.0,32.0,100.0,0.0,True,True,False,True,False,store
+store:16628,16628,26TH & BROADWAY,1140 Broadway,New York,NY,40.74383,-73.98888,2,1,1,0,0,0,19.5,21.0,0.0,0.0,True,True,False,True,False,store
+store:16676,16676,PORT AUTHORITY - CONCOURSE LVL,"625 Eighth Avenue, Port Authority Bus Terminal",New York,NY,40.7567,-73.99096,1,0,1,0,0,0,29.0,29.0,0.0,0.0,False,True,False,False,False,store
+store:17452,17452,LEX BTWN 24-25 STS,50 Lexington Ave,New York,NY,40.74051,-73.98432,2,1,1,0,0,0,24.0,32.0,50.0,0.0,True,True,False,True,False,store
+store:17738,17738,53RD & SIXTH,1301 Avenue of the Americas,New York,NY,40.76179,-73.97954,2,1,1,0,0,0,52.5,73.0,100.0,50.0,True,True,False,True,False,store
+store:19024,19024,53RD & MAD,515 Madison Ave,New York,NY,40.75959,-73.9736,2,1,1,0,0,0,42.5,56.0,50.0,0.0,True,True,False,True,False,store
+store:20154,20154,99 WALL ST,99 Wall St,New York,NY,40.7049014,-74.00724439999999,1,0,1,0,0,0,29.0,29.0,0.0,0.0,False,True,False,False,False,store
+store:20161,20161,Macys Herald Square Mezzanine,"151 W 34th St, Macy's Herald Square",New York,NY,40.75052,-73.98902,3,2,1,0,0,0,29.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:20185,20185,23RD & 1ST,400 E 23rd st,New York,NY,40.73654,-73.97837,2,1,1,0,0,0,39.0,39.0,100.0,0.0,True,True,False,True,False,store
+store:22420,22420,425 LEXINGTON,425 Lexington,New York,NY,40.7523,-73.97522,2,1,1,0,0,0,26.0,26.0,0.0,0.0,True,True,False,True,False,store
+store:23044,23044,11 PENN PLAZA,11 Penn Plz,New York,NY,40.74916,-73.99059,2,1,1,0,0,0,29.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:24485,24485,53RD AND THIRD,875 Third Avenue,New York,NY,40.75737,-73.96909,2,1,1,0,0,0,24.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:25273,25273,WORLD TRADE CENTER OCULUS,"Two World Trade Center, 33 Vesey St., Loading Dock 2",New York,NY,40.71219,-74.01089,2,1,1,0,0,0,28.5,29.0,0.0,0.0,True,True,False,True,False,store
+store:26528,26528,6TH AVE BETWEEN 39TH AND 40TH,1040 Sixth Avenue,New York,NY,40.75311,-73.98511,2,1,1,0,0,0,15.5,28.0,0.0,0.0,True,True,False,True,False,store
+store:27849,27849,CARLISLE AND WASHINGTON,15 Carlisle St,New York,NY,40.70921,-74.01415,2,1,1,0,0,0,28.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:29896,29896,31ST AND PARK,475 Park Ave S,New York,NY,40.74545,-73.98217,2,1,1,0,0,0,38.5,49.0,50.0,0.0,True,True,False,True,False,store
+store:29897,29897,40TH & THIRD AVENUE,605 Third Ave,New York,NY,40.7492,-73.97533,2,1,1,0,0,0,19.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:47020,47020,BROOKFIELD PLACE 2,"250 Vesey Street, 203",New York,NY,40.71417,-74.01543,2,1,1,0,0,0,28.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:48421,48421,40TH & BROADWAY,1411 Broadway,New York,NY,40.7543,-73.98719,2,1,1,0,0,0,28.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:48990,48990,Avenue A & St. Marks,125 St. Marks Place,New York,NY,40.72683,-73.98316,2,1,1,0,0,0,18.5,28.0,0.0,0.0,True,True,False,True,False,store
+store:49234,49234,48TH BTWN 5TH & 6TH,28 W 48th St,New York,NY,40.75777,-73.97961,2,1,1,0,0,0,28.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:49550,49550,Broadway & 45th,152 W 45th St,New York,NY,40.7575407,-73.9848648,2,1,1,0,0,0,18.0,29.0,0.0,0.0,True,True,False,True,False,store
+store:49952,49952,33RD AND 10TH,450 W 33rd St,New York,NY,40.7536,-73.99943,2,1,1,0,0,0,28.0,28.0,0.0,0.0,True,True,False,True,False,store
+store:53473,53473,BROADWAY & EXCHANGE PL.,55 Broadway,New York,NY,40.70689,-74.01301,2,1,1,0,0,0,45.5,66.0,50.0,50.0,True,True,False,True,False,store
+store:55085,55085,PENN STATION - AMTRAK,"Starbucks, Pennsylvania Station, Amtrak Main Course",New York,NY,40.75034,-73.99299,2,1,1,0,0,0,26.0,26.0,0.0,0.0,True,True,False,True,False,store
+store:56451,56451,34TH & 1ST,591 1st Ave,New York,NY,40.7437,-73.9738,2,1,1,0,0,0,26.0,26.0,0.0,0.0,True,True,False,True,False,store
+store:57845,57845,Empire State Building,"350 Fifth Avenue - Empire State Building, 105",New York,NY,40.74839,-73.98489,4,1,0,0,0,3,53.5,64.0,100.0,25.0,True,False,False,True,False,store
+store:58455,58455,43RD ST & 11TH AVE,"572 11th Avenue, Retail Suite A",New York,NY,40.76178,-73.99758,2,1,1,0,0,0,55.0,84.0,50.0,50.0,True,True,False,True,False,store
+store:59524,59524,678 HUDSON STREET,678 Hudson St,New York,NY,40.74039,-74.00504,2,1,1,0,0,0,24.5,26.0,0.0,0.0,True,True,False,True,False,store
+store:62223,62223,BROOKFIELD PLACE 1 - LOBBY,200 Liberty St,New York,NY,40.71104,-74.01538,2,1,1,0,0,0,26.0,26.0,0.0,0.0,True,True,False,True,False,store
+store:62547,62547,MANHATTAN WEST,"435 West 31st St, Space 115",New York,NY,40.7521,-73.99831,2,1,1,0,0,0,39.5,54.0,50.0,0.0,True,True,False,True,False,store
+store:62869,62869,MOYNIHAN TRAIN STATION- 8TH AVE,"Moynihan Train Hall, 383 West 31st ST, Concourse Retail Space #048",New York,NY,40.75143,-73.99458,2,1,1,0,0,0,53.0,81.0,50.0,50.0,True,True,False,True,False,store
+store:63901,63901,PICKUP - 5THÂ AVE BTWN 41STÂ & 42ND,485 Fifth Ave,New York,NY,40.75289,-73.98109,1,1,0,0,0,0,25.0,25.0,0.0,0.0,True,False,False,False,False,store
+store:65313,65313,PICKUP- 13TH & UNIVERSITY,111 University Pl,New York,NY,40.73436,-73.99236,2,1,1,0,0,0,25.0,25.0,0.0,0.0,True,True,False,True,False,store
+store:65421,65421,35 HUDSON YARDS,"34 Hudson Yards, B",New York,NY,40.75435,-74.00223,2,1,1,0,0,0,25.0,25.0,0.0,0.0,True,True,False,True,False,store
+store:66212,66212,40TH & 8TH,620 Eighth Ave,New York,NY,40.75597,-73.99046,1,0,1,0,0,0,23.0,23.0,0.0,0.0,False,True,False,False,False,store
+store:70231,70231,46TH & PARK,"230 Park Ave, Store 1B",New York,NY,40.75474,-73.97611,2,1,1,0,0,0,23.0,23.0,0.0,0.0,True,True,False,True,False,store
+store:70726,70726,PENN STATION,"Penn 1, Concourse Level, Space C122",New York,NY,40.75105,-73.99281,1,0,1,0,0,0,60.0,60.0,100.0,0.0,False,True,False,False,False,store
+store:71892,71892,50 HUDSON YARDS - CONCOURSE,50 Hudson Yards West Concourse,New York,NY,40.75463,-74.00044,2,1,1,0,0,0,23.0,23.0,0.0,0.0,True,True,False,True,False,store
+store:78760,78760,ONE LIBERTY PLAZA,165 Broadway,New York,NY,40.7096,-74.01057,2,1,1,0,0,0,23.0,23.0,0.0,0.0,True,True,False,True,False,store
+store:85552,85552,ROCKEFELLER CENTER RINK LEVEL,"30 Rockefeller Plz, CO56, Concourse Level",New York,NY,40.7593755,-73.9799726,2,1,1,0,0,0,24.5,28.0,0.0,0.0,True,True,False,True,False,store
+store:88940,88940,11TH & 7TH - FORMERLY RESERVE,1 7th Ave,New York,NY,40.7361892,-74.0010348,2,1,1,0,0,0,84.0,84.0,100.0,100.0,True,True,False,True,False,store

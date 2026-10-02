@@ -1,0 +1,17 @@
+store_key,store_number,store_name,city,state,active_postings,max_days_open,n_locations_max,BARISTA,SHIFT_SUPERVISOR,STORE_MANAGER,DISTRICT_MANAGER,OTHER_RETAIL,n_role_types,role_set,max_same_role_postings,duplicate_roles,postings_older_than_role_p90,flag_same_role_duplicate,flag_3plus_role_types,flag_barista_supervisor_manager,flag_manager_plus_multiple_frontline,flag_old_for_role,flag_high_postings,flag_unusual_role_set,flag_nonstandard_location,n_flags
+store:07244,07244,BATTERY PARK,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:07282,07282,49TH & 7TH,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:07878,07878,WATER & MAIDEN,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:08812,08812,39TH & PARK,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,2,False,False,False,False,True,False,False,False,1
+store:16255,16255,3RD & FIRST,New York,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:50622,50622,774 BROADWAY,Brooklyn,NY,2,89.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,2,False,False,False,False,True,False,False,False,1
+store:07704,07704,ATLANTIC CENTER PLAZA,Brooklyn,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:58455,58455,43RD ST & 11TH AVE,New York,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:82525,82525,BOND & FULTON,Brooklyn,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:88940,88940,11TH & 7TH - FORMERLY RESERVE,New York,NY,2,84.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,2,False,False,False,False,True,False,False,False,1
+store:62869,62869,MOYNIHAN TRAIN STATION- 8TH AVE,New York,NY,2,81.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+addr:61 9th ave|new york|NY,,,New York,NY,10,80.0,1,4,0,0,0,6,2,BARISTA + OTHER_RETAIL,6,"Bx4,OTHERx6",2,True,False,False,False,True,True,False,True,4
+store:09368,09368,MAIN STREET,Brooklyn,NY,2,75.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:70726,70726,PENN STATION,New York,NY,1,60.0,1,0,1,0,0,0,1,SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:62547,62547,MANHATTAN WEST,New York,NY,2,54.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1
+store:20185,20185,23RD & 1ST,New York,NY,2,39.0,1,1,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,1,,1,False,False,False,False,True,False,False,False,1

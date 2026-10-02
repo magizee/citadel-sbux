@@ -1,0 +1,6 @@
+role_bucket,postings,median_posting_age_days,median_requisition_age_days,pct_requisitions_over_60d,pct_requisitions_over_90d,pct_requisitions_over_180d,pct_reposted,pct_in_expired_jul4_batch
+BARISTA,9484,28.0,27.0,20.4,0.0,0.0,0.0,1.0
+DISTRICT_MANAGER,5,14.0,27.0,20.0,0.0,0.0,40.0,0.0
+OTHER_RETAIL,13,50.0,50.0,38.5,15.4,7.7,15.4,0.0
+SHIFT_SUPERVISOR,9995,26.0,25.0,7.9,0.0,0.0,0.0,0.5
+STORE_MANAGER,190,10.0,17.0,20.0,9.5,0.0,42.1,0.0

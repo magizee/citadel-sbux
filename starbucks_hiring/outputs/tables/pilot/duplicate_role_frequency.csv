@@ -1,0 +1,5 @@
+store_key,store_number,store_name,city,state,active_postings,max_days_open,n_locations_max,BARISTA,SHIFT_SUPERVISOR,STORE_MANAGER,DISTRICT_MANAGER,OTHER_RETAIL,n_role_types,role_set,max_same_role_postings,duplicate_roles,postings_older_than_role_p90,flag_same_role_duplicate,flag_3plus_role_types,flag_barista_supervisor_manager,flag_manager_plus_multiple_frontline,flag_old_for_role,flag_high_postings,flag_unusual_role_set,flag_nonstandard_location,n_flags
+addr:61 9th ave|new york|NY,,,New York,NY,10,80.0,1,4,0,0,0,6,2,BARISTA + OTHER_RETAIL,6,"Bx4,OTHERx6",2,True,False,False,False,True,True,False,True,4
+addr:28 summit street|brooklyn|NY,,,Brooklyn,NY,2,20.0,1,0,0,0,0,2,1,OTHER_RETAIL,2,OTHERx2,0,True,False,False,False,False,False,True,True,3
+store:57845,57845,Empire State Building,New York,NY,4,64.0,1,1,0,0,0,3,2,BARISTA + OTHER_RETAIL,3,OTHERx3,0,True,False,False,False,False,True,False,False,2
+store:20161,20161,Macys Herald Square Mezzanine,New York,NY,3,29.0,1,2,1,0,0,0,2,BARISTA + SHIFT_SUPERVISOR,2,Bx2,0,True,False,False,False,False,False,False,False,1
