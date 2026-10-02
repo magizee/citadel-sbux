@@ -1,0 +1,10 @@
+group,stores,median_visits_yoy_pct,median_yoy_vs_state_pp,ci95_low,ci95_high,median_dwell_change_vs_state_min
+All matched company-operated stores,8896,2.17,0.0,-0.1,0.08,0.0
+Within 15 km of an open manager requisition,2508,2.67,0.53,0.28,0.77,0.0
+Within 15 km of a persistent manager requisition,1310,2.78,0.76,0.41,1.06,0.0
+Not near any open manager requisition,6388,1.96,-0.17,-0.29,-0.03,0.0
+Hiring pattern: ordinary store: only one frontline role,979,2.23,0.07,-0.22,0.51,0.0
+Hiring pattern: standard pair,7647,2.17,0.0,-0.1,0.08,0.0
+Hiring pattern: ordinary store: duplicates or 3+ roles,164,2.01,-0.23,-1.09,1.1,0.0
+Hiring pattern: no active posting,73,2.1,-0.8,-1.65,1.0,0.0
+"Hiring pattern: special format (Reserve, campus, airport…)",33,2.41,0.21,-1.85,3.98,1.0

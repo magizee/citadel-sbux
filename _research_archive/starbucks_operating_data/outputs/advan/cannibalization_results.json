@@ -1,0 +1,133 @@
+{
+  "stores_in_panel": 17856,
+  "event_study": {
+    "ring A (< 1 km)": {
+      "stores": 411,
+      "did_log_points": 0.0055,
+      "did_pct": 0.55,
+      "ci95_pct": [
+        -0.51,
+        1.68
+      ],
+      "pre_trend_slope_log_per_week": -0.00055
+    },
+    "ring B (1-2 km)": {
+      "stores": 542,
+      "did_log_points": 0.018,
+      "did_pct": 1.81,
+      "ci95_pct": [
+        0.93,
+        2.63
+      ],
+      "pre_trend_slope_log_per_week": -0.00049
+    }
+  },
+  "event_study_meta": {
+    "closures_in_wave": 481,
+    "event_week": "2025-10-13",
+    "controls": 6240,
+    "control_rule": "> 5 km from any closure Apr 2025-Sep 2026, same MSA as a treated store"
+  },
+  "recapture": {
+    "closed_store_pre_weekly_visits_total": 817925,
+    "extra_weekly_visits_ring_A": 11786,
+    "extra_weekly_visits_ring_B": 21532,
+    "note": "Rings only include survivors not near other closures, so this is a LOWER BOUND on total recapture.",
+    "recapture_rate_within_2km_pct": 4.1
+  },
+  "overlap_by_distance": [
+    {
+      "band": "< 0.5 km",
+      "pairs": 3857,
+      "median": 0.241,
+      "mean": 0.304
+    },
+    {
+      "band": "0.5\u20131 km",
+      "pairs": 5007,
+      "median": 0.084,
+      "mean": 0.148
+    },
+    {
+      "band": "1\u20132 km",
+      "pairs": 12514,
+      "median": 0.055,
+      "mean": 0.114
+    },
+    {
+      "band": "2\u20135 km",
+      "pairs": 57858,
+      "median": 0.036,
+      "mean": 0.083
+    }
+  ],
+  "closed_vs_open_max_overlap_by_density": [
+    {
+      "dens_q": "Q1 least dense",
+      "stayed open": 0.255,
+      "closed Oct 2025": 0.351
+    },
+    {
+      "dens_q": "Q2",
+      "stayed open": 0.331,
+      "closed Oct 2025": 0.294
+    },
+    {
+      "dens_q": "Q3",
+      "stayed open": 0.298,
+      "closed Oct 2025": 0.203
+    },
+    {
+      "dens_q": "Q4",
+      "stayed open": 0.261,
+      "closed Oct 2025": 0.207
+    },
+    {
+      "dens_q": "Q5 most dense",
+      "stayed open": 0.214,
+      "closed Oct 2025": 0.169
+    }
+  ],
+  "closed_vs_open_max_overlap_overall": {
+    "closed_median": 0.194,
+    "open_median": 0.269,
+    "closed_n": 448
+  },
+  "gain_vs_overlap": {
+    "neighbours": 3280,
+    "spearman": 0.012,
+    "bins": [
+      {
+        "overlap_bin": "(-0.001, 0.0133]",
+        "neighbours": 656,
+        "median_overlap": 0.0,
+        "growth_vs_all_pct": 0.108
+      },
+      {
+        "overlap_bin": "(0.0133, 0.0513]",
+        "neighbours": 656,
+        "median_overlap": 0.032,
+        "growth_vs_all_pct": 1.1
+      },
+      {
+        "overlap_bin": "(0.0513, 0.102]",
+        "neighbours": 656,
+        "median_overlap": 0.075,
+        "growth_vs_all_pct": 0.393
+      },
+      {
+        "overlap_bin": "(0.102, 0.182]",
+        "neighbours": 656,
+        "median_overlap": 0.138,
+        "growth_vs_all_pct": 0.637
+      },
+      {
+        "overlap_bin": "(0.182, 0.958]",
+        "neighbours": 656,
+        "median_overlap": 0.264,
+        "growth_vs_all_pct": 0.634
+      }
+    ],
+    "note": "Growth = log(post-closure mean visits / pre-closure mean), relative to all-store median; not metro-adjusted."
+  }
+}

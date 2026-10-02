@@ -1,0 +1,56 @@
+{
+  "note": "Two-brand share (Starbucks vs Dunkin'); same Advan panel for both.",
+  "starbucks_rows": 2403457,
+  "dunkin_rows": 1364991,
+  "national": {
+    "share_2026_window_pct": 78.13,
+    "share_2025_window_pct": 78.11,
+    "share_change_pp": 0.02,
+    "starbucks_total_visits_yoy_pct": 1.35,
+    "dunkin_total_visits_yoy_pct": 1.23,
+    "starbucks_locations_yoy_pct": -3.3,
+    "dunkin_locations_yoy_pct": 0.01,
+    "share_2024_first13w_pct": 78.99,
+    "starbucks_total_minus_dunkin_total_pp": 0.12
+  },
+  "same_store": {
+    "starbucks_median_pct": 2.65,
+    "starbucks_stores": 15806,
+    "dunkin_median_pct": 1.02,
+    "dunkin_stores": 9350,
+    "starbucks_minus_dunkin_pp": 1.63
+  },
+  "metros": {
+    "metros_with_20plus_starbucks": 112,
+    "metros_losing_share_pct": 38.4,
+    "median_share_change_pp": 0.08,
+    "spearman_share_change_vs_closures_per_100": -0.415,
+    "spearman_share_change_vs_persistent_vacancy_exposure": -0.201,
+    "by_closure_band": [
+      {
+        "closure_band": "none",
+        "metros": 22,
+        "median_share_change_pp": 0.7,
+        "sb_locations": 703
+      },
+      {
+        "closure_band": "0-3",
+        "metros": 23,
+        "median_share_change_pp": 0.15,
+        "sb_locations": 1975
+      },
+      {
+        "closure_band": "3-6",
+        "metros": 42,
+        "median_share_change_pp": 0.08,
+        "sb_locations": 5243
+      },
+      {
+        "closure_band": "6+",
+        "metros": 25,
+        "median_share_change_pp": -0.03,
+        "sb_locations": 4812
+      }
+    ]
+  }
+}

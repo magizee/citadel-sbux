@@ -1,0 +1,6 @@
+traffic_q,stores,median_weekly_visits,mean_open_postings,pct_same_role_duplicate,pct_no_barista_posting,pct_no_supervisor_posting,pct_leadership_zone,pct_persistent_leadership_zone
+Q1 quietest,1760,1108.0,1.891,1.14,8.01,2.73,40.06,21.76
+Q2,1760,2007.0,1.895,2.05,9.32,2.44,29.26,16.31
+Q3,1760,2655.0,1.894,1.59,8.41,2.22,22.5,11.42
+Q4,1760,3006.0,1.889,2.1,8.58,2.73,27.05,13.64
+Q5 busiest,1760,4256.0,1.896,2.44,8.07,2.95,23.24,11.08

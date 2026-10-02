@@ -1,0 +1,6 @@
+dens_q,stores,median_nearby_locations,weekly_visits_per_store,visits_yoy_pct,pct_locations_closed_since_oct25
+Q1 least dense,1867,3.0,3441.62,1.73,2.59
+Q2,1725,14.0,2874.92,1.56,3.28
+Q3,1770,30.0,2540.77,1.94,3.24
+Q4,1780,55.0,2126.23,2.35,5.61
+Q5 most dense,1754,128.0,1755.19,3.37,9.21

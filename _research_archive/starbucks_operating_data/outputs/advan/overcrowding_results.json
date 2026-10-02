@@ -1,0 +1,101 @@
+{
+  "stores": 8896,
+  "closures_in_window": 934,
+  "closure_window": [
+    "2025-07-01",
+    "2026-09-01"
+  ],
+  "density_quintiles": [
+    {
+      "dens_q": "Q1 least dense",
+      "stores": 1867,
+      "median_nearby_locations": 3.0,
+      "weekly_visits_per_store": 3441.62,
+      "visits_yoy_pct": 1.73,
+      "pct_locations_closed_since_oct25": 2.59
+    },
+    {
+      "dens_q": "Q2",
+      "stores": 1725,
+      "median_nearby_locations": 14.0,
+      "weekly_visits_per_store": 2874.92,
+      "visits_yoy_pct": 1.56,
+      "pct_locations_closed_since_oct25": 3.28
+    },
+    {
+      "dens_q": "Q3",
+      "stores": 1770,
+      "median_nearby_locations": 30.0,
+      "weekly_visits_per_store": 2540.77,
+      "visits_yoy_pct": 1.94,
+      "pct_locations_closed_since_oct25": 3.24
+    },
+    {
+      "dens_q": "Q4",
+      "stores": 1780,
+      "median_nearby_locations": 55.0,
+      "weekly_visits_per_store": 2126.23,
+      "visits_yoy_pct": 2.35,
+      "pct_locations_closed_since_oct25": 5.61
+    },
+    {
+      "dens_q": "Q5 most dense",
+      "stores": 1754,
+      "median_nearby_locations": 128.0,
+      "weekly_visits_per_store": 1755.19,
+      "visits_yoy_pct": 3.37,
+      "pct_locations_closed_since_oct25": 9.21
+    }
+  ],
+  "within_msa_elasticity_visits_per_store_to_density": -0.187,
+  "yoy_by_closure_distance": [
+    {
+      "closure_dist": "< 1 km",
+      "stores": 564,
+      "visits_yoy_pct": 4.12,
+      "yoy_vs_metro_pp": 1.61
+    },
+    {
+      "closure_dist": "1\u20132 km",
+      "stores": 527,
+      "visits_yoy_pct": 3.9,
+      "yoy_vs_metro_pp": 1.1
+    },
+    {
+      "closure_dist": "2\u20135 km",
+      "stores": 1552,
+      "visits_yoy_pct": 2.71,
+      "yoy_vs_metro_pp": 0.06
+    },
+    {
+      "closure_dist": "5\u201310 km",
+      "stores": 1747,
+      "visits_yoy_pct": 2.26,
+      "yoy_vs_metro_pp": 0.0
+    },
+    {
+      "closure_dist": "> 10 km",
+      "stores": 4430,
+      "visits_yoy_pct": 1.6,
+      "yoy_vs_metro_pp": 0.0
+    }
+  ],
+  "transfer": {
+    "stores_within_2km_of_closure": 1091,
+    "share_of_stores_pct": 12.3,
+    "median_yoy_near": 4.01,
+    "median_yoy_not_near": 1.98,
+    "mean_yoy_all": 2.85,
+    "mean_yoy_excluding_near": 2.51
+  },
+  "leadership_effect_within_msa_excluding_closure_adjacent": {
+    "leadership_zone": {
+      "false": 0.0,
+      "true": 0.0
+    },
+    "persistent_leadership_zone": {
+      "false": 0.0,
+      "true": 0.13
+    }
+  }
+}
