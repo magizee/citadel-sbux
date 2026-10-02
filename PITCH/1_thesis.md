@@ -50,6 +50,10 @@ itself ties most closely to store performance) shows **persistent vacancies in s
   stores goes with a weaker change in Starbucks' share of Starbucks + Dunkin' visits (Spearman −0.42): metros with no
   closures +0.70 pp, 6+ per 100 −0.03 pp (Jun–Sep 2026 vs 2025). Chart: `charts/11_share_vs_dunkin_by_closure_intensity.png`.
   Caveat: no-closure metros are smaller (22 metros, 703 stores).
+- **Dunkin' stores right next to a closure gained:** within 1 km, +2.0% visits vs ~+1.0% for Dunkin' elsewhere (+0.8 pp vs
+  same-metro Dunkin', 95% CI +0.2 to +1.3; nothing beyond 1 km). Chart: `charts/14_dunkin_growth_by_distance_to_closure.png`.
+  A before/after version (`charts/15`) also shows +1.5–2.2%, but Dunkin' near closures was already trending up beforehand,
+  so treat it as supportive, not causal. In volume terms Dunkin' captured only ~0.8% of the closed stores' visits within 2 km.
 - **Earlier cross-sectional result (`charts/04`) is superseded:** the +1.6 pp "transfer" gradient across all 2025–26 closures was
   not confirmed by the before/after model for the stores closest to closures. Transfer is at most a small (~+0.3 pp) effect.
   Don't present `charts/04` as evidence of comp inflation.

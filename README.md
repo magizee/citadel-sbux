@@ -41,6 +41,14 @@ stores. This supports a **valuation / expectations** short ("growth now depends 
 - Across 112 metros, more closures per 100 stores → weaker Starbucks share change vs Dunkin' (Spearman −0.42): **+0.70 pp in
   metros with no closures vs −0.03 pp in metros with 6+ per 100.**
 
+![Dunkin' growth by distance to a Starbucks closure](PITCH/charts/14_dunkin_growth_by_distance_to_closure.png)
+
+- At the store level, **Dunkin' locations within 1 km of a closed Starbucks grew visits +2.0% vs ~+1.0% elsewhere**
+  (+0.8 pp vs Dunkin' in the same metro, 95% CI +0.2 to +1.3); no effect beyond 1 km.
+- **But in absolute terms it is small:** nearby Dunkin' absorbed only ~0.8% of the closed stores' visits, and nearby Starbucks ~4%.
+  ~95% of the lost traffic is unaccounted for within 2 km (other chains, independents, farther Starbucks, or gone).
+  Claim "closures leak demand, partly to competitors", not "Dunkin' is taking Starbucks' customers".
+
 ## 5. Store-manager vacancies sit next to the weaker stores
 
 ![Hiring strain by store traffic](PITCH/charts/10_hiring_strain_by_store_traffic.png)

@@ -1,0 +1,65 @@
+{
+  "dunkin_stores": 9641,
+  "starbucks_closures_jul25_aug26": 934,
+  "oct25_wave": 481,
+  "cross_section": [
+    {
+      "band": "< 1 km",
+      "dunkin_stores": 475,
+      "raw_visits_yoy_pct": 1.96,
+      "yoy_vs_metro_pp": 0.84
+    },
+    {
+      "band": "1\u20132 km",
+      "dunkin_stores": 333,
+      "raw_visits_yoy_pct": 1.22,
+      "yoy_vs_metro_pp": 0.0
+    },
+    {
+      "band": "2\u20135 km",
+      "dunkin_stores": 1026,
+      "raw_visits_yoy_pct": 0.68,
+      "yoy_vs_metro_pp": -0.2
+    },
+    {
+      "band": "5\u201310 km",
+      "dunkin_stores": 1543,
+      "raw_visits_yoy_pct": 1.04,
+      "yoy_vs_metro_pp": 0.0
+    },
+    {
+      "band": "> 10 km",
+      "dunkin_stores": 5797,
+      "raw_visits_yoy_pct": 1.02,
+      "yoy_vs_metro_pp": 0.0
+    }
+  ],
+  "cross_section_near_minus_far_pp": {
+    "estimate": 0.84,
+    "ci95": [
+      0.22,
+      1.3
+    ]
+  },
+  "event_study": {
+    "< 1 km": {
+      "dunkin_stores": 172,
+      "did_pct": 1.49,
+      "ci95_pct": [
+        0.19,
+        2.84
+      ]
+    },
+    "1\u20132 km": {
+      "dunkin_stores": 192,
+      "did_pct": 2.22,
+      "ci95_pct": [
+        0.73,
+        3.68
+      ]
+    }
+  },
+  "event_study_controls": 4389,
+  "diversion_to_dunkin_within_2km_pct": 0.8,
+  "note": "Lower bound (excludes Dunkin' near other Starbucks closures). Compare: Starbucks neighbours recaptured ~4% within 2 km."
+}
