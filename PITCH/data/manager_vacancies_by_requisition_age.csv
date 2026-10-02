@@ -1,0 +1,196 @@
+job_id,job_title_raw,role_bucket,store_number,city,state,req_created_date,posted_date,req_age_days,days_since_posted,reposted_requisition,job_url
+260029000,"store manager - Olympia/Tumwater/Lacey, WA",STORE_MANAGER,,Lacey,WA,2026-04-14,2026-09-09,170,22,True,https://apply.starbucks.com/careers/job/481077793978
+260029947,"store manager - Cambridge, MA",STORE_MANAGER,,Cambridge,MA,2026-04-15,2026-09-25,169,6,True,https://apply.starbucks.com/careers/job/481077826268
+260031642,"store manager-Annapolis/ Glen Burnie, MD",STORE_MANAGER,,Annapolis,MD,2026-04-24,2026-09-11,160,20,True,https://apply.starbucks.com/careers/job/481078027246
+260035569,"store manager- Fishtown, Philadelphia, PA",STORE_MANAGER,,Philadelphia,PA,2026-05-27,2026-09-03,128,29,True,https://apply.starbucks.com/careers/job/481078424584
+260043783,"store manager - Joliet, IL",STORE_MANAGER,,Joliet,IL,2026-06-11,2026-09-14,113,18,True,https://apply.starbucks.com/careers/job/481078684154
+260043797,"store manager - Aurora/Oswego, IL",STORE_MANAGER,,Oswego,IL,2026-06-11,2026-09-30,113,2,True,https://apply.starbucks.com/careers/job/481078684629
+260043823,"store manager, Greater Portland, OR",STORE_MANAGER,,Gresham,OR,2026-06-12,2026-08-30,111,32,True,https://apply.starbucks.com/careers/job/481078734754
+260044539,"store manager, Washington, DC",STORE_MANAGER,,Washington,DC,2026-06-12,2026-09-08,111,23,True,https://apply.starbucks.com/careers/job/481078737287
+260043820,store manager,STORE_MANAGER,,Beaverton,OR,2026-06-12,2026-06-12,111,111,False,https://apply.starbucks.com/careers/job/481078734709
+260046559,"store manager, Danbury, CT",STORE_MANAGER,,Danbury,CT,2026-06-15,2026-09-24,109,8,True,https://apply.starbucks.com/careers/job/481078780671
+260046765,"store manager- Willow Grove/Fort Washington, PA",STORE_MANAGER,,Fort Washington,PA,2026-06-16,2026-09-04,108,28,True,https://apply.starbucks.com/careers/job/481078807697
+260046768,"store manager- King Of Prussia, PA",STORE_MANAGER,,King Of Prussia,PA,2026-06-16,2026-09-04,108,28,True,https://apply.starbucks.com/careers/job/481078807691
+260046763,store manager- Haverford/ Ardmore,STORE_MANAGER,,Ardmore,PA,2026-06-16,2026-09-11,108,21,True,https://apply.starbucks.com/careers/job/481078807412
+260046986,"store manager-Rochester/Clarkston, MI.",STORE_MANAGER,,Rochester,MI,2026-06-16,2026-09-24,107,7,True,https://apply.starbucks.com/careers/job/481078813789
+260048362,"store manager, Oroville/Chico, CA",STORE_MANAGER,,Chico,CA,2026-06-18,2026-09-15,105,16,True,https://apply.starbucks.com/careers/job/481078845510
+260051927,"store manager, Bend/Redmond, OR",STORE_MANAGER,,Redmond,OR,2026-06-29,2026-08-26,94,36,True,https://apply.starbucks.com/careers/job/481079149121
+260052449,"store manager-Plymouth, MI.",STORE_MANAGER,,Plymouth,MI,2026-07-01,2026-09-28,92,3,True,https://apply.starbucks.com/careers/job/481079177111
+260052636,"store manager - Fairbanks, AK",STORE_MANAGER,,Fairbanks,AK,2026-07-02,2026-08-05,91,57,True,https://apply.starbucks.com/careers/job/481079197504
+260053653,store manager,STORE_MANAGER,,Flemington,NJ,2026-07-08,2026-09-29,86,3,True,https://apply.starbucks.com/careers/job/481079368945
+260053514,"store manager, Elko, Nevada",STORE_MANAGER,,Elko,NV,2026-07-07,2026-08-19,86,43,True,https://apply.starbucks.com/careers/job/481079332049
+260053526,store manager- Baltimore & Surrounding Areas,STORE_MANAGER,,Baltimore,MD,2026-07-08,2026-09-02,85,29,True,https://apply.starbucks.com/careers/job/481079350012
+260053620,"store manager - Redmond, WA",STORE_MANAGER,,Redmond,WA,2026-07-08,2026-09-09,85,22,True,https://apply.starbucks.com/careers/job/481079361642
+260054949,"district manager - Burlington, VT",DISTRICT_MANAGER,,Burlington,VT,2026-07-10,2026-09-08,83,23,True,https://apply.starbucks.com/careers/job/481079410368
+260054912,"store manager - Clearwater, FL",STORE_MANAGER,,Saint Petersburg,FL,2026-07-10,2026-08-24,83,38,True,https://apply.starbucks.com/careers/job/481079409199
+260055799,"store manager - Tampa, FL",STORE_MANAGER,,Tampa,FL,2026-07-13,2026-09-15,80,16,True,https://apply.starbucks.com/careers/job/481079456697
+260056127,"store manager, Downtown Miami",STORE_MANAGER,,Miami,FL,2026-07-14,2026-09-02,79,29,True,https://apply.starbucks.com/careers/job/481079483463
+260056086,"store manager - Augusta, ME",STORE_MANAGER,,Augusta,ME,2026-07-14,2026-09-08,79,23,True,https://apply.starbucks.com/careers/job/481079480403
+260056583,"store manager- Mount Laurel/ Cherry Hill, NJ",STORE_MANAGER,,Cherry Hill,NJ,2026-07-15,2026-09-03,79,29,True,https://apply.starbucks.com/careers/job/481079501858
+260056620,"store manager - Medical District/River North, IL",STORE_MANAGER,,Chicago,IL,2026-07-15,2026-09-22,79,10,True,https://apply.starbucks.com/careers/job/481079504807
+260056828,"store manager, New Berlin/ West Allis, WI",STORE_MANAGER,,New Berlin,WI,2026-07-16,2026-09-18,78,14,True,https://apply.starbucks.com/careers/job/481079535851
+260056817,"store manager- University City/ Center City, Philadelphia, PA",STORE_MANAGER,,Philadelphia,PA,2026-07-16,2026-09-03,78,29,True,https://apply.starbucks.com/careers/job/481079530765
+260056832,"store manager, Manitowoc/ Sheboygan, WI",STORE_MANAGER,,Manitowoc,WI,2026-07-16,2026-09-24,77,7,True,https://apply.starbucks.com/careers/job/481079535849
+260057140,"store manager, Tulsa",STORE_MANAGER,,Tulsa,OK,2026-07-17,2026-08-26,76,36,True,https://apply.starbucks.com/careers/job/481079562832
+260057874,store manager - Stamford / Greenwich CT,STORE_MANAGER,,Stamford,CT,2026-07-23,2026-09-12,71,20,True,https://apply.starbucks.com/careers/job/481079679783
+260057872,store manager - White Plains NY,STORE_MANAGER,,White Plains,NY,2026-07-23,2026-09-25,71,7,True,https://apply.starbucks.com/careers/job/481079679050
+260058532,store manager-Montecito/Santa Barbara,STORE_MANAGER,,Santa Barbara,CA,2026-07-27,2026-09-25,66,6,True,https://apply.starbucks.com/careers/job/481079870861
+260058992,"store manager - Bellevue/Redmond, WA",STORE_MANAGER,,Bellevue,WA,2026-07-30,2026-09-09,63,22,True,https://apply.starbucks.com/careers/job/481079951842
+260058987,"store manager - Monroe/Snohomish, WA",STORE_MANAGER,,Monroe,WA,2026-07-30,2026-09-09,63,22,True,https://apply.starbucks.com/careers/job/481079950164
+260058964,"store manager, Treasure Valley, ID",STORE_MANAGER,,Nampa,ID,2026-07-30,2026-07-30,63,63,False,https://apply.starbucks.com/careers/job/481079947282
+260059650,"store manager- Deptford, NJ",STORE_MANAGER,,Deptford,NJ,2026-08-05,2026-09-23,57,8,True,https://apply.starbucks.com/careers/job/481080025596
+260059658,"store manager, Hialeah / Miami Lakes",STORE_MANAGER,,Miami Lakes,FL,2026-08-05,2026-09-18,57,13,True,https://apply.starbucks.com/careers/job/481080027422
+260059659,"store manager, Miami Gardens / North Miami Beach",STORE_MANAGER,,Miami Gardens,FL,2026-08-05,2026-09-18,57,13,True,https://apply.starbucks.com/careers/job/481080027421
+260059791,"store manager - Lynnwood, WA",STORE_MANAGER,,Lynnwood,WA,2026-08-07,2026-09-09,55,22,True,https://apply.starbucks.com/careers/job/481080058868
+260059785,"store manager - Mount Vernon/Burlington, WA",STORE_MANAGER,,Mount Vernon,WA,2026-08-07,2026-09-08,55,23,True,https://apply.starbucks.com/careers/job/481080057795
+260059794,"store manager - Vancouver/Ridgefield/Washougal, WA",STORE_MANAGER,,Washougal,WA,2026-08-07,2026-09-09,55,22,True,https://apply.starbucks.com/careers/job/481080058866
+260060294,"store manager, Mequon/Grafton/Germantown, WI",STORE_MANAGER,,Mequon,WI,2026-08-11,2026-09-18,51,13,True,https://apply.starbucks.com/careers/job/481080167994
+260060293,"store manager- West Midtown Atlanta, GA",STORE_MANAGER,,Atlanta,GA,2026-08-11,2026-09-28,51,3,True,https://apply.starbucks.com/careers/job/481080167991
+260060493,"store manager - Western Chicagoland, IL",STORE_MANAGER,,Aurora,IL,2026-08-13,2026-08-13,50,50,False,https://apply.starbucks.com/careers/job/481080152072
+260060523,"store manager - South Cook/Will County, IL",STORE_MANAGER,,Chicago Heights,IL,2026-08-13,2026-09-17,49,14,True,https://apply.starbucks.com/careers/job/481080154802
+260060704,store manager - Lower Westchester,STORE_MANAGER,,Westchester,NY,2026-08-14,2026-09-24,49,8,True,https://apply.starbucks.com/careers/job/481080163519
+260060581,"store manager, Central St. Louis",STORE_MANAGER,,Crestwood,IL,2026-08-14,2026-10-01,48,0,True,https://apply.starbucks.com/careers/job/481080162749
+260060810,"store manager, Brookfield/Tosa, WI",STORE_MANAGER,,Brookfield,WI,2026-08-14,2026-09-24,48,7,True,https://apply.starbucks.com/careers/job/481080166338
+260060854,"store manager- Portland, ME",STORE_MANAGER,,Portland,ME,2026-08-15,2026-08-15,47,47,False,https://apply.starbucks.com/careers/job/481080179298
+260060989,"store manager - Orlando South Central, FL",STORE_MANAGER,,Orlando,FL,2026-08-17,2026-09-29,45,2,True,https://apply.starbucks.com/careers/job/481080251160
+260061045,"store manager - West Palm Beach, FL",STORE_MANAGER,,West Palm Beach,FL,2026-08-17,2026-09-30,45,1,True,https://apply.starbucks.com/careers/job/481080215351
+260061007,"store manager - Stuart/Port St. Lucie, FL",STORE_MANAGER,,Port Saint Lucie,FL,2026-08-17,2026-09-29,45,2,True,https://apply.starbucks.com/careers/job/481080251200
+260061006,"store manager - North Naples, FL",STORE_MANAGER,,Naples,FL,2026-08-17,2026-09-14,45,17,True,https://apply.starbucks.com/careers/job/481080238128
+260061063,"district manager, Greater Portland",DISTRICT_MANAGER,,Gresham,OR,2026-08-18,2026-08-20,44,42,False,https://apply.starbucks.com/careers/job/481080227224
+260061195,"store manager - South Phoenix, Laveen",STORE_MANAGER,,Laveen,AZ,2026-08-18,2026-09-22,44,9,True,https://apply.starbucks.com/careers/job/481080239540
+260061198,store manager,STORE_MANAGER,,Mesa,AZ,2026-08-18,2026-09-15,44,16,True,https://apply.starbucks.com/careers/job/481080239546
+260061380,"store manager, Aberdeen",STORE_MANAGER,,Aberdeen,SD,2026-08-19,2026-08-19,43,43,False,https://apply.starbucks.com/careers/job/481080268109
+260061425,"store manager, Moscow/Pullman",STORE_MANAGER,,Moscow,ID,2026-08-19,2026-09-04,43,27,True,https://apply.starbucks.com/careers/job/481080281608
+260061492,store manager- Los Banos,STORE_MANAGER,,Los Banos,CA,2026-08-20,2026-09-23,43,9,True,https://apply.starbucks.com/careers/job/481080372520
+260061423,"store manager, Hermiston/Pendleton, OR",STORE_MANAGER,,Hermiston,OR,2026-08-19,2026-08-19,43,43,False,https://apply.starbucks.com/careers/job/481080281605
+260061411,"store manager - Ft. Lauderdale, FL",STORE_MANAGER,,Fort Lauderdale,FL,2026-08-19,2026-09-29,43,2,True,https://apply.starbucks.com/careers/job/481080276177
+260061511,"store manager- Buford/Duluth, GA",STORE_MANAGER,,Buford,GA,2026-08-21,2026-10-01,41,0,True,https://apply.starbucks.com/careers/job/481080386430
+260063880,"store manager, Waynesboro, Staunton, Stuarts Draft",STORE_MANAGER,,Waynesboro,VA,2026-08-28,2026-09-25,34,6,True,https://apply.starbucks.com/careers/job/481080569610
+260063931,"store manager, Tri Cities",STORE_MANAGER,,Richland,WA,2026-08-28,2026-09-23,34,8,True,https://apply.starbucks.com/careers/job/481080575730
+260063881,"store manager, Harrisonburg, Grottoes, Bridgewater",STORE_MANAGER,,Harrisonburg,VA,2026-08-28,2026-09-25,34,6,True,https://apply.starbucks.com/careers/job/481080569611
+260064906,"store manager - Westmont/Darien, IL",STORE_MANAGER,,Darien,IL,2026-08-31,2026-10-01,32,1,True,https://apply.starbucks.com/careers/job/481080628826
+260064852,store manager,STORE_MANAGER,,Columbia,SC,2026-08-31,2026-09-24,31,7,True,https://apply.starbucks.com/careers/job/481080612652
+260065085,"store manager, Knoxville, Tennessee",STORE_MANAGER,,Knoxville,TN,2026-09-01,2026-10-01,31,1,True,https://apply.starbucks.com/careers/job/481080668123
+260065091,"store manager, Union City, Tennessee",STORE_MANAGER,,Union City,TN,2026-09-01,2026-09-23,30,8,True,https://apply.starbucks.com/careers/job/481080668242
+260065088,"store manager, Meridian, Mississippi",STORE_MANAGER,,Meridian,MS,2026-09-01,2026-09-23,30,8,True,https://apply.starbucks.com/careers/job/481080668243
+260065086,"store manager, Columbus, Mississippi",STORE_MANAGER,,Columbus,MS,2026-09-01,2026-09-23,30,8,True,https://apply.starbucks.com/careers/job/481080668238
+260066613,"store manager, Eugene/Springfield, OR",STORE_MANAGER,,Eugene,OR,2026-09-02,2026-09-02,29,29,False,https://apply.starbucks.com/careers/job/481080687834
+260069246,"store manager - Sycamore/Elburn, IL",STORE_MANAGER,,Dekalb,IL,2026-09-04,2026-09-15,28,17,True,https://apply.starbucks.com/careers/job/481080716486
+260068117,"store manager, North Platte",STORE_MANAGER,,North Platte,NE,2026-09-03,2026-09-03,28,28,False,https://apply.starbucks.com/careers/job/481080703356
+260069260,"district manager, Central Wisconsin, Stevens Point/ Wisconsin Dells",DISTRICT_MANAGER,,Stevens Point,WI,2026-09-04,2026-09-21,27,10,True,https://apply.starbucks.com/careers/job/481080717659
+260069227,store manager - Brighton MA,STORE_MANAGER,,Brighton,MA,2026-09-04,2026-09-25,27,6,True,https://apply.starbucks.com/careers/job/481080713792
+260072279,"store manager, San Francisco",STORE_MANAGER,,San Francisco,CA,2026-09-09,2026-09-29,23,3,True,https://apply.starbucks.com/careers/job/481080772526
+260071471,"store manager, Odessa, Pecos, Monahans",STORE_MANAGER,,Odessa,TX,2026-09-08,2026-09-08,23,23,False,https://apply.starbucks.com/careers/job/481080752621
+260071502,"store manager - Issaquah/Sammamish, WA",STORE_MANAGER,,Issaquah,WA,2026-09-08,2026-09-08,23,23,False,https://apply.starbucks.com/careers/job/481080755538
+260072242,"store manager, Nashua, NH",STORE_MANAGER,,Nashua,NH,2026-09-09,2026-09-28,23,4,True,https://apply.starbucks.com/careers/job/481080767165
+260072268,store manager- Carson/Torrance/Compton/South Bay,STORE_MANAGER,,Carson,CA,2026-09-09,2026-09-18,23,14,True,https://apply.starbucks.com/careers/job/481080771230
+260072264,"store manager, Alexandria, MN",STORE_MANAGER,,Alexandria,MN,2026-09-09,2026-09-09,22,22,False,https://apply.starbucks.com/careers/job/481080770844
+260072259,"store manager - Tacoma/Puyallup, WA",STORE_MANAGER,,Puyallup,WA,2026-09-09,2026-09-09,22,22,False,https://apply.starbucks.com/careers/job/481080769081
+260072274,"store manager, McAlester/Southeastern Oklahoma",STORE_MANAGER,,Mcalester,OK,2026-09-09,2026-09-09,22,22,False,https://apply.starbucks.com/careers/job/481080771853
+260072256,"store manager - Renton/Tukwila/Burien, WA",STORE_MANAGER,,Renton,WA,2026-09-09,2026-09-09,22,22,False,https://apply.starbucks.com/careers/job/481080769076
+260073468,"store manager - Anchorage, AK",STORE_MANAGER,,Anchorage,AK,2026-09-11,2026-09-11,20,20,False,https://apply.starbucks.com/careers/job/481080803147
+260073466,"store manager, Greater Salt Lake City Area",STORE_MANAGER,,Salt Lake City,UT,2026-09-11,2026-09-11,20,20,False,https://apply.starbucks.com/careers/job/481080803066
+260075558,"store manager - Southington, CT",STORE_MANAGER,,Southington,CT,2026-09-14,2026-09-14,18,18,False,https://apply.starbucks.com/careers/job/481080825230
+260075935,"store manager, Columbus, OH",STORE_MANAGER,,Columbus,OH,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080847665
+260076036,"store manager, Chelmsford, MA",STORE_MANAGER,,Chelmsford,MA,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080852716
+260075884,store manager-Chambersburg PA,STORE_MANAGER,,Chambersburg,PA,2026-09-15,2026-10-01,17,1,True,https://apply.starbucks.com/careers/job/481080845743
+260075988,"store manager, Racine/ Kenosha, WI",STORE_MANAGER,,Racine,WI,2026-09-15,2026-09-28,17,4,True,https://apply.starbucks.com/careers/job/481080849047
+260075870,"store manager, Suffolk County",STORE_MANAGER,,Port Jefferson,NY,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080845419
+260075845,store manager - Naperville/Warrenville,STORE_MANAGER,,Naperville,IL,2026-09-15,2026-09-16,17,16,False,https://apply.starbucks.com/careers/job/481080843344
+260075962,"store manager, Bloomington-Normal",STORE_MANAGER,,Bloomington,IL,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080848151
+260075911,"store manager-Pittsburgh, PA",STORE_MANAGER,,Pittsburgh,PA,2026-09-15,2026-10-01,17,1,True,https://apply.starbucks.com/careers/job/481080846870
+260075557,"store manager - N. Riverview, Valrico, FL",STORE_MANAGER,,Riverview,FL,2026-09-14,2026-09-14,17,17,False,https://apply.starbucks.com/careers/job/481080825233
+260075834,"store manager, Hurst/Euless/Bedford",STORE_MANAGER,,Hurst,TX,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080841595
+260075839,"store manager, Granbury, Stephenville, Willow Park, Weatherford, TX",STORE_MANAGER,,Granbury,TX,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080842769
+260075959,"store manager - Westchester / Greenwich, CT",STORE_MANAGER,,Westchester,NY,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080848148
+260076034,"store manager, Londonderry, NH",STORE_MANAGER,,Londonderry,NH,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080852717
+260075953,"store manager - Greater Trenton/Hamilton, NJ",STORE_MANAGER,,Trenton,NJ,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080847966
+260074423,"store manager - Warsaw, IN",STORE_MANAGER,,Warsaw,IN,2026-09-14,2026-09-15,17,16,False,https://apply.starbucks.com/careers/job/481080819551
+260075893,"store manager, Concord, NH",STORE_MANAGER,,Concord,NH,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080846275
+260075539,"store manager, Portsmouth, NH",STORE_MANAGER,,Portsmouth,NH,2026-09-14,2026-09-14,17,17,False,https://apply.starbucks.com/careers/job/481080822616
+260074416,"store manager - Elkhart/Goshen, IN",STORE_MANAGER,,Goshen,IN,2026-09-14,2026-09-15,17,16,False,https://apply.starbucks.com/careers/job/481080819559
+260076033,"store manager, Raymond, NH",STORE_MANAGER,,Raymond,NH,2026-09-15,2026-09-15,17,17,False,https://apply.starbucks.com/careers/job/481080852711
+260076011,"store manager, Lansing, MI.",STORE_MANAGER,,Lansing,MI,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080851410
+260075859,"store manager- Stockbridge/McDonough, GA",STORE_MANAGER,,Mcdonough,GA,2026-09-15,2026-09-28,16,3,True,https://apply.starbucks.com/careers/job/481080844451
+260075981,"store manager, Sioux Falls",STORE_MANAGER,,Sioux Falls,SD,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080849033
+260076831,store manager Berks County,STORE_MANAGER,,Harrisburg,PA,2026-09-16,2026-10-01,16,1,True,https://apply.starbucks.com/careers/job/481080861260
+260076904,"store manager, Marion, OH",STORE_MANAGER,,Marion,OH,2026-09-16,2026-09-16,16,16,False,https://apply.starbucks.com/careers/job/481080866845
+260076035,"store manager, Wilmington, MA",STORE_MANAGER,,Wilmington,MA,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080852715
+260076859,"store manager Charleston, WV",STORE_MANAGER,,Barboursville,WV,2026-09-16,2026-09-21,16,11,False,https://apply.starbucks.com/careers/job/481080865557
+260076887,"store manager, Lorain, OH",STORE_MANAGER,,Lorain,OH,2026-09-16,2026-09-25,16,7,True,https://apply.starbucks.com/careers/job/481080866378
+260076049,mgr district- Fresno,DISTRICT_MANAGER,,Fresno,CA,2026-09-16,2026-09-18,16,14,False,https://apply.starbucks.com/careers/job/481080860162
+260075955,"store manager - Waltham, MA",STORE_MANAGER,,Waltham,MA,2026-09-15,2026-09-21,16,10,False,https://apply.starbucks.com/careers/job/481080847953
+260076053,store manager-Phoenixville pa,STORE_MANAGER,,Phoenixville,PA,2026-09-16,2026-09-16,16,16,False,https://apply.starbucks.com/careers/job/481080860153
+260075968,"store manager, NSO, New Baltimore, MI.",STORE_MANAGER,,New Baltimore,MI,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080848158
+260076031,"store manager, Bangor, ME",STORE_MANAGER,,Bangor,ME,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080852714
+260075965,"store manager, Redford, Romulus, MI.",STORE_MANAGER,,Redford,MI,2026-09-15,2026-09-30,16,1,True,https://apply.starbucks.com/careers/job/481080848164
+260075977,"store manager, Fargo",STORE_MANAGER,,Fargo,ND,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080849013
+260075824,"store manager, Denton, TX",STORE_MANAGER,,Denton,TX,2026-09-15,2026-09-15,16,16,False,https://apply.starbucks.com/careers/job/481080841585
+260076050,"store manager- Springfield/Media, PA",STORE_MANAGER,,Media,PA,2026-09-16,2026-09-16,15,15,False,https://apply.starbucks.com/careers/job/481080860152
+260076864,"store manager, West Raleigh, NC",STORE_MANAGER,,Raleigh,NC,2026-09-16,2026-09-16,15,15,False,https://apply.starbucks.com/careers/job/481080865555
+260076897,"store manager, Shoreline/Edmonds, WA",STORE_MANAGER,,Edmonds,WA,2026-09-16,2026-09-16,15,15,False,https://apply.starbucks.com/careers/job/481080866848
+260077864,"store manager- Inglewood, Hawthorne, Gardena, Lawndale",STORE_MANAGER,,Inglewood,CA,2026-09-18,2026-09-18,14,14,False,https://apply.starbucks.com/careers/job/481080900225
+260077859,"store manager,  Nassau County",STORE_MANAGER,,Massapequa,NY,2026-09-18,2026-09-18,14,14,False,https://apply.starbucks.com/careers/job/481080899709
+260077104,store manager- Bakersfield,STORE_MANAGER,,Bakersfield,CA,2026-09-17,2026-10-01,14,0,True,https://apply.starbucks.com/careers/job/481080882049
+260076968,"store manager - Tarpon Springs/ New Port Richey, FL",STORE_MANAGER,,Tarpon Springs,FL,2026-09-17,2026-09-17,14,14,False,https://apply.starbucks.com/careers/job/481080875247
+260076950,"store manager, Durham, Chapel Hill, NC",STORE_MANAGER,,Chapel Hill,NC,2026-09-17,2026-09-17,14,14,False,https://apply.starbucks.com/careers/job/481080873167
+260077105,"store manager, Midwest City/Shawnee/Choctaw/Seminole",STORE_MANAGER,,Seminole,OK,2026-09-17,2026-09-17,14,14,False,https://apply.starbucks.com/careers/job/481080882046
+260077132,"store manager, Amarillo, TX",STORE_MANAGER,,Amarillo,TX,2026-09-18,2026-09-18,13,13,False,https://apply.starbucks.com/careers/job/481080889082
+260077829,"store manager, Edina, MN",STORE_MANAGER,,Edina,MN,2026-09-18,2026-09-18,13,13,False,https://apply.starbucks.com/careers/job/481080892074
+260077851,"store manager- Athens, GA",STORE_MANAGER,,Athens,GA,2026-09-18,2026-09-18,13,13,False,https://apply.starbucks.com/careers/job/481080897631
+260077873,"district manager, Maui, HI",DISTRICT_MANAGER,,Lahaina,HI,2026-09-19,2026-09-22,12,9,False,https://apply.starbucks.com/careers/job/481080915763
+260078596,"store manager, Fort Wayne",STORE_MANAGER,,Fort Wayne,IN,2026-09-21,2026-09-21,11,11,False,https://apply.starbucks.com/careers/job/481080941991
+260078575,store manager - Cortlandt Manor/Yorktown,STORE_MANAGER,,Yorktown Heights,NY,2026-09-21,2026-09-21,11,11,False,https://apply.starbucks.com/careers/job/481080939110
+260078562,"store manager, Las Vegas",STORE_MANAGER,,Henderson,NV,2026-09-21,2026-09-21,10,10,False,https://apply.starbucks.com/careers/job/481080937886
+260078802,"store manager, Lower Manhattan, NYC",STORE_MANAGER,,Manhattan,NY,2026-09-22,2026-09-22,10,10,False,https://apply.starbucks.com/careers/job/481080951188
+260078589,"coffeehouse coach - 224 Buan St., Tomah, WI",STORE_MANAGER,,Tomah,WI,2026-09-21,2026-09-21,10,10,False,https://apply.starbucks.com/careers/job/481080940816
+260078560,"store manager, Nashville, Tennessee",STORE_MANAGER,,Nashville,TN,2026-09-21,2026-09-21,10,10,False,https://apply.starbucks.com/careers/job/481080936983
+260078561,"store manager, Memphis, Tennessee",STORE_MANAGER,,Memphis,TN,2026-09-21,2026-09-21,10,10,False,https://apply.starbucks.com/careers/job/481080937350
+260078809,"store manager, Statesville, Mooresville, NC",STORE_MANAGER,,Statesville,NC,2026-09-22,2026-09-22,10,10,False,https://apply.starbucks.com/careers/job/481080952185
+260079201,"store manager, Northeast Columbus, OH",STORE_MANAGER,,Westerville,OH,2026-09-23,2026-09-23,9,9,False,https://apply.starbucks.com/careers/job/481080971061
+260078808,"store manager, Litchfield/Springfield, IL",STORE_MANAGER,,Springfield,IL,2026-09-22,2026-09-22,9,9,False,https://apply.starbucks.com/careers/job/481080952183
+260078816,"store manager, Ann Arbor, MI.",STORE_MANAGER,,Ann Arbor,MI,2026-09-22,2026-09-22,9,9,False,https://apply.starbucks.com/careers/job/481080953532
+260078811,"store manager, St. Augustine, FL",STORE_MANAGER,,Saint Augustine,FL,2026-09-22,2026-09-22,9,9,False,https://apply.starbucks.com/careers/job/481080952174
+260078807,"store manager, Wilkesboro, Elkins, Yadkinville, NC",STORE_MANAGER,,Elkin,NC,2026-09-22,2026-09-22,9,9,False,https://apply.starbucks.com/careers/job/481080952184
+260078814,"store manager, Marysville, Port Huron, MI.",STORE_MANAGER,,Marysville,MI,2026-09-22,2026-09-22,9,9,False,https://apply.starbucks.com/careers/job/481080953027
+260079205,"store manager, Lima/Findlay, OH",STORE_MANAGER,,Findlay,OH,2026-09-23,2026-09-23,9,9,False,https://apply.starbucks.com/careers/job/481080971201
+260079198,"store manager, Southeast Columbus, OH",STORE_MANAGER,,Pickerington,OH,2026-09-23,2026-09-23,9,9,False,https://apply.starbucks.com/careers/job/481080971060
+260079306,"store manager, Lower Manhattan, NY",STORE_MANAGER,,Manhattan,NY,2026-09-24,2026-09-24,8,8,False,https://apply.starbucks.com/careers/job/481080983518
+260079183,"store manager, Hood River/The Dalles",STORE_MANAGER,,The Dalles,OR,2026-09-23,2026-09-23,8,8,False,https://apply.starbucks.com/careers/job/481080968365
+260079303,"store manager, Dayton, OH",STORE_MANAGER,,Dayton,OH,2026-09-24,2026-09-24,8,8,False,https://apply.starbucks.com/careers/job/481080983244
+260079293,"store manager - Bolingbrook, IL ..",STORE_MANAGER,,Bolingbrook,IL,2026-09-24,2026-09-24,8,8,False,https://apply.starbucks.com/careers/job/481080980506
+260079320,"store manager, Cincinnati, OH",STORE_MANAGER,,Cincinnati,OH,2026-09-24,2026-09-24,8,8,False,https://apply.starbucks.com/careers/job/481080984264
+260079605,"store manager, Norwalk OH",STORE_MANAGER,,Norwalk,OH,2026-09-25,2026-09-29,7,3,False,https://apply.starbucks.com/careers/job/481081003904
+260079318,"store manager - Marysville/Arlington, WA",STORE_MANAGER,,Marysville,WA,2026-09-24,2026-09-24,7,7,False,https://apply.starbucks.com/careers/job/481080984266
+260079301,"store manager, Urbana/Springfield",STORE_MANAGER,,Urbana,IL,2026-09-24,2026-09-24,7,7,False,https://apply.starbucks.com/careers/job/481080982930
+260079610,store manager,STORE_MANAGER,,Jersey City,NJ,2026-09-25,2026-09-25,7,7,False,https://apply.starbucks.com/careers/job/481081007145
+260079297,"store manager, Billings",STORE_MANAGER,,Billings,MT,2026-09-24,2026-09-24,7,7,False,https://apply.starbucks.com/careers/job/481080982443
+260079607,"store manager, Stevens Point/ Wausau, WI",STORE_MANAGER,,Wausau,WI,2026-09-25,2026-09-25,6,6,False,https://apply.starbucks.com/careers/job/481081006489
+260080127,"store manager, Oakland",STORE_MANAGER,,Oakland,CA,2026-09-28,2026-09-28,4,4,False,https://apply.starbucks.com/careers/job/481081031699
+260080369,"store manager, New York City, NY",STORE_MANAGER,,Manhattan,NY,2026-09-29,2026-09-29,3,3,False,https://apply.starbucks.com/careers/job/481081062096
+260080389,"store manager, Staten Island, NY",STORE_MANAGER,,Staten Island,NY,2026-09-29,2026-09-29,3,3,False,https://apply.starbucks.com/careers/job/481081066300
+260080402,"store manager - Montebello/Monterey Park, CA",STORE_MANAGER,,Monterey Park,CA,2026-09-29,2026-09-29,3,3,False,https://apply.starbucks.com/careers/job/481081068401
+260080153,store manager-Hagerstown/Martinsburg,STORE_MANAGER,,Martinsburg,WV,2026-09-28,2026-09-28,3,3,False,https://apply.starbucks.com/careers/job/481081039227
+260080133,"store manager, Baton Rouge LA",STORE_MANAGER,,Baton Rouge,LA,2026-09-28,2026-09-28,3,3,False,https://apply.starbucks.com/careers/job/481081033767
+260080152,"store manager - South Bend, IN",STORE_MANAGER,,Elkhart,IN,2026-09-28,2026-09-28,3,3,False,https://apply.starbucks.com/careers/job/481081039228
+260080470,"coffeehouse coach, 275, Winnetka",STORE_MANAGER,,Winnetka,IL,2026-09-30,2026-09-30,2,2,False,https://apply.starbucks.com/careers/job/481081087488
+260080384,store manager,STORE_MANAGER,,San Diego,CA,2026-09-29,2026-09-29,2,2,False,https://apply.starbucks.com/careers/job/481081065011
+260080375,store manager,STORE_MANAGER,,Fairfax,VA,2026-09-29,2026-09-29,2,2,False,https://apply.starbucks.com/careers/job/481081063427
+260080374,"store manager - Venice, FL",STORE_MANAGER,,Venice,FL,2026-09-29,2026-09-29,2,2,False,https://apply.starbucks.com/careers/job/481081063426
+260080436,"store manager, Burlington, VT",STORE_MANAGER,,Burlington,VT,2026-09-30,2026-09-30,1,1,False,https://apply.starbucks.com/careers/job/481081079351
+260080840,store manager- Kettleman City,STORE_MANAGER,,Kettleman City,CA,2026-10-01,2026-10-01,1,1,False,https://apply.starbucks.com/careers/job/481081104687
+260080842,store manager- Fresno,STORE_MANAGER,,Fresno,CA,2026-10-01,2026-10-01,1,1,False,https://apply.starbucks.com/careers/job/481081104817
+260080473,"store manager, Louisville, KY",STORE_MANAGER,,Louisville,KY,2026-09-30,2026-09-30,1,1,False,https://apply.starbucks.com/careers/job/481081087714
+260080797,store manager Bucks County,STORE_MANAGER,,Montgomeryville,PA,2026-10-01,2026-10-01,1,1,False,https://apply.starbucks.com/careers/job/481081098155
+260080457,"store manager, South East Birmingham AL",STORE_MANAGER,,Birmingham,AL,2026-09-30,2026-09-30,1,1,False,https://apply.starbucks.com/careers/job/481081085133
+260080796,store manager Newtown Warminster,STORE_MANAGER,,Warminster,PA,2026-10-01,2026-10-01,1,1,False,https://apply.starbucks.com/careers/job/481081097907
+260080453,"store manager, Hammond/Denham Springs LA",STORE_MANAGER,,Denham Springs,LA,2026-09-30,2026-09-30,1,1,False,https://apply.starbucks.com/careers/job/481081084168
+260080479,"store manager, Jeffersonville, IN",STORE_MANAGER,,Clarksville,IN,2026-09-30,2026-09-30,1,1,False,https://apply.starbucks.com/careers/job/481081087718
+260080733,"store manager, Williamsburg/Yorktown",STORE_MANAGER,,Williamsburg,VA,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081097263
+260080819,"store manager, Orlando Downtown/Winter Park, FL",STORE_MANAGER,,Orlando,FL,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081100994
+260080832,"store manager, Adrian/Monroe, MI.",STORE_MANAGER,,Adrian,MI,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081104188
+260080838,"store manager, North Tacoma",STORE_MANAGER,,Tacoma,WA,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081104685
+260080802,"store manager - Lakeland, FL",STORE_MANAGER,,Lakeland,FL,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081099101
+260080834,"store manager, Iowa City",STORE_MANAGER,,Iowa City,IA,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081104179
+260080812,"store manager- Valdosta, GA",STORE_MANAGER,,Valdosta,GA,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081099899
+260080822,"store manager, Des Moines",STORE_MANAGER,,Des Moines,IA,2026-10-01,2026-10-01,0,0,False,https://apply.starbucks.com/careers/job/481081101268

@@ -104,6 +104,39 @@ same as unfilled positions, and posting age is a proxy for persistence, not proo
 - **[Inferred]** Fewer requisitions created in 2026 is consistent with **lower churn** (management: "record-low" hourly
   turnover), not with a hiring problem. Q3 creation back near 2024 levels is worth watching but not decisive.
 
+## 7b. Foot traffic (Advan via Dewey): the operating link
+
+- **[Observed]** Advan weekly visits for 9,419 of 9,979 company-operated stores (94% matched), Jan 2024 → Sep 2026.
+  Same-store visits Jun 29–Sep 21 2026 vs the same weeks of 2025: **national median +2.2%** (consistent with reported
+  transactions +4.2% in Q3 FY26).
+- **[Observed] Stores near manager vacancies are growing FASTER, not slower:** within 15 km of an open store/district-manager
+  requisition, **+0.53 pp** vs the state median (95% CI +0.28 to +0.77; n = 2,508); near a persistent (re-posted or > 60-day)
+  requisition, **+0.76 pp** (+0.41 to +1.06; n = 1,310). The result holds **within the same metro** (+0.39 / +0.59 pp vs the MSA
+  median) and in a regression with state fixed effects and store density (+0.92 pp, SE 0.19 / +1.15 pp, SE 0.23).
+- **[Observed]** Hiring-pattern groups (single frontline role, same-role duplicates, no posting) show no visit difference
+  (all 95% intervals include zero). Median dwell time is unchanged everywhere (whole-minute data, too coarse for wait times).
+- **[Observed] That "outperformance" is closure transfer.** Stores within 1 km of a location closed Jul 2025–Aug 2026 grew
+  visits **+1.6 pp** faster than metro peers, and 1–2 km away **+1.1 pp**; beyond 2 km, 0. With closure-adjacent stores removed,
+  stores near manager vacancies show **no difference** (0.0 pp; persistent +0.1 pp, within metro).
+- **[Inferred]** Manager vacancies neither help nor hurt traffic in this data. The staffing → traffic link is **not supported**.
+- **[Observed, context]** Advan records Starbucks closures: **481 locations in Oct 2025** (the announced closure program) and a
+  second, smaller wave of **~300 in Mar–Jun 2026** (51 / 157 / 97). 92% of closed locations are absent from Starbucks' store
+  locator. Includes licensed stores; Advan applies closure dates in batches. Openings: 653 (2024), 510 (2025), 135 (2026 YTD).
+  **[Cannot establish]** whether 2026 closures relate to staffing. Worth checking against 10-Q store counts.
+
+## 7c. Overcrowding and closure transfer (unit economics, not staffing)
+
+- **[Observed] Cannibalization:** median weekly visits per store fall from **3,442** (least-dense quintile, ~3 Starbucks within 15 km)
+  to **1,755** (densest, ~128 nearby). Within the same metro, 10% more nearby locations ≈ **1.9% fewer visits per store**.
+- **[Observed] Pruning targets dense areas:** 9.2% of densest-quintile locations closed since Oct 2025 vs 2.6% of the least dense.
+- **[Observed] Transfer flatters same-store growth:** about 12% of stores sit within 2 km of a recent closure and grow **+4.0%** vs
+  **+2.0%** for the rest. Transfer adds roughly **+0.3 pp** to mean same-store visit growth (2.85% vs 2.51% without those
+  stores), close to management's own ~0.5 pt "sales transfer" comment.
+- **[Inferred]** Part of the visible comp recovery in dense markets is traffic moved from closed stores, not new demand. Once the
+  closure waves lap, that tailwind fades.
+- **Caveats:** Advan includes licensed locations; GPS panels may understate visits at dense urban stores (which would overstate
+  cannibalization in levels but not the transfer gradient); one 13-week window.
+
 ## 8. Potential implications for Starbucks' operating execution
 
 - Management makes staffing, roster size and coffeehouse-leader stability central to the turnaround and to margins (labor

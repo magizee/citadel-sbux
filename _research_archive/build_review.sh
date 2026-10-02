@@ -32,6 +32,18 @@ cp $n/01_national_role_mix.csv                           $k/07_national_role_mix
 [ -f $T/outputs/charts/T7_batch_recheck.png ] && cp $T/outputs/charts/T7_batch_recheck.png $k/08_july4_batch_recheck.png || true
 [ -f $T/outputs/tables/batch_recheck_summary.csv ] && cp $T/outputs/tables/batch_recheck_summary.csv $k/08_july4_batch_recheck.csv || true
 
+# Foot traffic (Advan via Dewey)
+O=starbucks_operating_data/outputs/advan
+if [ -d $O ]; then
+  cp $O/visits_yoy_by_group.png $k/09_foot_traffic_vs_staffing_signals.png
+  cp $O/visits_by_group.csv     $k/09_foot_traffic_vs_staffing_signals.csv
+  cp $O/closures_by_month.png   $k/10_store_closures_by_month.png
+  cp $O/advan_closures_by_month.csv $k/10_store_closures_by_month.csv
+  [ -f $O/yoy_by_closure_distance.png ] && { cp $O/yoy_by_closure_distance.png $k/11_closure_transfer_by_distance.png; cp $O/yoy_by_closure_distance.csv $k/11_closure_transfer_by_distance.csv; }
+  [ -f $O/overcrowding_visits_by_density.png ] && { cp $O/overcrowding_visits_by_density.png $k/12_visits_per_store_by_density.png; cp $O/overcrowding_closures_by_density.png $k/13_closures_by_density.png; cp $O/density_quintiles.csv $k/12_13_density_quintiles.csv; }
+  [ -f $O/overcrowding_results.json ] && cp $O/overcrowding_results.json $R/6_tables/
+fi
+
 # Supporting
 s=$R/3_supporting_charts
 for f in 03_states_postings_per_hiring_store 05_states_leadership_intensity 06_store_role_combinations 07_posting_age_by_role; do
@@ -57,6 +69,7 @@ cp $H/outputs/tables/high_intensity_stores.csv $H/outputs/tables/leadership_open
 cp $T/outputs/tables/state_penetration_leadership_controls.csv $T/outputs/tables/persistence_by_role.csv $T/outputs/tables/pattern_class_counts.csv $T/outputs/tables/state_nonstandard_rates.csv $T/outputs/tables/hours_by_hiring_pattern.csv $t/
 [ -f $P/batch_recheck_recheck_20261002_0330.csv ] && cp $P/batch_recheck_recheck_20261002_0330.csv $t/ || true
 cp $T/outputs/tables/leadership_pockets_in_archive.csv $t/
+[ -f starbucks_operating_data/outputs/advan/advan_results.json ] && cp starbucks_operating_data/outputs/advan/advan_results.json $t/ || true
 cp $T/outputs/national_tests_results.json $H/outputs/national_summary.json $t/
 
 # Data quality

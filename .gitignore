@@ -4,16 +4,22 @@ __pycache__/
 *.tmp
 .DS_Store
 .venv/
-starbucks_hiring/data/raw/*
-!starbucks_hiring/data/raw/.gitkeep
-starbucks_hiring/logs/*
-!starbucks_hiring/logs/.gitkeep
-starbucks_archive/data/raw/
-starbucks_archive/logs/
-starbucks_store_universe/data/raw/
-starbucks_pay_analysis/data/raw/
-starbucks_labor_market/data/raw/
-starbucks_management_research/data/raw/*.pdf
+_research_archive/starbucks_hiring/data/raw/*
+!_research_archive/starbucks_hiring/data/raw/.gitkeep
+_research_archive/starbucks_hiring/logs/*
+!_research_archive/starbucks_hiring/logs/.gitkeep
+_research_archive/starbucks_archive/data/raw/
+_research_archive/starbucks_archive/logs/
+_research_archive/starbucks_store_universe/data/raw/
+_research_archive/starbucks_pay_analysis/data/raw/
+_research_archive/starbucks_labor_market/data/raw/
+_research_archive/starbucks_management_research/data/raw/*.pdf
 # Large processed tables (>10 MB) - keep out of git
-starbucks_archive/data/processed/archived_postings.csv
-starbucks_store_universe/data/processed/starbucks_store_universe.csv
+_research_archive/starbucks_archive/data/processed/archived_postings.csv
+_research_archive/starbucks_store_universe/data/processed/starbucks_store_universe.csv
+
+# Dewey credentials (never commit)
+**/.dewey_env
+_research_archive/starbucks_operating_data/data/raw/
+_research_archive/starbucks_operating_data/data/processed/advan_starbucks.csv.gz
+_research_archive/starbucks_operating_data/logs/

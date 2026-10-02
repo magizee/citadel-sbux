@@ -1,0 +1,117 @@
+{
+  "stores": 8800,
+  "quintiles": [
+    {
+      "traffic_q": "Q1 quietest",
+      "stores": 1760,
+      "median_weekly_visits": 1108.0,
+      "mean_open_postings": 1.891,
+      "pct_same_role_duplicate": 1.14,
+      "pct_no_barista_posting": 8.01,
+      "pct_no_supervisor_posting": 2.73,
+      "pct_leadership_zone": 40.06,
+      "pct_persistent_leadership_zone": 21.76
+    },
+    {
+      "traffic_q": "Q2",
+      "stores": 1760,
+      "median_weekly_visits": 2007.0,
+      "mean_open_postings": 1.895,
+      "pct_same_role_duplicate": 2.05,
+      "pct_no_barista_posting": 9.32,
+      "pct_no_supervisor_posting": 2.44,
+      "pct_leadership_zone": 29.26,
+      "pct_persistent_leadership_zone": 16.31
+    },
+    {
+      "traffic_q": "Q3",
+      "stores": 1760,
+      "median_weekly_visits": 2655.0,
+      "mean_open_postings": 1.894,
+      "pct_same_role_duplicate": 1.59,
+      "pct_no_barista_posting": 8.41,
+      "pct_no_supervisor_posting": 2.22,
+      "pct_leadership_zone": 22.5,
+      "pct_persistent_leadership_zone": 11.42
+    },
+    {
+      "traffic_q": "Q4",
+      "stores": 1760,
+      "median_weekly_visits": 3006.0,
+      "mean_open_postings": 1.889,
+      "pct_same_role_duplicate": 2.1,
+      "pct_no_barista_posting": 8.58,
+      "pct_no_supervisor_posting": 2.73,
+      "pct_leadership_zone": 27.05,
+      "pct_persistent_leadership_zone": 13.64
+    },
+    {
+      "traffic_q": "Q5 busiest",
+      "stores": 1760,
+      "median_weekly_visits": 4256.0,
+      "mean_open_postings": 1.896,
+      "pct_same_role_duplicate": 2.44,
+      "pct_no_barista_posting": 8.07,
+      "pct_no_supervisor_posting": 2.95,
+      "pct_leadership_zone": 23.24,
+      "pct_persistent_leadership_zone": 11.08
+    }
+  ],
+  "busiest_vs_quietest": {
+    "Same-role duplicate postings": {
+      "busiest_minus_quietest": 1.307,
+      "ci95": [
+        0.51,
+        2.216
+      ],
+      "unit": "percentage points",
+      "spearman_with_traffic": 0.026
+    },
+    "No barista posting": {
+      "busiest_minus_quietest": 0.057,
+      "ci95": [
+        -1.875,
+        1.875
+      ],
+      "unit": "percentage points",
+      "spearman_with_traffic": -0.001
+    },
+    "No supervisor posting": {
+      "busiest_minus_quietest": 0.227,
+      "ci95": [
+        -0.852,
+        1.307
+      ],
+      "unit": "percentage points",
+      "spearman_with_traffic": 0.005
+    },
+    "Manager vacancy within 15 km": {
+      "busiest_minus_quietest": -16.818,
+      "ci95": [
+        -19.943,
+        -13.75
+      ],
+      "unit": "percentage points",
+      "spearman_with_traffic": -0.119
+    },
+    "Persistent manager vacancy within 15 km": {
+      "busiest_minus_quietest": -10.682,
+      "ci95": [
+        -13.182,
+        -8.237
+      ],
+      "unit": "percentage points",
+      "spearman_with_traffic": -0.101
+    },
+    "Open postings per store": {
+      "busiest_minus_quietest": 0.005,
+      "ci95": [
+        -0.02,
+        0.031
+      ],
+      "unit": "postings",
+      "spearman_with_traffic": 0.003
+    }
+  },
+  "note": "Traffic relative to metro median. Special formats excluded. Descriptive."
+}

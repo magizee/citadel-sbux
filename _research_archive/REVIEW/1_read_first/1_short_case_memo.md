@@ -33,7 +33,25 @@ it shows a few early pressure points to watch. It does not show a current failur
 5. **No pay pressure is visible:** pay is a fixed zone ladder; old postings pay the same as new ones.
 6. **Expired frontline requisitions were not immediately replaced** (0 of 145 within ~3 h). That fits periodic batch
    refresh (or filled needs), not stores scrambling to re-post open roles. Neutral-to-contradicting until a later re-check.
-7. **No operating link is visible:** posted store hours are identical across hiring patterns.
+7. **Foot traffic shows no staffing → traffic link (Advan, 9,419 stores):** stores near manager vacancies first looked faster-growing,
+   but that was closure transfer. With closure-adjacent stores removed, there is no difference (0.0 / +0.1 pp within metro). Hiring-pattern groups
+   show no difference either.
+8. **No operating link is visible:** posted store hours are identical across hiring patterns.
+
+## The stronger angle the data surfaced: an overbuilt network, with comps flattered by closure transfer
+
+| Evidence (Advan via Dewey, verified against the store locator) | Reading |
+|---|---|
+| Visits per store: 3,442/week in the least-dense quintile vs **1,755** in the densest; within metro, +10% nearby stores ≈ −1.9% visits per store | **Cannibalization** in dense markets |
+| Closures since Oct 2025: **9.2%** of densest-quintile locations vs 2.6% of least dense; waves of **481 (Oct 2025)** and **~300 (Mar–Jun 2026)** | Starbucks is **pruning** where it is overbuilt |
+| Stores < 1 km from a closure: **+1.6 pp** visit growth vs metro; 1–2 km **+1.1 pp**; > 2 km ≈ 0 | **Transfer** from closed stores |
+| Transfer adds ≈ **+0.3 pp** to mean same-store visit growth (2.85% vs 2.51% excluding closure-adjacent stores) | Part of the comp recovery is **moved, not new**, demand (management cited ~0.5 pt) |
+| Openings slowing: 653 (2024) → 510 (2025) → 135 (2026 YTD) | Unit growth is slowing while the network is pruned |
+
+**Pitch framing:** the turnaround's comps are partly flattered by consolidating an overbuilt network. Organic same-store visit
+growth is closer to ~2% than the headline. When the closure waves lap (Oct 2026 for the 2025 wave), the transfer tailwind fades.
+Caveats: Advan includes licensed locations and may understate dense urban visits; one 13-week window; verify closures against
+10-Q store counts.
 
 ## What would have to become true for the staffing short to work (and how to see it early)
 

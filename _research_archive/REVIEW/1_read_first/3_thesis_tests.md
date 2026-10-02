@@ -87,5 +87,5 @@ not raw counts or raw posting age.
 | B Leadership vacancies | Yes | Repeats for trend | Pending national |
 | C Persistence | **Done** (requisition age) | Re-check from Oct 3 for replacement batches | Frontline: 0% > 90 days, 0% re-posted; July 4 batch expired with 0 replacements after 3 h. Leadership: 42% re-posted, 9.5% > 90 days |
 | D Labor cost | Pilot only | Zone levels over time | Pilot: no age-pay relationship |
-| E Operating link | Hours only | Foot traffic, past locator runs | Aggregate comps strong (contradicts the outcome leg) |
+| E Operating link | **Done** (Advan via Dewey) | Repeat after more weeks | No staffing → traffic link once closure transfer is removed; hiring patterns: no difference. Found instead: cannibalization + closure transfer (+1.6 pp < 1 km) |
 | F Penetration | Yes | — | Context only |

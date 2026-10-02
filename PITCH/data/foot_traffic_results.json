@@ -1,0 +1,160 @@
+{
+  "advan_rows": 2403457,
+  "advan_pois": 17856,
+  "visits_column": "raw_visit_counts",
+  "pois_matched_to_co_stores": 9419,
+  "co_stores": 9979,
+  "weeks_available": [
+    "2024-01-01",
+    "2026-09-21"
+  ],
+  "window": {
+    "current": [
+      "2026-06-29",
+      "2026-09-21"
+    ],
+    "prior": [
+      "2025-06-30",
+      "2025-09-22"
+    ],
+    "weeks": 13,
+    "min_weeks_required": 11
+  },
+  "stores_with_yoy": 8886,
+  "national_median_visits_yoy_pct": 2.18,
+  "comparison": [
+    {
+      "group": "All matched company-operated stores",
+      "stores": 8896,
+      "median_visits_yoy_pct": 2.17,
+      "median_yoy_vs_state_pp": 0.0,
+      "ci95_low": -0.1,
+      "ci95_high": 0.08,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Within 15 km of an open manager requisition",
+      "stores": 2508,
+      "median_visits_yoy_pct": 2.67,
+      "median_yoy_vs_state_pp": 0.53,
+      "ci95_low": 0.28,
+      "ci95_high": 0.77,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Within 15 km of a persistent manager requisition",
+      "stores": 1310,
+      "median_visits_yoy_pct": 2.78,
+      "median_yoy_vs_state_pp": 0.76,
+      "ci95_low": 0.41,
+      "ci95_high": 1.06,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Not near any open manager requisition",
+      "stores": 6388,
+      "median_visits_yoy_pct": 1.96,
+      "median_yoy_vs_state_pp": -0.17,
+      "ci95_low": -0.29,
+      "ci95_high": -0.03,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Hiring pattern: ordinary store: only one frontline role",
+      "stores": 979,
+      "median_visits_yoy_pct": 2.23,
+      "median_yoy_vs_state_pp": 0.07,
+      "ci95_low": -0.22,
+      "ci95_high": 0.51,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Hiring pattern: standard pair",
+      "stores": 7647,
+      "median_visits_yoy_pct": 2.17,
+      "median_yoy_vs_state_pp": 0.0,
+      "ci95_low": -0.1,
+      "ci95_high": 0.08,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Hiring pattern: ordinary store: duplicates or 3+ roles",
+      "stores": 164,
+      "median_visits_yoy_pct": 2.01,
+      "median_yoy_vs_state_pp": -0.23,
+      "ci95_low": -1.09,
+      "ci95_high": 1.1,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Hiring pattern: no active posting",
+      "stores": 73,
+      "median_visits_yoy_pct": 2.1,
+      "median_yoy_vs_state_pp": -0.8,
+      "ci95_low": -1.65,
+      "ci95_high": 1.0,
+      "median_dwell_change_vs_state_min": 0.0
+    },
+    {
+      "group": "Hiring pattern: special format (Reserve, campus, airport\u2026)",
+      "stores": 33,
+      "median_visits_yoy_pct": 2.41,
+      "median_yoy_vs_state_pp": 0.21,
+      "ci95_low": -1.85,
+      "ci95_high": 3.98,
+      "median_dwell_change_vs_state_min": 1.0
+    }
+  ],
+  "robustness": {
+    "within_msa_median_pp_leadership_zone": 0.39,
+    "within_msa_median_pp_not_leadership_zone": 0.0,
+    "within_msa_median_pp_persistent_leadership_zone": 0.59,
+    "within_msa_median_pp_not_persistent_leadership_zone": 0.0,
+    "ols_state_fe_leadership_zone": {
+      "leadership_zone_f": [
+        1.153,
+        0.173
+      ]
+    },
+    "ols_state_fe_density_leadership_zone": {
+      "leadership_zone_f": [
+        0.922,
+        0.189
+      ],
+      "log_density": [
+        0.248,
+        0.082
+      ]
+    },
+    "ols_state_fe_persistent_leadership_zone": {
+      "persistent_leadership_zone_f": [
+        1.401,
+        0.224
+      ]
+    },
+    "ols_state_fe_density_persistent_leadership_zone": {
+      "persistent_leadership_zone_f": [
+        1.153,
+        0.233
+      ],
+      "log_density": [
+        0.304,
+        0.078
+      ]
+    },
+    "median_density_in_zone_vs_not": {
+      "false": 14.0,
+      "true": 33.0
+    }
+  },
+  "closures": {
+    "closed_2024_onward": 1323,
+    "share_absent_from_store_locator": 0.918,
+    "opened_by_year": {
+      "2024": 653,
+      "2025": 510,
+      "2026": 135
+    },
+    "note": "All Starbucks-branded locations incl. licensed; Advan does not flag ownership."
+  }
+}

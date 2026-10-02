@@ -18,7 +18,12 @@ Rebuild it after any rerun with `./build_review.sh`.
 5. **July 4 batch re-check:** all 145 frontline requisitions that hit their 90-day expiry at midnight disappeared, and **none was
    replaced** ~3 hours later (122 of 137 stores still showed their other-role posting). Requisitions are not auto-renewed;
    replacements, if any, come in later batches. A re-check from Oct 3 onward tells whether they come back.
-6. **Verdict:** the data supports a *monitoring* angle and a narrow leadership/labor-productivity risk, **not** a claim that
+6. **Foot traffic (Advan via Dewey, added Oct 2):** no staffing → traffic link. Stores near manager vacancies only looked
+   faster-growing because of closure transfer; removing that, there is no difference.
+7. **The stronger short angle is unit economics, not staffing:** dense markets are cannibalized (visits per store ≈ half of rural),
+   Starbucks is closing stores there (9.2% vs 2.6%; 481 in Oct 2025 + ~300 in spring 2026), and survivors within 2 km of a
+   closure grow ~2× faster, flattering same-store growth by ≈ 0.3 pp. See the memo's "overbuilt network" section.
+8. **Verdict:** the data supports a *monitoring* angle and a narrow leadership/labor-productivity risk, **not** a claim that
    Starbucks is failing to hire. See `REVIEW/1_read_first/1_short_case_memo.md`.
 
 ## Folder guide
